@@ -12,6 +12,8 @@
     * [AMC - Fly](pilots-operating-handbook/essential-software/auterion-mission-control/amc-fly.md)
     * [AMC - Plan](pilots-operating-handbook/essential-software/auterion-mission-control/amc-plan/README.md)
       * [Transfer Mission Plan and KML Files with Herelink](pilots-operating-handbook/essential-software/auterion-mission-control/amc-plan/transfer-mission-plan-and-kml-files-with-herelink.md)
+      * [Terrain Follow](pilots-operating-handbook/essential-software/auterion-mission-control/amc-plan/terrain-follow.md)
+      * [Offline Maps](pilots-operating-handbook/essential-software/auterion-mission-control/amc-plan/offline-maps.md)
     * [AMC - Vehicle Setup](pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/README.md)
       * [Advanced Vehicle Setup](pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup.md)
       * [Parameters](pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/parameters.md)
