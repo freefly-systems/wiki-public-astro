@@ -2,7 +2,7 @@
 
 ### Recommended USB-C Flash Drive
 
-* The LR1, A7R4, and OGI Payloads ship with this [**USB-C flash drive.** ](https://freefly.gitbook.io/astro-public/astro/payloads/astro-mapping-payload/operating-handbook/pre-flight-planning#included-usb-flash-drive)
+* The LR1, A7R4, and OGI Payloads ship with this [**USB-C flash drive**](https://www.amazon.com/dp/B09WB26V18?ref=ppx_yo2ov_dt_b_product_details\&th=1)**.**&#x20;
 * We recommend a USB 3.1 drive with a write speed above 50 mb/s.
 
 {% hint style="info" %}
