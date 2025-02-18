@@ -1,59 +1,63 @@
 # Performance
 
-## Weight and Payload
+## Weight
 
-### Maximum Gross Weight
+#### Astro Max
 
-To determine maximum gross weight, determine flight location pressure altitude and temperature, and refer to the weight in the chart below.&#x20;Gross Weight includes payload, battery and structure weight.
+| Item                       | Weight (g) | Notes                                                                             |
+| -------------------------- | ---------- | --------------------------------------------------------------------------------- |
+| Airframe Weight            | 3,523      | <p>Airframe only (with landing gear)<br>(No smart dovetail, No radio, No FPV)</p> |
+| Typical Empty Weight       | 5,831      | Airframe, Radio, Smart Dovetail, Isolator, FPV, 2x Batteries                      |
+| Max Payload                | 3,000      | Including FPV, Smart Dovetail + Isolator                                          |
+| Max Take Off Weight (MTOW) | 8,700      | Refer to MTOW chart                                                               |
 
-The maximum gross weight might exceed the weight allowed by regulatory agencies. When determining gross weight, please consider any such local restrictions on aircraft weight when planning aircraft weight.
+#### Astro (Legacy)
 
-![](<../../.gitbook/assets/altitudetable (1).png>)
+| Item                       | Weight (g) | Notes                                                                             |
+| -------------------------- | ---------- | --------------------------------------------------------------------------------- |
+| Airframe Weight            | 3,187      | <p>Airframe only (with landing gear)<br>(No smart dovetail, No radio, No FPV)</p> |
+| Typical Empty Weight       | 5,478      | Airframe, Radio, Smart Dovetail, Isolator, FPV, 2x Batteries                      |
+| Max Payload                | 1,500      |                                                                                   |
+| Max Take Off Weight (MTOW) | 6,950      |                                                                                   |
+
+#### Ecosystem
+
+| Item                           | Weight (g) | Notes                     |
+| ------------------------------ | ---------- | ------------------------- |
+| Battery (SL8-Air)              | 1,041      | Astro flies with two SL8s |
+| Smart Dovetail + Isolator      | 97         |                           |
+| LR1 Payload (with 24mm lens)   | 970        |                           |
+| LR1 Thermal Upgrade            | 98         |                           |
+| LR1 Laser Range Finder Upgrade | 45         |                           |
+| Ventus OGI Payload             | 1,320      |                           |
+| A7R-IV Payload (Legacy)        | 1397       |                           |
+| FPV Camera                     | 50         |                           |
+| Doodle Radio                   | 79         |                           |
+| Herelink Radio                 | 62         |                           |
 
 
 
-| Astro Configuration           | Mass (g) | Note                               |
-| ----------------------------- | -------- | ---------------------------------- |
-| Maximum Takeoff Weight (MTOW) | 6,950    |                                    |
-| Maximum Payload               | 1,500    |                                    |
-| Unladen Weight                | 5,165    | Empty Weight + 2 SL8-Air batteries |
-| Empty Weight                  | 3,095    | No batteries or payload            |
+## Thrust To Weight Ratio
 
-| Component                                   | Mass (g) | Note                  |
-| ------------------------------------------- | -------- | --------------------- |
-| SL8-Air Battery                             | 1035     | 2 required per flight |
-| Vibration Isolated Cheese Plate + Isolators | 35       |                       |
-| Smart Quick-Release + Isolators             | 82       |                       |
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-15 at 6.40.38 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+
+* T/W ratio between 1.47 and 1.6 should be flown with caution. Imbalanced payload/aircraft in combination with wind may cause crashes. Astro prioritizes its attitude and will lose altitude in these scenarios.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-17 at 5.29.15 PM.png" alt=""><figcaption><p>Astro Max Temperature, Altitude, T/W Operation Chart (for LR1 Payload as reference)</p></figcaption></figure>
+
+
+
+
 
 ## Flight Time
 
-### Hovering
+<figure><img src="../../.gitbook/assets/Astro Max (7010) versus Astro (F45) Hover Time (1).png" alt=""><figcaption><p>Conducted at Sea Level and 8C temperature</p></figcaption></figure>
 
-![](<../../.gitbook/assets/image (70).png>)
+Our flight tests for the Astro (F45) and Astro Max (7010) were conducted by running the batteries from 100% down to 0%. While this is not typical in real-world operations—where a pilot would usually land with some remaining battery for safety—it provides a clear baseline for comparing performance between airframes and payloads. Interestingly, as shown in the “Flight Time versus Flight Speed” chart, hovering draws more power than flying forward at a moderate speed. Because most real flights involve some forward motion (rather than continuous hovering), these 100%–0% hover results end up being a fair representation of typical flights that land with higher battery reserves.&#x20;
 
-### Power Consumption at Hover
+<figure><img src="../../.gitbook/assets/Astro (F45) Flight Time versus Flight Speed.png" alt=""><figcaption><p>Conducted at Sea Level and 21C temperature</p></figcaption></figure>
 
-![](<../../.gitbook/assets/image (104).png>)
 
-#### Table from curve fit
-
-| Weight (g) | Power (W) |
-| ---------- | --------- |
-| 5220       | 485       |
-| 5460       | 523       |
-| 5720       | 563       |
-| 5960       | 603       |
-| 6220       | 643       |
-| 6460       | 685       |
-| 6720       | 728       |
-
-Flight time can change depending on several factors such as the type of flying (e.g. hover vs forward flight) and weather (wind, temperature, barometric pressure, humidity). These effects are intertwined. For example: in cold temperatures, air density is high, but less energy is available from the batteries.
-
-Assumptions:
-
-* These flights were performed at temperature of 13 °C and elevation of 12 meters above sea level.
-* Two fully charged SL-8 Air batteries (2 \* 7.3 amp hours).
-* Landing at 4% battery State of Charge remaining (e.g. default low battery failsafe settings).
 
 ## Flight Speeds
 
