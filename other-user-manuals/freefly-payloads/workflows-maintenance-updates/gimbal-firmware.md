@@ -17,6 +17,10 @@ Make sure to update Astro and AMC to the latest FW too!
 
 <figure><img src="../../../.gitbook/assets/ezgif.com-video-to-gif-converter (3).gif" alt="" width="563"><figcaption><p>Note: Payload must be connected to Astro to check version number</p></figcaption></figure>
 
+Older gimbal software versions are displayed as Model Mongoose. You will need to download the latest gimbal firmware that matches your payload type (Wiris Pro, LR1, A7R4, etc.) even if it is below version 2.0.0
+
+<figure><img src="../../../.gitbook/assets/image (171).png" alt="" width="563"><figcaption></figcaption></figure>
+
 Gimbal firmware versions are also included in gimbal log files
 
 {% content-ref url="gimbal-logs.md" %}
