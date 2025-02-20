@@ -105,7 +105,7 @@ Not active or user configurable. This button is included for future expansion.
 Connector: XT-30
 
 * Battery Voltage: 18 - 25.2 VDC
-* Continuous current: 5.5 A (overcurrent protection set to approximately 5 A)
+* Continuous current: 4.5 A (overcurrent protection set to approximately 5 A)
 
 The XT-30 connector provides direct access to the raw battery output. Please note that the overcurrent protection is set to trip around 5 A, though variations may occur, with testing showing cutoff points between 4.7 and 5.3 A. We recommend keeping the load under 4.5 A to avoid triggering the protection circuit.
 
