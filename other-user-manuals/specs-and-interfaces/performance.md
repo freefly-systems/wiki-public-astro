@@ -43,10 +43,6 @@
 
 * T/W ratio between 1.47 and 1.6 should be flown with caution. Imbalanced payload/aircraft in combination with wind may cause crashes. Astro prioritizes its attitude and will lose altitude in these scenarios.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-17 at 5.29.15 PM.png" alt=""><figcaption><p>Astro Max Temperature, Altitude, T/W Operation Chart (for LR1 Payload as reference)</p></figcaption></figure>
-
-
-
 
 
 ## Flight Time
@@ -61,13 +57,13 @@ Our flight tests for the Astro (F45) and Astro Max (7010) were conducted by runn
 
 ## Flight Speeds
 
-| Flight Mode | Speed (m/s)               | Climb (m/s) | Descent (m/s) |
-| ----------- | ------------------------- | ----------- | ------------- |
-| Position    | 15                        | 4           | 2             |
-| Altitude    | no limit                  | 4           | 2             |
-| Manual      | no limit                  | no limit    | no limit      |
-| Mission     | 7 (default, user setting) | 4           | 2             |
-| Return      | 7                         | 4           | 2             |
+| Flight Mode | Speed (m/s)                 | Climb (m/s) | Descent (m/s) |
+| ----------- | --------------------------- | ----------- | ------------- |
+| Position    | 15                          | 4           | 3             |
+| Altitude    | no limit                    | 4           | 3             |
+| Manual      | no limit                    | no limit    | no limit      |
+| Mission     | 10  (default, user setting) | 4           | 3             |
+| Return      | 10                          | 4           | 3             |
 
 ## Range
 
