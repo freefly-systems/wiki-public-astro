@@ -7,7 +7,7 @@ Gremsy VIO integration is still in beta. The following are known issues:
 
 * Photo counter doesn't increment, but photos are triggered
 * LAT/LONG information is not passed to the VIO and is displayed as 0s.&#x20;
-* **The VIO video feed only works on Tab 5 tablets with Pilot Pro.** It does not work with Tab 3 Pilot Pro or with herelink handset controllers.&#x20;
+* **The VIO video feed only works on Tab 3 tablets with Pilot Pro.** It does not work with Tab 5 Pilot Pro or with herelink handset controllers.&#x20;
   * Tab 5 tablets can be identified with a green button next to the power button. Tab 3 tablets have a red button
 {% endhint %}
 
