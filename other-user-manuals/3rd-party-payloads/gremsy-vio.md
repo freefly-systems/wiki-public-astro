@@ -23,8 +23,8 @@ Please refer to the [Gremsy VIO wiki](https://docs.gremsy.com/payloads/vio) on h
 {% hint style="info" %}
 The following versions are compatible with Astro:&#x20;
 
-* Vio Payload App v1.0.6.6&#x20;
-* Video Streaming App v1.5.0
+* Vio Payload App v2.0.0.1
+* Video Streaming App v1.5.2
 * Vio Setting App v1.2.0
 * Gimbal Firmware v7.8.3
 {% endhint %}
@@ -61,9 +61,10 @@ Once connected to the VIO through AMC, the following settings need to be applied
 On Pilot Pro, open a web browser like Chrome, and go to 192.168.144.52:8000. This will load a webpage hosted by the VIO payload. Under the Systems menu, set the following settings and hit apply:&#x20;
 
 * Video Streaming
-  * Bitrate = 4 Mbps
+  * Bitrate = 2 Mbps
   * Port = 8554
   * Resolution = 1280x720
+  * Codec: H.264
 * Gimbal Control
   * Auto speed = DISABLE
 * Mavlink
