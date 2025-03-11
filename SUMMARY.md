@@ -58,6 +58,7 @@
       * [Expansion Ports](other-user-manuals/freefly-payloads/lr1-payload/lr1-lenses-and-expansion/expansion-ports.md)
     * [What changed between A7R4 and LR1 Payload?](other-user-manuals/freefly-payloads/lr1-payload/what-changed-between-a7r4-and-lr1-payload.md)
     * [Technical Specs](other-user-manuals/freefly-payloads/lr1-payload/technical-specs.md)
+    * [LR1 Sample Mapping Data](other-user-manuals/freefly-payloads/lr1-payload/lr1-sample-mapping-data.md)
   * [A7R4 Payload](other-user-manuals/freefly-payloads/a7r4-payload/README.md)
     * [Packing, Handling, and Setup](other-user-manuals/freefly-payloads/a7r4-payload/packing-handling-and-setup.md)
     * [Camera Controls](other-user-manuals/freefly-payloads/a7r4-payload/camera-controls.md)
