@@ -24,6 +24,10 @@ Please refer to the [Gremsy VIO wiki](https://docs.gremsy.com/payloads/vio) on h
   * Gateway = 192.168.144.20
 * [Update the VIO firmware](https://docs.gremsy.com/payloads/general/upgrade-firmware-and-software)
 
+{% embed url="https://drive.google.com/file/d/1MlXyZEAKoc-OpcCrwEa0eipN4ESlkwdX/view?usp=sharing" %}
+3/12/2025 VIO Software
+{% endembed %}
+
 {% hint style="info" %}
 The following versions are compatible with Astro:&#x20;
 
