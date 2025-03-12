@@ -33,7 +33,7 @@ If you are flying Hovermap with Astro FW 1.6.14 or later, the following paramete
 
 * Set MAV\_2\_MODE = Custom
 * Set COM\_RC\_IN\_MODE = RC Transmitter Only
-* Set SER\_EXT2\_BAUD = 500000
+* Set SER\_EXT2\_BAUD = 500000 8N1
 {% endhint %}
 
 {% hint style="danger" %}
