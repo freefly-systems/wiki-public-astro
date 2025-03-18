@@ -50,6 +50,26 @@ Adjust accuracy and other settings in [Auterion Mission Control (AMC) RTK settin
 {% endtab %}
 {% endtabs %}
 
+
+
+## NTRIP
+
+With the Astro's LTE connectivity, you no longer need your own ground station to have increased accuracy on the Astro. The Astro can use cell connectivity to pull in corrections from existing ground stations in order to correct it's own GPS signal. \
+\
+The NTRIP app can be downloaded from the [Auterion Suite](https://suite.auterion.com/)\
+\
+For more information about the setup of your NTRIP provider, please refer to [Auterion's NTRIP App Documentation](https://auterion.gitbook.io/auterion-apps/ntrip-app)
+
+{% hint style="info" %}
+The Astro comes with a trial sim. For extended usage, you will need to [replace the SIM card](../../../maintenance/standard-maintenance-procedures/replacing-components/installing-a-sim-card.md) on the Astro with your own plan
+{% endhint %}
+
+{% hint style="info" %}
+Using NTRIP will require an NTRIP provider. NTRIP casters can be paid or free services. Check your local coverage to determine what provider is best for you
+{% endhint %}
+
+
+
 ## PPK
 
 Generally, PPK can be performed with RINEX output from any GNSS base station that records at minimum L1 and L2 GPS observations (see [Section 1.3 of the u-blox ZED-F9P datasheet](https://www.u-blox.com/sites/default/files/ZED-F9P-04B_DataSheet_UBX-21044850.pdf)). However, photo geotag accuracy after PPK corrections is limited to the accuracy to which the base's position is known. Therefore, it may be worth purchasing a base with additional capabilities (e.g. SIM for CORS RTK, receives more channels, advanced multipath processing, etc) when you cannot put the base on a pre-surveyed GCP.
@@ -113,6 +133,8 @@ Follow manual to enable recording either on boot or on demand. To download the d
 Use the NUWA app and connect to the Tersus Oscar. Go to SURVEY tab, and select static survey. Enter the duration to be max (1440 minx), interval 1hz, RINEX format 3.04, select mount type, and enter the antenna height on the given mount. Select start, and make sure the timer starts counting.
 
 When done, reconnect with the NUWA app and go back to static survey, and then stop the recording. Use a USB-mini cable and plug into the bottom of the unit. Download the rinex files from the RECORD virtual USB drive that appears.&#x20;
+
+
 
 ## Internal GPS
 
