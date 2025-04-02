@@ -16,7 +16,13 @@
 
 The LR1 Payload was primary designed for photography applications (mapping, inspection, scenic photography), but can shoot video as well.&#x20;
 
-{% embed url="https://www.youtube.com/watch?v=Vhchq6xWzv4" %}
+{% hint style="success" %}
+Smoother gimbal control and additional parameters were added in Astro FW 2.0! Check it out here:&#x20;
+{% endhint %}
+
+{% content-ref url="../workflows-maintenance-updates/precise-smooth-gimbal-control.md" %}
+[precise-smooth-gimbal-control.md](../workflows-maintenance-updates/precise-smooth-gimbal-control.md)
+{% endcontent-ref %}
 
 ## Video Settings
 

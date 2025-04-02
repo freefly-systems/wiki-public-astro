@@ -12,8 +12,8 @@ We recommend clearing out extra photos from your USB drive to reduce the time it
 
 
 
-{% content-ref url="../../workflows-maintenance-updates/precise-gimbal-control.md" %}
-[precise-gimbal-control.md](../../workflows-maintenance-updates/precise-gimbal-control.md)
+{% content-ref url="../../workflows-maintenance-updates/precise-smooth-gimbal-control.md" %}
+[precise-smooth-gimbal-control.md](../../workflows-maintenance-updates/precise-smooth-gimbal-control.md)
 {% endcontent-ref %}
 
 ## Search and rescue&#x20;

@@ -43,6 +43,10 @@
 
 * T/W ratio between 1.47 and 1.6 should be flown with caution. Imbalanced payload/aircraft in combination with wind may cause crashes. Astro prioritizes its attitude and will lose altitude in these scenarios.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-17 at 5.29.15 PM.png" alt=""><figcaption><p>Astro Max Temperature, Altitude, T/W Operation Chart (for LR1 Payload as reference)</p></figcaption></figure>
+
+
+
 
 
 ## Flight Time

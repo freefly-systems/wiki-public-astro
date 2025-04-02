@@ -2,7 +2,7 @@
 
 ## Default Tuning
 
-When power is on, the gimbal wakes in a low-tuning state. The gimbal polls Astro for the lens information about the camera. Then, the gimbal selects the correct tuning parameters for the installed lens. Most uses will not need to change the gimbal settings from this default.&#x20;
+When power is on, the LR1 gimbal wakes in a low-tuning state. The gimbal polls Astro for the lens information about the camera. Then, the gimbal selects the correct tuning parameters for the installed lens. Most uses will not need to change the gimbal settings from this default.&#x20;
 
 ## Custom
 
