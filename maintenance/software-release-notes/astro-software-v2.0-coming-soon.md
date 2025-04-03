@@ -1,6 +1,4 @@
-# Astro Software v2.0 - What’s New
-
-&#x20;                                                                  [<mark style="color:red;">**|  UPDATE NOW**</mark>](software.md#updating-astro-firmware)  <mark style="color:red;">**|**</mark>
+# Astro Software v2.0 - Coming Soon
 
 ***
 
@@ -113,6 +111,4 @@ In AMC 1.34, georeferenced PDF maps can now be imported and overlayed on the pri
 * Fixed an issue where Astro could unexpectedly move when transitioning from Manual --> Position mode
 
 
-
-&#x20;                                                                  [<mark style="color:red;">**|  UPDATE NOW**</mark>](software.md#updating-astro-firmware)  <mark style="color:red;">**|**</mark>
 
