@@ -22,14 +22,14 @@ Chassis Mounting Points: Assembly Airframe Complete (mm)
 
 ## Dimensions
 
-| Dimension                               | Value (mm) |
-| --------------------------------------- | ---------- |
-| **Unfolded Diameter (w/o Props)**       | 917        |
-| **Unfolded Diameter (Including Props)** | 1407       |
-| **Unfolded Height**                     | 359        |
-| **Folded Footprint (square)**           | 355        |
-| **Folded Height**                       | 178        |
-| **Landing Gear Footprint (square)**     | 330        |
+| Dimension                               | Astro Max Value (mm) | Astro (Legacy F45) Value (mm) |
+| --------------------------------------- | -------------------- | ----------------------------- |
+| **Unfolded Diameter (w/o Props)**       | 930                  | 917                           |
+| **Unfolded Diameter (Including Props)** | 1407                 | 1407                          |
+| **Unfolded Height**                     | 359                  | 359                           |
+| **Folded Footprint (square)**           | 390                  | 355                           |
+| **Folded Height**                       | 178                  | 178                           |
+| **Landing Gear Footprint (square)**     | 330                  | 330                           |
 
 
 
