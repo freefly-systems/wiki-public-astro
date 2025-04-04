@@ -31,16 +31,16 @@ Please refer to the [Gremsy VIO wiki](https://docs.gremsy.com/payloads/vio) on h
 {% hint style="info" %}
 The following versions are compatible with Astro:&#x20;
 
-* Vio Payload App v2.0.0.1
-* Video Streaming App v1.5.2
-* Vio Setting App v1.2.0
+* Vio Payload App v2.0.0.12
+* Video Streaming App v2.0.3
+* Vio Setting App v2.0.6
 * Gimbal Firmware v7.8.3
 {% endhint %}
 
 ## Astro Configuration
 
-{% hint style="info" %}
-Astro and AMC need to updated to the latest version, at least Astro FW 1.9 and AMC 1.33
+{% hint style="success" %}
+Astro and AMC need to updated to the latest version, at least Astro FW 1.9 and AMC 1.33. More precise gimbal control can be achieved with Astro FW 2.0 and Slow mode
 {% endhint %}
 
 The following parameters need to be configured for Astro to communicate with the VIO. Click [here](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/parameters) to learn to set parameters on Astro.&#x20;
