@@ -2,7 +2,7 @@
 
 ***
 
-#### Behavior Change: Astro now boots in Position Flight Mode
+### Operational Behavior Change: Astro now boots in Position Flight Mode
 
 * In previous versions of Astro firmware, the aircraft would boot up in 'Pending' flight mode while waiting for the required GPS satellites and position accuracy metrics. With 2.0 Astro firmware, the aircraft now boots up in Position mode, but displays 'No valid position estimate' until the satellite counts and position accuracy metrics are met
 
@@ -10,7 +10,7 @@
 
 ***
 
-#### Behavior Change: Astro can re-arm after using the kill switch
+### Operational Behavior Change: Astro can re-arm after using the kill switch
 
 * In previous versions of Astro firmware, it was not possible to re-arm the aircraft after the kill switch was used without an aircraft reboot. With the 2.0 firmware release, it is now possible to reset the kill switch position and then re-arm Astro without a reboot of the aircraft.&#x20;
 
@@ -20,7 +20,9 @@ Make sure to update your pilot pro firmware to version 2.0.27 as well!&#x20;
 
 ***
 
-#### Gimbal Improvement: Snap 0, 45, 90 Degrees
+
+
+### New: Gimbal Snap to 0, 45, 90 Degrees
 
 * In AMC 1.34 under Controller > Joystick > Button Configuration, the following actions are now functional and can be mapped to buttons or switches on the GCS:&#x20;
   * Gimbal Center
@@ -33,7 +35,7 @@ Make sure to update your pilot pro firmware to version 2.0.27 as well!&#x20;
 
 ***
 
-#### Gimbal Improvement: Smoother Yaw Control in Position Slow Mode (Freefly Payloads)&#x20;
+### New: Gimbal Direct Control&#x20;
 
 We've pulled in some code from our Movi Pro ecosystem to improve gimbal yaw smoothness! In Astro 2.0 firmware **when flying in Position Slow mode**, the aircraft now follows the heading of the gimbal for more precise and cinematic shots.&#x20;
 
@@ -46,15 +48,9 @@ We've pulled in some code from our Movi Pro ecosystem to improve gimbal yaw smoo
 
 ***
 
-#### Thermal Module Improvement: Clearer Temperature Display
 
-<figure><img src="../../.gitbook/assets/Thermal Temp Display (1).gif" alt="" width="563"><figcaption></figcaption></figure>
 
-New graphics overlay to clearly display the temperature readout when using spot metering
-
-***
-
-#### LR1/A7R4 Feature: Intervalometer mode
+### New: LR1/A7R4 Intervalometer mode
 
 <figure><img src="../../.gitbook/assets/LR1 Timelapse.gif" alt="" width="563"><figcaption><p>Timelapse taken on the LR1 Payload with intervalometer mode</p></figcaption></figure>
 
@@ -72,7 +68,47 @@ If you are saving images to the USB stick, we recommend a minimum trigger interv
 
 ***
 
-#### Gimbal Improvement: Version Compatibility Checks
+
+
+### New: Georeferenced PDF import in AMC
+
+In AMC 1.34, georeferenced PDF maps can now be imported and overlayed on the primary map. To import a geo PDF map go to:&#x20;
+
+* Load a geoPDF on a USB thumbdrive and plug it into Pilot Pro
+* In AMC, go the settings page > Maps & Terrain > GeoPDF Imagery > Import GeoPDF
+* Select the desired file and wait for AMC to complete the import
+*   Go to the Plan or Fly screen to see the imported map overlay
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-03-24 095357.png" alt="" width="563"><figcaption><p>GeoPDF imported into AMC</p></figcaption></figure>
+
+***
+
+### New: Astro’s base PX4 version has been upgraded from v1.13 to v1.15.
+
+***
+
+### New: Integrated Freefly Doodle FW v1.7 in Pilot Pro App.&#x20;
+
+* This allows updating v1.4 units to the latest.&#x20;
+* Additionally, any radio pair that is on v1.7 now benefits from faster pairing and channel changes.
+
+***
+
+### New: Enabled native screen mirroring in Pilot Pro from the tablet to an external display.
+
+***
+
+
+
+### Improvement: Clearer Thermal Module Temperature Display
+
+<figure><img src="../../.gitbook/assets/Thermal Temp Display (1).gif" alt="" width="563"><figcaption></figcaption></figure>
+
+New graphics overlay to clearly display the temperature readout when using spot metering
+
+***
+
+### Improvement: Gimbal  Version Compatibility Checks
 
 AMC will now check if the gimbal firmware version is too old.&#x20;
 
@@ -86,29 +122,29 @@ You can update your gimbal firmware here:
 
 ***
 
-#### Geo PDF import
 
-In AMC 1.34, georeferenced PDF maps can now be imported and overlayed on the primary map. To import a geo PDF map go to:&#x20;
 
-* Load a geoPDF on a USB thumbdrive and plug it into Pilot Pro
-* In AMC, go the settings page > Maps & Terrain > GeoPDF Imagery > Import GeoPDF
-* Select the desired file and wait for AMC to complete the import
-*   Go to the Plan or Fly screen to see the imported map overlay
+### Other Fixes and Improvements:
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2025-03-24 095357.png" alt="" width="563"><figcaption><p>GeoPDF imported into AMC</p></figcaption></figure>
+* Improved vertical accuracy in geotagged photos.
+* Improved Thermal Module Temperature Display - New graphics overlay to clearly display the temperature readout when using spot metering.
+* Added gimbal version compatibility checks in AMC.
+* Improved GPS reliability&#x20;
+  * Reduced GPS output rate to increase reliability.
+  * Enabled BeiDou.
+* Wifi configuration&#x20;
+  * Fixed a bug where sometimes the 'connect' button is greyed out.
+  * Nearby network names are now shown.
+* Fixed an issue where Astro could unexpectedly move when transitioning from Manual --> Position mode
+
+
 
 ***
 
-#### Other Fixes and Improvements:
+### Known Issues
 
-* Wifi configuration&#x20;
-  * Fixed a bug where sometimes the 'connect' button is greyed out
-  * Nearby network names are now shown
-* Improved GPS reliability&#x20;
-  * Reduced GPS output rate but re-enabled BeiDou
-* Improved RTK reliability
-* Improved vertical accuracy in geotagged photos
-* Fixed an issue where Astro could unexpectedly move when transitioning from Manual --> Position mode
+* Users should disregard the time until the RTL indicator bar displayed at the top of the Fly view in AMC. This will be fixed/improved in the upcoming release.
+* Moving the roll and pitch stick very quickly can also cause yawing.
 
 
 
