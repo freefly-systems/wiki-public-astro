@@ -122,6 +122,12 @@ You can update your gimbal firmware here:
 
 ***
 
+### New: Safety configuration
+
+A new param, `COM_ARMABLE`, has been added. To ensure the drone cannot arm, along with safety measures like removing propellers and connecting only one battery, set the parameter `COM_ARMABLE` to 0 ("Disallow arming"). This setting will block arming even if the system is otherwise ready.
+
+***
+
 
 
 ### Other Fixes and Improvements:

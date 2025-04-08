@@ -31,7 +31,7 @@
 * [FAQ & Troubleshooting](maintenance/faq-and-troubleshooting.md)
 * [Software Updates](maintenance/software-release-notes/README.md)
   * [Updating Firmware](maintenance/software-release-notes/software.md)
-  * [Astro Software v2.0 - Coming Soon](maintenance/software-release-notes/astro-software-v2.0-coming-soon.md)
+  * [Astro Software v2.0 - Coming Soon](maintenance/software-release-notes/astro-software-v2.0-whats-new.md)
   * [Astro Software v1.7 - What’s New](maintenance/software-release-notes/astro-software-v1.7-whats-new.md)
   * [Astro Software v1.4 - What’s New](maintenance/software-release-notes/astro-software-v1.4-whats-new.md)
   * [Astro Software v1.2 - What’s New](maintenance/software-release-notes/astro-software-v1.2-whats-new.md)
