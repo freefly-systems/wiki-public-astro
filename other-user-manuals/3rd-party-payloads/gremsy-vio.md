@@ -70,7 +70,7 @@ Once connected to the VIO through AMC, the following settings need to be applied
 
 ### VIO Webpage Settings
 
-On Pilot Pro, open a web browser like Chrome, and go to 192.168.144.52:8000. This will load a webpage hosted by the VIO payload. Under the Systems menu, set the following settings and hit apply:&#x20;
+On Pilot Pro, open a web browser like Chrome, and go to 192.168.144.232:8000. This will load a webpage hosted by the VIO payload. Under the Systems menu, set the following settings and hit apply:&#x20;
 
 * Video Streaming
   * Auto connect = Enable
