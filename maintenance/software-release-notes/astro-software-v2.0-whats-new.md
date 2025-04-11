@@ -20,8 +20,6 @@ Make sure to update your pilot pro firmware to version 2.0.27 as well!&#x20;
 
 ***
 
-
-
 ### New: Gimbal Snap to 0, 45, 90 Degrees
 
 * In AMC 1.34 under Controller > Joystick > Button Configuration, the following actions are now functional and can be mapped to buttons or switches on the GCS:&#x20;
@@ -30,8 +28,6 @@ Make sure to update your pilot pro firmware to version 2.0.27 as well!&#x20;
   * Gimbal Pitch 90
 
 <figure><img src="../../.gitbook/assets/Gimbal Snap.gif" alt="" width="563"><figcaption><p>Gimbal snap to 0/45/90 degrees</p></figcaption></figure>
-
-
 
 ***
 
@@ -47,8 +43,6 @@ We've pulled in some code from our Movi Pro ecosystem to improve gimbal yaw smoo
 {% endcontent-ref %}
 
 ***
-
-
 
 ### New: LR1/A7R4 Intervalometer mode
 
@@ -68,8 +62,6 @@ If you are saving images to the USB stick, we recommend a minimum trigger interv
 
 ***
 
-
-
 ### New: Georeferenced PDF import in AMC
 
 In AMC 1.34, georeferenced PDF maps can now be imported and overlayed on the primary map. To import a geo PDF map go to:&#x20;
@@ -82,23 +74,6 @@ In AMC 1.34, georeferenced PDF maps can now be imported and overlayed on the pri
     <figure><img src="../../.gitbook/assets/Screenshot 2025-03-24 095357.png" alt="" width="563"><figcaption><p>GeoPDF imported into AMC</p></figcaption></figure>
 
 ***
-
-### New: Astro’s base PX4 version has been upgraded from v1.13 to v1.15.
-
-***
-
-### New: Integrated Freefly Doodle FW v1.7 in Pilot Pro App.&#x20;
-
-* This allows updating v1.4 units to the latest.&#x20;
-* Additionally, any radio pair that is on v1.7 now benefits from faster pairing and channel changes.
-
-***
-
-### New: Enabled native screen mirroring in Pilot Pro from the tablet to an external display.
-
-***
-
-
 
 ### Improvement: Clearer Thermal Module Temperature Display
 
@@ -124,11 +99,29 @@ You can update your gimbal firmware here:
 
 ### New: Safety configuration
 
-A new param, `COM_ARMABLE`, has been added. To ensure the drone cannot arm, along with safety measures like removing propellers and connecting only one battery, set the parameter `COM_ARMABLE` to 0 ("Disallow arming"). This setting will block arming even if the system is otherwise ready.
+A new param, `COM_ARMABLE`, has been added.&#x20;
+
+* To ensure the drone cannot arm, along with safety measures like removing propellers and connecting only one battery, set the parameter `COM_ARMABLE` to 0 ("Disallow arming").&#x20;
+* This setting will block arming even if the system is otherwise ready.
 
 ***
 
+### New: Enabled native screen mirroring in Pilot Pro from the tablet to an external display.
 
+[Screen mirroring setup](https://freefly.gitbook.io/pilot-pro-public/operating-handbook/ecosystem#screen-mirroring-protocols)
+
+***
+
+### New: Astro’s base [PX4 version](https://docs.px4.io/main/en/releases/) has been upgraded from v1.13 to v1.15.
+
+***
+
+### New: Integrated Freefly Doodle FW v1.7 in Pilot Pro App.&#x20;
+
+* This allows updating v1.4 units to the latest.
+* Additionally, any radio pair that is on v1.7 now benefits from faster pairing and channel changes.
+
+***
 
 ### Other Fixes and Improvements:
 
@@ -143,14 +136,13 @@ A new param, `COM_ARMABLE`, has been added. To ensure the drone cannot arm, alon
   * Nearby network names are now shown.
 * Fixed an issue where Astro could unexpectedly move when transitioning from Manual --> Position mode
 
-
-
 ***
 
 ### Known Issues
 
-* Users should disregard the time until the RTL indicator bar displayed at the top of the Fly view in AMC. This will be fixed/improved in the upcoming release.
-* Moving the roll and pitch stick very quickly can also cause yawing.
+* The time until the RTL indicator bar displayed at the top of the Fly view in AMC is sometimes inaccurate.
+* Changing some parameters require reboots, but the reboot prompt isn't displayed.&#x20;
 
-
-
+{% hint style="info" %}
+It is best practice to always reboot after changing parameters
+{% endhint %}
