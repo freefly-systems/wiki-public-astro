@@ -97,7 +97,7 @@ The gimbal's dial on the left is always active regardless of mode
 {% endhint %}
 
 {% hint style="warning" %}
-Position Slow was added in Astro v1.4.6 when the Pilot Pro was introduced and has not been tested on the Herelink controller. While it may be accessible depending on software version, you will not have options to change speeds dynamically that you do on the Pilot Pro
+Position Slow was added in Astro v1.4.6 when the Pilot Pro was introduced and has not been tested on the Herelink controller. While it may be accessible depending on software version, you will not have options to change speeds dynamically that you do on the Pilot Pro. To map Position Slow to the D button, open AMC and under Advanced > Flight Modes, set Flight Mode 5 to Position (Slow). Next, enter the Herelink settings by swiping down from the top of the screen and clicking the Herelink stats. Go to the "BUTTONS" tab and change "D short press" from channel 10 to 14, then hit save.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
