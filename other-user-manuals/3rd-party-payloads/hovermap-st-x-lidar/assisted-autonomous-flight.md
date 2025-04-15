@@ -23,7 +23,7 @@ In particular, pilots should understand:&#x20;
 
 For assisted and autonomous missions, Astro parameters need to be updated to enable communication with Hovermap and to increase rate setpoint tracking on Astro. To set these parameters:&#x20;
 
-1. Update Astro to 1.5.18 firmware
+1. Update Astro to 1.5.18 firmware or later\*
 2. Power on Astro and Hovermap. Wait for Hovermap to fully boot and connect over ethernet
 3. Start an assisted/autonomous scan. The scan will begin but Hovermap will give an error. This is expected. Astro's parameters have been set by Hovermap but need a reboot to take effect.&#x20;
 4. Reboot Astro and Hovermap. Parameters are now set, you should be able to start a scan and takeoff.&#x20;
@@ -34,6 +34,10 @@ If you are flying Hovermap with Astro FW 1.6.14 or later, the following paramete
 * Set MAV\_2\_MODE = Custom
 * Set COM\_RC\_IN\_MODE = RC Transmitter Only
 * Set SER\_EXT2\_BAUD = 500000 8N1
+{% endhint %}
+
+{% hint style="warning" %}
+\*Hovermap requires a Cortex firmware update to be compatible with Astro firmware 2.0. Emesent is working on releasing this update
 {% endhint %}
 
 {% hint style="danger" %}
