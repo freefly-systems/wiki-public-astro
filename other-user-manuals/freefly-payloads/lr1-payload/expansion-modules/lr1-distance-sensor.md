@@ -19,11 +19,15 @@ If you are adding multiple modules to the LR1 Payload at the same time, a combin
 Install the Distance Sensor App on your Astro, which can be found [here](https://suite.auterion.com/store). Version 1.0.1 is needed to work with the Distance Sensor Module
 
 {% hint style="warning" %}
-For NDAA/Blue Astros, you will need to enable Cloud Services before Astro will connect to the Auterion Suite for app download
+For NDAA/Blue Astros, you will need to **enable Cloud Services** before Astro will connect to the Auterion Suite for app download
 
 
 
 Power on Astro and connect to a PC via a USB-C cable, then open 10.41.1.1 in a web browser. Under 'Settings', turn on the 'Cloud Services' toggle and reboot the aircraft.
+
+
+
+The Distance Sensor app will not install if Admin mode is enable. Be sure to **disable Admin Mode on 10.41.1.1 webpage** before attempting the install.
 {% endhint %}
 
 To install the app:
