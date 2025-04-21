@@ -5,8 +5,9 @@
 {% hint style="warning" %}
 Gremsy VIO integration is still in beta. The following are known issues:
 
-* Tab 5 tablet can sometimes show freezes in the video feed. Tab 3 tablets do not appear to be affected but this. We are working to understand the root cause of this
+* When running AMC on Tab 3 tablets with the VIO, the video feed can be choppy with default settings. It is recommended to set the RTSP Buffer Size (ms) = 350 to smooth out the video playback. Tab 5 tablets do not appear to have this issue
   * Tab 5 tablets have a green button on the side, Tab 3 tablets have a red button on the side
+  * RSTP Buffer size can be set while in Advanced Mode under Camera > Settings
 * Photo counter doesn't increment, but photos are triggered
 * LAT/LONG information is not passed to the VIO and is displayed as 0s.&#x20;
 * Object tracking feature requires installing an additional app from Gremsy&#x20;
