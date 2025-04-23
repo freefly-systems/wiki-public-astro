@@ -14,7 +14,15 @@ Mounting Points: Plate Vibration Isolator Bulb (mm)
 
 Chassis Mounting Points: Assembly Airframe Complete (mm)
 
+{% hint style="info" %}
+Lower chassis perimeter holes are helicoiled M3x0.5mm with a nominal depth of 5mm
+{% endhint %}
+
 ![](<../../.gitbook/assets/Presentation1 - PowerPoint 2021-08-25 09.03.26.png>)
+
+{% hint style="info" %}
+Upper chassis perimeter holes are helicoiled M3x0.5mm with a nominal depth of at least 7mm on the left/right side and 5mm in the front
+{% endhint %}
 
 ![](<../../.gitbook/assets/Presentation1 - PowerPoint 2021-08-25 09.02.47.png>)
 
