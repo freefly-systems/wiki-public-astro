@@ -37,7 +37,7 @@ If you are flying Hovermap with Astro FW 1.6.14 or later, the following paramete
 {% endhint %}
 
 {% hint style="warning" %}
-\*Hovermap requires a Cortex firmware update to be compatible with Astro firmware 2.0. Emesent is working on releasing this update
+\*Hovermap requires Cortex firmware 4.0 to be compatible with Astro firmware 2.0.19 and later
 {% endhint %}
 
 {% hint style="danger" %}

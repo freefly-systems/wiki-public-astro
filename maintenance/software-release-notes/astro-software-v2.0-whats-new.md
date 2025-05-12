@@ -1,4 +1,4 @@
-# Astro Software v2.0 - Coming Soon
+# Astro Software v2.0 - What's New
 
 ***
 
@@ -141,7 +141,7 @@ A new param, `COM_ARMABLE`, has been added.&#x20;
 ### Known Issues
 
 * The time until the RTL indicator bar displayed at the top of the Fly view in AMC is sometimes inaccurate.
-* Hovermap ST and ST-X require a Cortex firmware update to be compatible with Astro firmware 2.0. Emesent is working on releasing this update soon
+* Hovermap ST and ST-X require Cortex firmware 4.0 and Commander 2.1 to be compatible with Astro firmware 2.0.
 * Changing some parameters require reboots, but the reboot prompt isn't displayed.&#x20;
 
 {% hint style="info" %}

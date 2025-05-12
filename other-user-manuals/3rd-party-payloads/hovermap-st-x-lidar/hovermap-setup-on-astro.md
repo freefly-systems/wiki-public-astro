@@ -64,13 +64,13 @@ Live preview and connection is currently only supported with Pilot Pro + Astro
 7. Enter&#x20;
 
 {% hint style="success" %}
-The latest tested version of Commander is 1.2.0\_10
+The latest tested version of Commander is 2.1
 {% endhint %}
 
-2. Check that Hovermap is running _**hvm\_st\_3.2.1**_ firmware or later. If not, follow Emesent's documentation on [firmware updates](https://emesent.com/portal).
+2. Check that Hovermap is up to date on Cortex Firmware. If not, follow Emesent's documentation on [firmware updates](https://emesent.com/portal).
 
 {% hint style="success" %}
-Latest [Hovermap firmware](https://emesent.com/software-downloads/) for Astro is v3.3.2.&#x20;
+Latest [Hovermap firmware](https://emesent.com/software-downloads/) for Astro is Cortex 4.0
 
 
 

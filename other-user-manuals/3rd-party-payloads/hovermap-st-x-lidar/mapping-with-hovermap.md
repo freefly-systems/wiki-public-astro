@@ -49,7 +49,13 @@ When carrying the Hovermap ST-X, Astro is at the upper limit of its maximum take
 
 
 Astro will give warnings if the ESCs or motors start to overheat. Heed the warnings!
+
+
+
+Astro Max offers significantly more payload/thrust margin and is recommended for operations at higher altitudes/hotter temperatures
 {% endhint %}
+
+
 
 {% hint style="info" %}
 Astro and Hovermap ST-X can operate in light to medium rain. Be sure to insert the USB-C plug in the IO panel&#x20;
