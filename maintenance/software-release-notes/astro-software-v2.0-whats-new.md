@@ -140,6 +140,7 @@ A new param, `COM_ARMABLE`, has been added.&#x20;
 
 ### Known Issues
 
+* When updating Pilot Pro firmware, ensure the paired Astro is powered off for Pilot Pro firmware to update successfully.  &#x20;
 * The time until the RTL indicator bar displayed at the top of the Fly view in AMC is sometimes inaccurate.
 * Hovermap ST and ST-X require Cortex firmware 4.0 and Commander 2.1 to be compatible with Astro firmware 2.0.
 * Changing some parameters require reboots, but the reboot prompt isn't displayed.&#x20;
