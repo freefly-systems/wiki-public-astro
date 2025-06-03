@@ -99,10 +99,12 @@ You can update your gimbal firmware here:
 
 ### New: Safety configuration
 
-A new param, `COM_ARMABLE`, has been added.&#x20;
+A new param, `COM_ARMABLE`, has been added. This setting will block arming even if the system is otherwise ready.
 
 * To ensure the drone cannot arm, along with safety measures like removing propellers and connecting only one battery, set the parameter `COM_ARMABLE` to 0 ("Disallow arming").&#x20;
-* This setting will block arming even if the system is otherwise ready.
+* This can also be toggled in the Auterion Suite by clicking on the vehicle status
+
+<figure><img src="../../.gitbook/assets/maintenance-armable.gif" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -112,7 +114,7 @@ A new param, `COM_ARMABLE`, has been added.&#x20;
 
 ***
 
-### New: Astro’s base [PX4 version](https://docs.px4.io/main/en/releases/) has been upgraded from v1.13 to v1.15.
+### New: Astro’s base [PX4 version](https://docs.px4.io/main/en/releases/) has been upgraded from v1.13 to v1.15/[APX4 version 3.2](https://docs.auterion.com/release-notes/flight-control/apx4-3.2)
 
 ***
 
