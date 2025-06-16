@@ -16,7 +16,7 @@ For instance, Astro software v1.6 is not fully compatible with the previous payl
 
 * **Summary**: Major PX4 upgrade from v1.13 to v1.15
 
-- **Release Date**: May 2024
+- **Release Date**: May 2025
 
 * **Versions in this package**:&#x20;
   * Astro Skynode: v2.0.19
