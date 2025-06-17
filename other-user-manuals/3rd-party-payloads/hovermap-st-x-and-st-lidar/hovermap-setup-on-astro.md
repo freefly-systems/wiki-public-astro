@@ -6,11 +6,19 @@
 Hovermap setup tutorial
 {% endembed %}
 
-### Mounting ST-X on Astro&#x20;
+### Mounting ST-X or ST on Astro&#x20;
 
 The mounting kit for Astro can be purchase from Emesent and includes the mounting bracket, fasteners, dampers, and IO cover, and cable.&#x20;
 
-1. Remove the isolator and payload cable from the lower chassis. Then, screw the Hovermap ST-X dovetail bracket using the shoulder screws.&#x20;
+{% hint style="warning" %}
+Hovermap ST is too heavy for Astro, and can only be flown on Astro Max
+{% endhint %}
+
+{% hint style="info" %}
+Hovermap ST-X and Hovermap ST have different mounting brackets to balanced the CG of aircraft. Ensure you are using the correct bracket. Reach out to Freefly or Emesent support if you have questions
+{% endhint %}
+
+1. Remove the isolator and payload cable from the lower chassis. Then, screw the Hovermap dovetail bracket using the shoulder screws.&#x20;
 
 <figure><img src="../../../.gitbook/assets/IMG_7597.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -23,7 +31,7 @@ Use a 2.5mm driver and Loctite 222 on the screws.  Be sure to tighten them down 
 <figure><img src="../../../.gitbook/assets/IMG_7598.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 3. Then screw the cover over the IO panel, torquing the bolts to finger-tight.
-4. Connect the cable to the back of Hovermap ST-X.
+4. Connect the cable to the back of Hovermap.
 
 <figure><img src="../../../.gitbook/assets/IMG_7596.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
