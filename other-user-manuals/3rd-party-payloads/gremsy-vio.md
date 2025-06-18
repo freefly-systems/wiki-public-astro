@@ -5,7 +5,7 @@
 {% hint style="warning" %}
 Gremsy VIO integration is still in beta. The following are known issues:
 
-* When running AMC on Tab 3 tablets with the VIO, the video feed can be choppy with default settings. It is recommended to set the RTSP Buffer Size (ms) = 350 to smooth out the video playback. Tab 5 tablets do not appear to have this issue
+* When running AMC on Tab 3 tablets with the VIO, the video feed can be choppy with default settings. It is recommended to set the RTSP Buffer Size (ms) = 350 to smooth out the video playback. **Tab 5 tablets do not have this issue**
   * Tab 5 tablets have a green button on the side, Tab 3 tablets have a red button on the side
   * RSTP Buffer size can be set while in Advanced Mode under Camera > Settings
 * Photo counter doesn't increment, but photos are triggered
@@ -25,16 +25,16 @@ Please refer to the [Gremsy VIO wiki](https://docs.gremsy.com/payloads/vio) on h
   * Gateway = 192.168.144.20
 * [Update the VIO firmware](https://docs.gremsy.com/payloads/general/upgrade-firmware-and-software)
 
-{% embed url="https://drive.google.com/file/d/1MlXyZEAKoc-OpcCrwEa0eipN4ESlkwdX/view?usp=sharing" %}
-3/12/2025 VIO Software
-{% endembed %}
+{% file src="../../.gitbook/assets/Vio_sw_package.zip" %}
+Gremsy Vio 2.1 FW
+{% endfile %}
 
 {% hint style="info" %}
 The following versions are compatible with Astro:&#x20;
 
-* Vio Payload App v2.0.0.12
-* Video Streaming App v2.0.3
-* Vio Setting App v2.0.6
+* Vio Payload App v2.1.0.2
+* Video Streaming App v2.1.1
+* Vio Setting App v2.1.2
 * Gimbal Firmware v7.8.3
 {% endhint %}
 
@@ -46,7 +46,6 @@ Astro and AMC need to updated to the latest version, at least Astro FW 1.9 and A
 
 The following parameters need to be configured for Astro to communicate with the VIO. Click [here](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/parameters) to learn to set parameters on Astro.&#x20;
 
-* SER\_EXT2\_BAUD = 115200&#x20;
 * MNT\_RATE\_YAW = 0
   * You will need to check 'force save'
 * Reboot Astro
@@ -82,6 +81,7 @@ On Pilot Pro, open a web browser like Chrome, and go to 192.168.144.232:8000. Th
 * Gimbal Control
   * Auto speed = DISABLE
 * Mavlink
+  * Baudrate = 230400
   * Camera Component ID = Camera 1 (100)&#x20;
 
 Then reboot Astro and the VIO.&#x20;
