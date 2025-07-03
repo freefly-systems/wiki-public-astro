@@ -37,17 +37,40 @@
 
 
 
+***
+
 ## Thrust To Weight Ratio
+
+### Astro vs Astro Max Comparison&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-15 at 6.40.38 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
-* T/W ratio between 1.47 and 1.6 should be flown with caution. Imbalanced payload/aircraft in combination with wind may cause crashes. Astro prioritizes its attitude and will lose altitude in these scenarios.
+### T/W Performance Charts
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-17 at 5.29.15 PM.png" alt=""><figcaption><p>Astro Max Temperature, Altitude, T/W Operation Chart (for LR1 Payload as reference)</p></figcaption></figure>
+* Below T/W Operation Charts are plotted with LR1 Payload as reference.
+* Caution: T/W ratio between 1.4 and 1.6 should be flown with caution. Imbalanced payload/aircraft in combination with wind may cause crashes. Astro prioritizes its attitude and will lose altitude in these scenarios.
+* High Altitude Mode:&#x20;
+  * There are a set of parameters that can be enabled on Astro Max for high altitude flights.&#x20;
+  * This is not available on original Astro.
+  * Caution: This mode is only approved when flying in position mode with default tuning.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-03 at 1.53.59 PM.png" alt=""><figcaption><p>Astro (Original F45)</p></figcaption></figure>
+
+
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-03 at 2.07.06 PM.png" alt=""><figcaption><p>Astro Max (defeault)</p></figcaption></figure>
+
+
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-03 at 2.08.35 PM.png" alt=""><figcaption><p>Astro Max (High Altitude Parameters Enabled)</p></figcaption></figure>
 
 
 
 
+
+
+
+***
 
 ## Flight Time
 
