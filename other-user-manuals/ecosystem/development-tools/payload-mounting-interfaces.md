@@ -18,7 +18,7 @@ Smart Dovetail is not hotswap compatible. To avoid damaging Astro or your sensor
 
 This model contains the entire smart dovetail assembly. You are welcome an encouraged to use this model to Integrate Smart Dovetail into your payload! This also serves as the reference design for the Pixhawk Payload Bus Quick Release.
 
-{% file src="../../../.gitbook/assets/Assembly Smart Dovetail Quick Release 3-24-2022.STEP" %}
+{% file src="../../../.gitbook/assets/Assembly Smart Dovetail Quick Release 6-16-2025.STEP" %}
 
 ### BOM and Gerber files
 
@@ -74,7 +74,9 @@ Not all ZPD pins are implemented. Power, ethernet, serial, and usb are present. 
 Hard-mounting to Astro chassis requires standoffs ([M3 male-female, 8mm length](https://www.mcmaster.com/98952A106) included in the kit). The requirement is due to interference between the cable bundle and Herelink Air Unit.
 {% endhint %}
 
-
+{% hint style="info" %}
+The Dovetail adapter and Plate have been tested up to 3kg
+{% endhint %}
 
 ## Astro Vibration Isolator
 
