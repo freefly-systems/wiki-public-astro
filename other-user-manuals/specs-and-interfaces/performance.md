@@ -48,7 +48,10 @@
 ### T/W Performance Charts
 
 * Below T/W Operation Charts are plotted with LR1 Payload as reference.
-* Caution: T/W ratio between 1.4 and 1.6 should be flown with caution. Imbalanced payload/aircraft in combination with wind may cause crashes. Astro prioritizes its attitude and will lose altitude in these scenarios.
+  * Green: Approved Usage
+  * Yellow: Approved usage; performance limited. Imbalanced payload and wind may cause crashes / altitude loss.
+  * Red: Prohibited usage.
+* Caution: T/W ratio between 1.4 and 1.6 should be flown with caution. These are indicated in yellow in the charts. Imbalanced payload/aircraft in combination with wind may cause crashes. Astro prioritizes its attitude and will lose altitude in these scenarios.
 * High Altitude Mode:&#x20;
   * There are a set of parameters that can be enabled on Astro Max for high altitude flights.&#x20;
   * This is not available on original Astro.
