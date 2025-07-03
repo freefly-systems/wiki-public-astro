@@ -50,6 +50,16 @@ PWM outputs are active when the aircraft is powered on.
 
 #### **Setup**
 
+{% tabs %}
+{% tab title="2.0.19 and up" %}
+The PWM outputs on the Astro are controlled with the PWM\_AUX\_FUNC parameter where FUNC1-4 are the 4 pwm outputs. To assign a PWM output to a mapping, just find the number of the PWM output, and the associated PWM\_AUX\_FUNC and assign it to the desired mapping. ie, ie, if you use RC AUX 1, it should use Dial 2 to control the PWM output.&#x20;
+{% endtab %}
+
+{% tab title="1.9.2 and earlier" %}
+{% hint style="info" %}
+PWM outputs were not enabled on aircraft with the Doodle Radio until 2.0.19
+{% endhint %}
+
 In AMC, select the output pins by navigating to Menu > Vehicle Setup > Parameters. Possible outputs are:&#x20;
 
 | IO board label | Parameter name |
@@ -65,6 +75,8 @@ For each output, select an input source channel (i.e. [Herelink hardware button]
 | --------- | ------- |
 | Wheel     | 5       |
 | Button D  | 10      |
+{% endtab %}
+{% endtabs %}
 
 PWM output values (e.g. 1100 us) are controlled by these parameters (read more in the [PX4 Parameter Reference](https://dev.px4.io/master/en/advanced/parameter_reference.html)).
 
