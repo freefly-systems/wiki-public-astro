@@ -22,18 +22,18 @@
 
 #### Ecosystem
 
-| Item                         | Weight (g) | Notes                     |
-| ---------------------------- | ---------- | ------------------------- |
-| Battery (SL8-Air)            | 1,041      | Astro flies with two SL8s |
-| Smart Dovetail + Isolator    | 97         |                           |
-| LR1 Payload (with 24mm lens) | 970        |                           |
-| LR1 Thermal Module           | 98         |                           |
-| LR1 Distance Sensor Module   | 45         |                           |
-| Ventus OGI Payload           | 1,320      |                           |
-| A7R-IV Payload (Legacy)      | 1397       |                           |
-| FPV Camera                   | 50         |                           |
-| Doodle Radio                 | 79         |                           |
-| Herelink Radio               | 62         |                           |
+| Item                          | Weight (g) | Notes                     |
+| ----------------------------- | ---------- | ------------------------- |
+| Battery (SL8-Air)             | 1,041      | Astro flies with two SL8s |
+| Smart Dovetail + Isolator     | 97         |                           |
+| LR1 Payload (with 24mm lens)  | 970        |                           |
+| LR1 Thermal Module            | 98         |                           |
+| LR1 Laser Range Finder Module | 45         |                           |
+| Ventus OGI Payload            | 1,320      |                           |
+| A7R-IV Payload (Legacy)       | 1397       |                           |
+| FPV Camera                    | 50         |                           |
+| Doodle Radio                  | 79         |                           |
+| Herelink Radio                | 62         |                           |
 
 
 
