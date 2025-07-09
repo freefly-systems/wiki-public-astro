@@ -80,6 +80,8 @@ The Dovetail adapter and Plate have been tested up to 3kg
 
 ## Astro Vibration Isolator
 
-The [**Astro Vibration Isolator**](https://store.freeflysystems.com/products/astro-isolator) is designed to be adaptable. By default, it comes preconfigured to work best with the [**Astro Mapping Payload**](https://store.freeflysystems.com/products/lr1-payload), and it ships with 4 x 30A durometer isolators. Our engineering team decided this is the best configuration based on real-world testing.
+The [**Astro Vibration Isolator**](https://store.freeflysystems.com/products/astro-isolator) works best with most payloads. More info is availible here:&#x20;
 
-Isolator plates allow up to 8 isolators. Different durometers to the Astro [**store**](https://store.freeflysystems.com/collections/astro/products/astro-vibration-isolator-set), which include 30A, 40A, and 50A options.
+{% content-ref url="../components/vibration-isolators.md" %}
+[vibration-isolators.md](../components/vibration-isolators.md)
+{% endcontent-ref %}
