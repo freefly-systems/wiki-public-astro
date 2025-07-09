@@ -51,7 +51,7 @@
     * [Payload Overview and Setup](other-user-manuals/freefly-payloads/lr1-payload/payload-overview-and-setup.md)
     * [Expansion Modules](other-user-manuals/freefly-payloads/lr1-payload/expansion-modules/README.md)
       * [LR1 Thermal Module](other-user-manuals/freefly-payloads/lr1-payload/expansion-modules/lr1-thermal-module.md)
-      * [LR1 Distance Sensor](other-user-manuals/freefly-payloads/lr1-payload/expansion-modules/lr1-distance-sensor.md)
+      * [LR1 Distance Sensor Module](other-user-manuals/freefly-payloads/lr1-payload/expansion-modules/lr1-distance-sensor-module.md)
     * [Mapping/Inspection/Video Workflow](other-user-manuals/freefly-payloads/lr1-payload/mapping-inspection-video-workflow.md)
     * [LR1 Lenses and Expansion](other-user-manuals/freefly-payloads/lr1-payload/lr1-lenses-and-expansion/README.md)
       * [Changing Lenses](other-user-manuals/freefly-payloads/lr1-payload/lr1-lenses-and-expansion/changing-lenses/README.md)

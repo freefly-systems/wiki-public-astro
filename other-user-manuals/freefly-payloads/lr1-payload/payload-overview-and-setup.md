@@ -5,7 +5,7 @@
 Astro + LR1 Payload is designed to fill the needs of enterprise mapping and inspection workflows.&#x20;
 
 * Learn more about the [Astro aircraft here.](https://app.gitbook.com/o/-LYU75KLzw4BcaiMGVz2/s/8dwrGJhxGd9cIvsStziq/)
-* The LR1 Payload consists of a Freefly gimbal with an integrated Sony ILX - LR1 camera. It is developed for use with Astro and other vehicles that use the Freefly Smart Dovetail and the Pixhawk Payload Bus standard.&#x20;
+* The LR1 Payload consists of a Freefly gimbal with an integrated Sony ILX-LR1 camera. It is developed for use with Astro and other vehicles that use the Freefly Smart Dovetail and the Pixhawk Payload Bus standard.&#x20;
 
 <div align="left"><figure><img src="../../../.gitbook/assets/case1.png" alt="" width="375"><figcaption><p>LR1 Payload in hard case with multiple lenses</p></figcaption></figure></div>
 

@@ -14,8 +14,8 @@ To add additional functionality in a small package, Freefly has worked to develo
 [lr1-thermal-module.md](lr1-thermal-module.md)
 {% endcontent-ref %}
 
-{% content-ref url="lr1-distance-sensor.md" %}
-[lr1-distance-sensor.md](lr1-distance-sensor.md)
+{% content-ref url="lr1-distance-sensor-module.md" %}
+[lr1-distance-sensor-module.md](lr1-distance-sensor-module.md)
 {% endcontent-ref %}
 
 Have another module you want to see added? Reach out to us at [support@freeflysystems.com ](https://freeflysystems.com/contact)

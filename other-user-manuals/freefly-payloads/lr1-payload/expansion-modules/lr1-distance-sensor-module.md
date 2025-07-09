@@ -2,7 +2,7 @@
 description: Add live distance readouts up to 100m away to your Astro!
 ---
 
-# LR1 Distance Sensor
+# LR1 Distance Sensor Module
 
 ## [Distance Sensor](https://store.freeflysystems.com/collections/astro/products/lr1-laser-range-finder-upgrade)
 
@@ -53,7 +53,7 @@ Power on Astro and connect to a PC via a USB-C cable, then open 10.41.1.1 in a w
 * Live distance readout (in meters) in AMC at \~5Hz
 * Range up to 100m on objects with >70% reflectivity at +/-10cm
   * Below 10m, we have found the error to be within +/-4cm
-  * When mounted, the front of the LRF is 44mm forward the LR1 sensor, which should be accounted for when sizing objects in frame based on the distance sensor data.&#x20;
+  * When mounted, the front of the Distance Sensor Module is 44mm forward the LR1 sensor, which should be accounted for when sizing objects in frame based on the distance sensor data.&#x20;
 * Distance sensor value saved in LR1 image metadata (in meters)
 
 {% hint style="info" %}
