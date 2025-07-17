@@ -90,7 +90,9 @@ _In addition to phase PM1:_
 
 _In addition to phases PM1 and PM2:_
 
-**Inspect all fastener locations to verify fasteners are present, not damaged, and are not loose**
+**Inspect all fastener locations to verify fasteners are present, not damaged, and are not loose.**&#x20;
+
+Check the tightness of the following fasteners to verify no loose fasteners or use a torque stripe/seal to ensure bolts have not moved.
 
 To check fasteners, apply a slight tightening torque (Clockwise direction) to each fastener on the chassis using the supplied hex drivers. The fasteners should not slip. Do not try to tighten the fastener, only check if it is loose
 
