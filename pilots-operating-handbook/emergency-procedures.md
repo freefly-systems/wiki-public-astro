@@ -74,7 +74,7 @@ If an attempted landing is unsuccessful in Manual Mode, perform an [Emergency St
 {% tab title="GPS Loss" %}
 ### Loss of GPS
 
-If GPS is lost, flight modes that rely on GPS (Position, Return, Mission, etc) will not be available. If the aircraft is in one of these modes when GPS is lost, the autopilot will switch to Altitude Mode.
+If GPS is lost, flight modes that rely on GPS (Position, Return, Mission, etc) will not be available. If the aircraft is in Position mode when GPS is lost, the autopilot will switch to Altitude Mode. If the aircraft is in Return or Mission modes when GPS is lost, it will automatically start landing. Landing can be overridden by the pilot by changing modes to Altitude or Manual modes.
 
 {% hint style="info" %}
 It is the pilot's responsibility to be proficient with Altitude and Manual Mode and to have the aircraft configured to behave safely if GPS is lost.
@@ -84,8 +84,8 @@ Examples of behavior without GPS:
 
 * If GPS is not available upon arming, no Home Point is set, and Return Mode is not available. Even if GPS becomes available while flying, Return Mode will not be available.
 * If the pilot commands Return Mode, the aircraft will remain in Altitude or Manual Mode, and an error will be displayed on the pilot handset.
-* If Land Mode is activated (e.g. by a failsafe), the aircraft will descend as though in Altitude mode, maintaining a consistent attitude but drifting with the wind. (Land mode cannot be activated by the pilot because Land Mode requires GPS).&#x20;
-* If GPS is lost during a mission, the aircraft will display a warning and switch flight mode to either Altitude Mode or Manual Mode, depending on the degradation of the signal.&#x20;
+* If Land Mode is activated (e.g. by a failsafe), the aircraft will descend as though in Altitude mode, maintaining a consistent descent but drifting with the wind.
+* If GPS is lost in Position, the aircraft will display a warning and switch flight mode to either Altitude Mode or Manual Mode, depending on the degradation of the signal and other sensors
 * If GPS is providing altitude information (e.g. while using RTK GPS), and GPS is lost, the ability of Altitude Mode to accurately maintain altitude may be affected.
 {% endtab %}
 
