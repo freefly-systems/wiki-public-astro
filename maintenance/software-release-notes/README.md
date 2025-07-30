@@ -87,7 +87,7 @@ For instance, Astro software v1.6 is not fully compatible with the previous payl
 <summary>Astro v1.9.2</summary>
 
 * **Summary**: Introduces Astro Max and Freefly OGI Payload
-* **Release Date**: January 2024
+* **Release Date**: January 2025
 * **Versions in this package**:&#x20;
   * Astro Skynode: v1.9.2
   *   AMC: 1.33.11
