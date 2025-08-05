@@ -62,5 +62,5 @@ JPEGs and TIFFs from Thermal Module and some LR1 + 75mm images
 
 We have shipped two variants of the thermal module. Despite the difference in lens markings, the field of view of the lenses are the same and the image quality/sensor performance is also the same. The mass is different between the two variants, which means a matching counterweight should be used to ensure good gimbal balance and stabilization.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

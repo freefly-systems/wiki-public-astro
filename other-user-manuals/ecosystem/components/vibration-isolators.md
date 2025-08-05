@@ -10,13 +10,31 @@ description: >-
 
 There are several different isolator designs for Astro:
 
-* Astro Isolator - This isolator is an updated version of the Smart Dovetail Isolator for better vibration rejections and robustness. It is compatible with both the Mapping Payload and the Wiris Pro Payload.&#x20;
-* Smart Dovetail/Mapping Isolator - This isolator shipped with early Mapping Payloads and has the Smart Dovetail connector for payloads that use the Pixhawk Payload Standard.&#x20;
-* Integrator Isolator - This is best for custom payloads and offers several mounting bolt patterns. It does not have any electrical connection to the aircraft.&#x20;
+*   Astro Max Isolator - This isolator is the latest version of the Smart Dovetail Isolator for payloads on Astro Max
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-06-12 112650.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image.png" alt="" width="256"><figcaption><p>Astro Max Isolator</p></figcaption></figure>
+* Astro Isolator - This isolator is an updated version of the Smart Dovetail Isolator for better vibration rejections and robustness on Astro, and some payloads on Astro Max
 
-All three isolators can be configured for a variety of payloads by adjusting the amount of Dampers and swapping between Dampers with different stiffness's. A good rule of thumb is if your payload is swinging too much the system needs more stiffness and if the payload is vibrating it needs less!
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 112015.png" alt="" width="335"><figcaption><p>Astro Isolator</p></figcaption></figure>
+
+* \[Obsolete] Smart Dovetail/Mapping Isolator - This isolator shipped with early Mapping Payloads and has the Smart Dovetail connector for payloads that use the Pixhawk Payload Standard.&#x20;
+* \[Obsolete] Integrator Isolator - This is best for custom payloads and offers several mounting bolt patterns. It does not have any electrical connection to the aircraft.&#x20;
+
+Isolators can be configured for a variety of payloads by adjusting the stiffness (durometer) of the dampers. A good rule of thumb is if your payload is swinging too much the system needs more stiffness and if the payload is vibrating it needs less!
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 131354.png" alt=""><figcaption><p>Which isolator should I use for my payload?</p></figcaption></figure>
+
+## Astro Max Isolator
+
+The Astro Max Isolator is designed for Astro Max and can carry up to 3kgs of payload with different durometers for various payloads. See the above chart for the recommended durometers.&#x20;
+
+How to install:&#x20;
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 124810.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 125024 (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 125228.png" alt=""><figcaption></figcaption></figure>
 
 ## Astro Isolator
 
@@ -41,6 +59,10 @@ This isolator works well for most payloads that use the Smart Dovetail connector
 ## Mapping Isolator
 
 ![](<../../../.gitbook/assets/Isolator Overview.jpg>)
+
+{% hint style="success" %}
+We recommend upgrading to the Astro Isolator for the best performance
+{% endhint %}
 
 This isolator is tuned for the Mapping Payload and comes with 4x 30A durometer Dampers.
 
