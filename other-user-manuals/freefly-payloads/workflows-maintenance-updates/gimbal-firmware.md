@@ -4,7 +4,7 @@
 
 |                                 | LR1 Payload   | OGI Payload   | Wiris Pro Payload | A7R4 Payload |
 | ------------------------------- | ------------- | ------------- | ----------------- | ------------ |
-| **Astro Firmware 1.6 or later** | v2.1.0        | v2.1.0        | v1.7.2            | v1.7.2       |
+| **Astro Firmware 1.6 or later** | v2.2.0        | v2.2.0        | v1.7.2            | v1.7.2       |
 | **Astro Firmware 1.5 or older** | Not supported | Not supported | v1.6.2            | v1.6.2       |
 
 
@@ -28,6 +28,20 @@ Gimbal firmware versions are also included in gimbal log files
 {% endcontent-ref %}
 
 ## Gimbal firmware release notes
+
+### v2.2.0
+
+* Change: Increased upward tilt limit from +30 degrees --> +90 degrees
+* New: Added support for Skyview/Top mount
+* New: Added support for Sony FE 50mm F2.5 G lens
+
+{% hint style="info" %}
+Support for Sony FE 50mm F2.5 G lens requires Astro Firmware 2.0.22 or later as well
+{% endhint %}
+
+{% file src="../../../.gitbook/assets/minigimbal_lr1_v2.2.0.zip" %}
+
+{% file src="../../../.gitbook/assets/minigimbal_ogi_v2.2.0.zip" %}
 
 ### v2.1.0
 
