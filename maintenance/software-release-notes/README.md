@@ -12,6 +12,40 @@ For instance, Astro software v1.6 is not fully compatible with the previous payl
 
 <details>
 
+<summary>Astro v2.0.22</summary>
+
+* **Summary**: Minor update to v2.0.19
+
+- **Release Date**: August 2025
+
+* **Versions in this package**:&#x20;
+  * Astro Skynode: v2.0.22
+  *   AMC: 1.34.21
+
+
+
+-   **Notes**
+
+    Astro v2.0.19 -> v2.0.22
+
+    * **New**: Herelink radio binding can now be initiated with the bind button on Astro’s IO port. This removes the need for removing the radio’s enclosure to access the bind button on the Herelink itself.
+    * **Fix**: Sony 50mm F1.8 lens above F5.6 on LR1 and A7RIV had issues with autofocus delays, causing missed captures and out of focus images. This is now fixed in Astro software.&#x20;
+    * **New**: Added support for Sony FE 50mm F2.5 G lens on LR1 Payload
+      * Requires LR1 gimbal firmware 2.2.0 or later
+
+
+
+* **Known Issues**
+  * Service Bulletin freeflysystems.com/knowledge-base/astro-sb010
+  * Service Bulletin freeflysystems.com/knowledge-base/astro-sb011
+  * The time until the RTL indicator bar displayed at the top of the Fly view in AMC is sometimes inaccurate.
+  * Hovermap ST and ST-X require a Cortex firmware update to be compatible with Astro firmware 2.0. Emesent is working on releasing this update soon
+  * Changing some parameters require reboots, but the reboot prompt isn't displayed. It is best practice to always reboot after changing parameters.
+
+</details>
+
+<details>
+
 <summary>Astro v2.0.19</summary>
 
 * **Summary**: Major PX4 upgrade from v1.13 to v1.15
@@ -66,7 +100,7 @@ For instance, Astro software v1.6 is not fully compatible with the previous payl
 
 ### Latest Versions
 
-<table data-full-width="true"><thead><tr><th width="221">Component</th><th width="248">Current Compatible Versions</th><th width="245">How To Update</th></tr></thead><tbody><tr><td><strong>Astro</strong></td><td></td><td></td></tr><tr><td>                Software</td><td><strong>2.0</strong>.19</td><td><a href="software.md#updating-astro-firmware">Astro Firmware</a></td></tr><tr><td>                SL8 Battery</td><td>2.1, 1.10, or 1.9</td><td><a href="https://app.gitbook.com/s/-LaNHxABbg20hfA0zTDQ/products/superlight-batteries/maintenance#firmware-update">Battery Firmware</a></td></tr><tr><td><strong>Pilot Pro</strong></td><td></td><td></td></tr><tr><td>                Firmware</td><td><strong>2.1</strong>.1</td><td><a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#how-to-update-pilot-pro-firmware">Update</a> through the Pilot Pro App</td></tr><tr><td>                App</td><td><strong>2.1</strong>.3</td><td>Check the <a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#app-updates">"updates"</a> section in Updater app</td></tr><tr><td>                AMC App</td><td><strong>1.34</strong>.21</td><td>Check the <a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#app-updates">"updates"</a> section in Updater app. Desktop versions can be downloaded <a href="https://freeflysystems.com/support/astro-support">here</a>.</td></tr><tr><td>Herelink GCS (Legacy)</td><td></td><td></td></tr><tr><td>                OEM</td><td>FFARU01231123</td><td><a href="../../other-user-manuals/ecosystem/components/pilot-handsets/herelink-controller-maintenance/updating-herelink-software.md">Herelink Firmware</a></td></tr><tr><td>                AMC App</td><td><strong>1.34</strong>.21</td><td>Check the updates section in the Updater app</td></tr><tr><td><strong>Payloads</strong></td><td></td><td></td></tr><tr><td>Freefly Payloads (LR1, A7R4, OGI, Wiris Pro)</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/freefly-payloads/workflows-maintenance-updates/gimbal-firmware">See payloads page</a></td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/payloads/lr1-payload/gimbal-and-camera-software">Gimbal Firmware</a></td></tr><tr><td>Hovermap ST/ST-X</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/hovermap-st-x-lidar/hovermap-setup-on-astro">Latest supported version</a></td><td><a href="https://knowledge.emesent.com/hovermap">Update Hovermap</a></td></tr><tr><td>Sentera 6X and 65R</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/sentera-6x-65r">Latest supported version</a></td><td><p><a href="https://sentera.gitbook.io/65r-sensor-user-guide">65R User Guide</a></p><p><a href="https://sentera.gitbook.io/6x-multispectral-sensor-user-guide">6X User Guide</a></p></td></tr><tr><td>Gremsy VIO</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/gremsy-vio">Latest supported version</a></td><td><a href="https://docs.gremsy.com/payloads/vio">VIO Wiki</a></td></tr><tr><td>Gremsy Pixy PE</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/gremsy-pixy-pe">Latest supported version</a></td><td><a href="https://docs.gremsy.com/pixy-and-mio/pixy-u">Update Pixy</a></td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="221">Component</th><th width="248">Current Compatible Versions</th><th width="245">How To Update</th></tr></thead><tbody><tr><td><strong>Astro</strong></td><td></td><td></td></tr><tr><td>                Software</td><td><strong>2.0</strong>.22</td><td><a href="software.md#updating-astro-firmware">Astro Firmware</a></td></tr><tr><td>                SL8 Battery</td><td>2.1, 1.10, or 1.9</td><td><a href="https://app.gitbook.com/s/-LaNHxABbg20hfA0zTDQ/products/superlight-batteries/maintenance#firmware-update">Battery Firmware</a></td></tr><tr><td><strong>Pilot Pro</strong></td><td></td><td></td></tr><tr><td>                Firmware</td><td><strong>2.1</strong>.1</td><td><a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#how-to-update-pilot-pro-firmware">Update</a> through the Pilot Pro App</td></tr><tr><td>                App</td><td><strong>2.1</strong>.3</td><td>Check the <a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#app-updates">"updates"</a> section in Updater app</td></tr><tr><td>                AMC App</td><td><strong>1.34</strong>.21</td><td>Check the <a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#app-updates">"updates"</a> section in Updater app. Desktop versions can be downloaded <a href="https://freeflysystems.com/support/astro-support">here</a>.</td></tr><tr><td>Herelink GCS (Legacy)</td><td></td><td></td></tr><tr><td>                OEM</td><td>FFARU01231123</td><td><a href="../../other-user-manuals/ecosystem/components/pilot-handsets/herelink-controller-maintenance/updating-herelink-software.md">Herelink Firmware</a></td></tr><tr><td>                AMC App</td><td><strong>1.34</strong>.21</td><td>Check the updates section in the Updater app</td></tr><tr><td><strong>Payloads</strong></td><td></td><td></td></tr><tr><td>Freefly Payloads (LR1, A7R4, OGI, Wiris Pro)</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/freefly-payloads/workflows-maintenance-updates/gimbal-firmware">See payloads page</a></td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/payloads/lr1-payload/gimbal-and-camera-software">Gimbal Firmware</a></td></tr><tr><td>Hovermap ST/ST-X</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/hovermap-st-x-lidar/hovermap-setup-on-astro">Latest supported version</a></td><td><a href="https://knowledge.emesent.com/hovermap">Update Hovermap</a></td></tr><tr><td>Sentera 6X and 65R</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/sentera-6x-65r">Latest supported version</a></td><td><p><a href="https://sentera.gitbook.io/65r-sensor-user-guide">65R User Guide</a></p><p><a href="https://sentera.gitbook.io/6x-multispectral-sensor-user-guide">6X User Guide</a></p></td></tr><tr><td>Gremsy VIO</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/gremsy-vio">Latest supported version</a></td><td><a href="https://docs.gremsy.com/payloads/vio">VIO Wiki</a></td></tr><tr><td>Gremsy Pixy PE</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/gremsy-pixy-pe">Latest supported version</a></td><td><a href="https://docs.gremsy.com/pixy-and-mio/pixy-u">Update Pixy</a></td></tr></tbody></table>
 
 
 
