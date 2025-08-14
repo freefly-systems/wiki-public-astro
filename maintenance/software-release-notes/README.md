@@ -39,7 +39,6 @@ For instance, Astro software v1.6 is not fully compatible with the previous payl
   * Service Bulletin freeflysystems.com/knowledge-base/astro-sb010
   * Service Bulletin freeflysystems.com/knowledge-base/astro-sb011
   * The time until the RTL indicator bar displayed at the top of the Fly view in AMC is sometimes inaccurate.
-  * Hovermap ST and ST-X require a Cortex firmware update to be compatible with Astro firmware 2.0. Emesent is working on releasing this update soon
   * Changing some parameters require reboots, but the reboot prompt isn't displayed. It is best practice to always reboot after changing parameters.
 
 </details>
@@ -91,7 +90,6 @@ For instance, Astro software v1.6 is not fully compatible with the previous payl
 
 - **Known Issues**
   * The time until the RTL indicator bar displayed at the top of the Fly view in AMC is sometimes inaccurate.
-  * Hovermap ST and ST-X require a Cortex firmware update to be compatible with Astro firmware 2.0. Emesent is working on releasing this update soon
   * Changing some parameters require reboots, but the reboot prompt isn't displayed. It is best practice to always reboot after changing parameters.
 
 </details>
