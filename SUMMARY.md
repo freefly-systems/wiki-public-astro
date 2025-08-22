@@ -127,6 +127,7 @@
         * [Switching to Freefly Updater](other-user-manuals/ecosystem/components/pilot-handsets/herelink-controller-maintenance/switching-to-freefly-updater.md)
         * [Removing/Reinstalling the Herelink Cover](other-user-manuals/ecosystem/components/pilot-handsets/herelink-controller-maintenance/removing-reinstalling-the-herelink-cover.md)
     * [Vibration Isolators](other-user-manuals/ecosystem/components/vibration-isolators.md)
+    * [Skyview Payload Mount](other-user-manuals/ecosystem/components/skyview-payload-mount.md)
     * [GNSS Base Stations](other-user-manuals/ecosystem/components/gnss-base-stations.md)
   * [Development Tools](other-user-manuals/ecosystem/development-tools/README.md)
     * [MavSDK](other-user-manuals/ecosystem/development-tools/mavsdk.md)
