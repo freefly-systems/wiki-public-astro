@@ -14,6 +14,10 @@ Both payloads are compatible with Astro using the Smart Dovetail connector, whic
 
 * Upgrade the payload software to a compatible version (3.7.0+). Follow the Sentera documentation found [here](https://support.sentera.com/portal/en/kb/articles/firmware-upgrade-6x#6X_Firmware________6X_Thermal_Firmware_______________Download_Update_352_Part__21214_______Download_Update_352_Part__21216).
 
+{% hint style="success" %}
+Live video for 65R and other features are available with a firmware update! V4.1.3
+{% endhint %}
+
 {% hint style="info" %}
 [65R installation for Astro](https://sentera.gitbook.io/65r-sensor-user-guide/65r-sensor/installation/freefly-astro)
 
@@ -24,7 +28,7 @@ Both payloads are compatible with Astro using the Smart Dovetail connector, whic
 * Install the GPS mast and cabling securely&#x20;
 
 {% hint style="danger" %}
-Make sure any cables are constrained and can't get caught in the propellers!&#x20;
+Make sure any cables are constrained and can't get caught in the propellers
 {% endhint %}
 
 ## Mission Planning
