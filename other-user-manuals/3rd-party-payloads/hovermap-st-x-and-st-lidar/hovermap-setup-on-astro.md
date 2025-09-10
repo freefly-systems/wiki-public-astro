@@ -99,6 +99,68 @@ This can be found once connected in the Commander app in the 'Web UI' page
 
 6. You're connected to Hovermap through Astro!
 
+
+
+
+
+
+
+### Hovermap Configuration with Pilot Pro (Doodle Radio)
+
+**Context (Herelink vs Doodle Labs):** On Herelink, standard RC commands are carried over SBUS, so the S2 (Autonomy) switch works with Hovermap with little or no extra setup. On Astro Blue (Doodle Labs radios), there is no native SBUS RC path; Freefly added MAVLink RC\_CHANNELS passthrough support in Pilot Pro Firmware 2.2.0+ to enable S2 forwarding. The steps below are required to configure this on Doodle Labs.
+
+**Summary**: Pilot Pro Firmware 2.2.0+ adds MAVLink RC\_CHANNELS support so the S2 (Autonomy) switch can be forwarded from Pilot Pro → Astro Blue (Doodle Labs radio) → Hovermap.
+
+
+
+**Prerequisites**
+
+* Hardware: Astro Blue (Doodle Labs), Hovermap payload, Pilot Pro &#x20;
+* Software: Pilot Pro Firmware 2.2.0+, compatible Astro firmware, Emesent Commander &#x20;
+* Files:  [HOVERMAP\_EMESENT.yaml](https://freeflyeng.s3.us-west-2.amazonaws.com/_SoftwareReleases/IO_MAPPING_Pilot_Pro_HOVERMAP_EMESENT.yaml) — input mapping preset
+
+
+
+**Setup**
+
+1. Configure Astro with Hovermap as [normal](https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/hovermap-st-x-lidar).
+2. **Install & update Pilot Pro -** Follow the [instructions for Pilot Pro](https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates) to update Pilot Pro Firmware and App so that you are running Firmware v2.2.0 or above.
+3. **Import the input mapping**
+   1. Copy `HOVERMAP_EMESENT.yaml` to a USB drive; plug into Pilot Pro.
+   2. Pilot Pro App → Input Mapping → grant file access if prompted. &#x20;
+   3. User Presets → Import → select \`HOVERMAP\_EMESENT.yaml\` → Apply.  (Controls may freeze briefly while settings are applied.)
+4. If required, Configure AMC to talk to Astro
+   1.  Tablet → open Auterion Mission Control (AMC) → Settings → Comm Links → Add: &#x20;
+
+       &#x20; \- Name: \`Pilot Pro\` &#x20;
+
+       &#x20; \- Type: \`TCP\` &#x20;
+
+       &#x20; \- Host: \`192.168.144.20\` &#x20;
+
+       &#x20; \- Port: \`5790\` &#x20;
+
+       \- Save and Connect.
+5. Configure Astro parameters
+   1. AMC using Advanced Mode, open Parameters and set
+      1. MAV\_0\_FORWARD = Enabled  (forwards S2; but increases CPU load)&#x20;
+      2. COM\_RC\_IN\_MODE = Joystick only &#x20;
+      3. SER\_EXT\_2\_BAUD = 500000 8N1 &#x20;
+      4. MAV\_2\_MODE = Custom &#x20;
+      5. SDLOG\_MODE = Disabled (reduces CPU; but disables on-aircraft logging, which will make any incident investigation or troubleshooting much more difficult.)
+6. Reboot & verify
+   1. Reboot Astro and Hovermap. &#x20;
+   2. In Emesent Commander, complete the autonomy setup. (The first scan may fail while parameters are set—repeat once prompted.) &#x20;
+7. Confirm the S2 switch state is reflected in Commander before takeoff.
+
+
+
+
+
+
+
+
+
 ### Mission Planning and Flight
 
 See this section on mapping with Hovermap
