@@ -11,7 +11,7 @@ This wiki page is a high level overview of operating Hovermap on Astro. Please r
 {% hint style="warning" %}
 Assisted and Autonomous functions are fully supported with Herelink variants of Astro and Astro Max
 
-Beta firmware is available to enable Assisted and Autonomous functions with Doodle radios (Astro Blue/NDAA). Reach out to support@freeflysystems.com for more information
+To enable Assisted and Autonomous functions with Doodle radios (Astro Blue/NDAA) follow [these instructions.](https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/hovermap-st-x-and-st-lidar/hovermap-setup-on-astro#hovermap-configuration-with-pilot-pro-doodle-radio)
 {% endhint %}
 
 In particular, pilots should understand:&#x20;
