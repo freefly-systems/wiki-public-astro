@@ -27,8 +27,7 @@ For instance, Astro software v1.6 is not fully compatible with the previous payl
 - **Notes**
   * Fixed: [Astro Service Bulletin 011](https://freeflysystems.com/knowledge-base/astro-sb011) by correcting serial communication between the Skynode and PX4.
   * Fixed: [Astro Service Bulletin 010](https://freeflysystems.com/knowledge-base/astro-sb010) with the following changes:
-    * EKF now uses separate logic for velocity and position control.
-    * Simplified GNSS checks after initial 3D fix; continue GNSS fusion if a single metric degrades (e.g., high DOP) while other metrics remain nominal.
+    * Adjusted GNSS checks after initial 3D fix; continue GNSS fusion if a single metric degrades (e.g., high DOP) while other metrics remain nominal.
     * Use PX4 default u-blox multirotor (<2 g) GNSS dynamic model.
     * Enable a stricter PDOP check.
   * New: FF\_INPUT\_TYPE parameter simplifies the controller setup. This can be set in AMC > Vehicle Menu > Select Controller.
@@ -36,7 +35,9 @@ For instance, Astro software v1.6 is not fully compatible with the previous payl
 
 
 
-* **Known Issue: RTK via Doodle Labs radios may cause brief GPS dropout.** Bursty RTK correction packets over Doodle Labs links can delay GNSS processing for a few seconds, temporarily exiting GPS-assisted modes. **Applies to**: all currently released firmware (including v1.9.x, v2.0.x, v2.1.x). **Not affected**: Doodle Labs without RTK; RTK via Herelink or NTRIP; PPK workflows. **Mitigation**: Avoid RTK over Doodle Labs; **Fix**: Planned for a follow-up patch.
+* **Known issue: RTK/NTRIP bursts can briefly drop GPS-assisted modes.** Sudden, buffered RTCM corrections can delay GNSS processing for a few seconds, temporarily exiting Position/Auto/RTL. **Applies to:** all currently released firmware, only when RTK or NTRIP is being used. Mitigations:&#x20;
+  * **If you need RTK/NTRIP**: set GPS\_DUMP\_COMM = Disabled (0) in AMC in [advanced mode](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/parameters#accessing-advanced-parameters) → Parameters. This limits GPS output so correction bursts cannot overrun processing. **Note**: while set to Disabled, **PPK** workflows are unavailable—restore this parameter to default when you need PPK.
+  * **Status**: Fix in progress for a follow-up patch.
 
 </details>
 
