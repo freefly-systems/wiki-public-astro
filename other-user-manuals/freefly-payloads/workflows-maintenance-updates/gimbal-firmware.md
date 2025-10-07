@@ -4,7 +4,7 @@
 
 |                                 | LR1 Payload   | OGI Payload   | Wiris Pro Payload | A7R4 Payload |
 | ------------------------------- | ------------- | ------------- | ----------------- | ------------ |
-| **Astro Firmware 1.6 or later** | v2.2.0        | v2.2.0        | v1.7.2            | v1.7.2       |
+| **Astro Firmware 1.6 or later** | v2.2.1        | v2.2.0        | v1.7.2            | v1.7.2       |
 | **Astro Firmware 1.5 or older** | Not supported | Not supported | v1.6.2            | v1.6.2       |
 
 
@@ -28,6 +28,12 @@ Gimbal firmware versions are also included in gimbal log files
 {% endcontent-ref %}
 
 ## Gimbal firmware release notes
+
+### v2.2.1
+
+* Maintenance release to support new accelerometer calibration
+
+{% file src="../../../.gitbook/assets/minigimbal_lr1_v2.2.1.zip" %}
 
 ### v2.2.0
 
