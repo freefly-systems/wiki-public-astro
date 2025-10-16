@@ -16,6 +16,10 @@
 [ventus-ogi-payload](ventus-ogi-payload/)
 {% endcontent-ref %}
 
+{% content-ref url="flux-lidar-payload/" %}
+[flux-lidar-payload](flux-lidar-payload/)
+{% endcontent-ref %}
+
 {% content-ref url="fpv-camera.md" %}
 [fpv-camera.md](fpv-camera.md)
 {% endcontent-ref %}
