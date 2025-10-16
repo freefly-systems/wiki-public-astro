@@ -1,0 +1,97 @@
+# Installation on Astro
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-10-03 145144.png" alt=""><figcaption></figcaption></figure>
+
+## Install the GNSS antennas
+
+Use the M3 screws provided to mount the GNSS Module mounts on the left and right side of Astro.&#x20;
+
+{% columns %}
+{% column %}
+![](<../../../../.gitbook/assets/Screenshot 2025-10-03 145253 (1).png>)
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-10-03 145227.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% hint style="success" %}
+\#protip - the GNSS mounts can stay on Astro while in transport in the case and when flying other payloads such as LR1
+{% endhint %}
+
+Install the GNSS antennas on to the mounts and slide the lock to secure them in place.&#x20;
+
+{% columns %}
+{% column %}
+<figure><img src="../../../../.gitbook/assets/image (175).png" alt="GNSS antenna and the pop and lock"><figcaption><p>GNSS Antenna with Pop and Lock</p></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../../.gitbook/assets/image (176).png" alt="GNSS antenna fully seated"><figcaption><p>GNSS Antenna fully seated</p></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../../.gitbook/assets/image (177).png" alt="GNSS antenna fully locked"><figcaption><p>GNSS Antenna Locked</p></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% hint style="danger" %}
+Check the GNSS module locks are secure before every flight - Loose GNSS modules can get tangled in Astro's propellers and cause a crash!
+{% endhint %}
+
+## Attaching the Flux sensor <a href="#mount-the-sensor-on-the-astro" id="mount-the-sensor-on-the-astro"></a>
+
+Insert the Flash Drive into the sensor and connect Flux to the Smart Dovetail connector. Secure the connection with the red lever.
+
+{% columns %}
+{% column %}
+<figure><img src="../../../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+Connect each antenna cable to its corresponding connector. Pull slightly from the cable to check that it is properly locked.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-10-03 153803.png" alt=""><figcaption></figcaption></figure>
+
+## Setup your GNSS Base Station <a href="#setup-your-gnss-base-station" id="setup-your-gnss-base-station"></a>
+
+To process the LiDAR data, a RINEX file is required to post-process the GNSS data from both antennas. This RINEX file contains the raw observation of the GNSS satellites during the scan from a fixed position on Earth. With this information, the computed GNSS position from the LiDAR can be improved dramatically. There are three ways to get this information:
+
+#### Option 1: NTRIP RTK on Astro
+
+In areas with cell coverage, Astro can stream RTK corrections using the LTE module via NTRIP. When Astro is setup with NTRIP, Flux will automatically save this data and include it in the .fluxscan file for processing.
+
+{% hint style="success" %}
+This is the preferred option for most applications as it simplifies the Flux workflow and output accuracy greatly.&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+An active SIM with data is required for NTRIP corrections. Astro's cellular modem supports common frequencies in North America.&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+An NTIRP provider will be required for NTRIP corrections over LTE. The [Auterion RTK ](https://docs.auterion.com/vehicle-operation/auterion-apps/ntrip-app-and-auterion-rtk)app is free for the Astro and supports 3rd party NTRIP providers. Auterion also provides an NTRIP subscription service for the simplest setup
+{% endhint %}
+
+#### Option 2: Third Party Base Station
+
+If you have your own base station capable of logging L1/L2/L5/L6 GNSS in a RINEX file, set it up and leave it logging during the whole scan. You will need a .Obs file to process with at the end of the scan.&#x20;
+
+#### Option 3: Reference Network
+
+If you do not have your own base station, check that there is a nearby permanent station from which you can download a RINEX file after your flight. There are available several GNSS networks from which these RINEX files can be downloaded, such as the HxGN SmartNet from Hexagon.&#x20;
+
+{% hint style="info" %}
+The further away the reference base station is, the less accurate your scan results will be
+{% endhint %}
+
+## Plan a mission in AMC <a href="#plan-a-mission-on-your-preferred-ground-station-app" id="plan-a-mission-on-your-preferred-ground-station-app"></a>
+
+{% content-ref url="mission-planning-and-data-capture.md" %}
+[mission-planning-and-data-capture.md](mission-planning-and-data-capture.md)
+{% endcontent-ref %}
