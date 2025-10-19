@@ -44,6 +44,10 @@ Check the GNSS module locks are secure before every flight - Loose GNSS modules 
 
 Insert the Flash Drive into the sensor and connect Flux to the Smart Dovetail connector. Secure the connection with the red lever.
 
+{% hint style="success" %}
+We recommend flying with 30A isolator durometers. These are the default isolator durometers that ship with Astro
+{% endhint %}
+
 {% columns %}
 {% column %}
 <figure><img src="../../../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
