@@ -75,10 +75,14 @@ This is the preferred option for most applications as it simplifies the Flux wor
 {% endhint %}
 
 {% hint style="warning" %}
+We recommend using an NTRIP provider that gives corrections in WGS84. The Flow processing app assumes the base station file is in WGS84, so if you use a provider with a different coordinate system, you will need to account for this when importing GCPs or exporting georeferenced point clouds&#x20;
+{% endhint %}
+
+{% hint style="info" %}
 An active SIM with data is required for NTRIP corrections. Astro's cellular modem supports common frequencies in North America.&#x20;
 {% endhint %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 An NTIRP provider will be required for NTRIP corrections over LTE. The [Auterion RTK ](https://docs.auterion.com/vehicle-operation/auterion-apps/ntrip-app-and-auterion-rtk)app is free for the Astro and supports 3rd party NTRIP providers. Auterion also provides an NTRIP subscription service for the simplest setup
 {% endhint %}
 
