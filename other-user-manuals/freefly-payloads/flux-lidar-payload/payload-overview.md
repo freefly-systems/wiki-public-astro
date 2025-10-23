@@ -42,4 +42,10 @@ The REC Button start/stops the capture of the LiDAR data. When the Status LED is
 Recording start/stop can also be triggered from the Flow app on a connected iPad. The Flow app can only communicate with the payload on compatible systems. If using the Flux on a DJI platform, you will need to use the button on the Lidar
 {% endhint %}
 
+Camera
+
+{% hint style="warning" %}
+Colorization or photogrammetry is not available on Flux yet. We intend to enable this in a future software update
+{% endhint %}
+
 \
