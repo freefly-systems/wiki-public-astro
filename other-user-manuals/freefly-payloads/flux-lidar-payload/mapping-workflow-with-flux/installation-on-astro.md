@@ -62,6 +62,10 @@ Connect each antenna cable to its corresponding connector. Pull slightly from th
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-10-03 153803.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="danger" %}
+Flux can get **very hot, in particular if powered on while not flying** - use caution when handling Flux or removing it from the payload connector
+{% endhint %}
+
 ## Setup your GNSS Base Station <a href="#setup-your-gnss-base-station" id="setup-your-gnss-base-station"></a>
 
 To process the LiDAR data, a RINEX file is required to post-process the GNSS data from both antennas. This RINEX file contains the raw observation of the GNSS satellites during the scan from a fixed position on Earth. With this information, the computed GNSS position from the LiDAR can be improved dramatically. There are three ways to get this information:

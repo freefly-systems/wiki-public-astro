@@ -57,7 +57,7 @@ Use of controls, or adjustments, or performance of procedures other than those s
 <figure><img src="../../../.gitbook/assets/Hot Surfaces.png" alt="" width="375"><figcaption><p>Hot Surfaces</p></figcaption></figure>
 
 {% hint style="danger" %}
-Flux can get very hot - use caution when handling Flux or removing it from the payload connector
+Flux can get **very hot** - use caution when handling Flux or removing it from the payload connector
 {% endhint %}
 
 When operated in an ambient temperature > 40 °C, the metallic surfaces of the sensor may be hot enough to potentially cause skin burn. Avoid skin contact with the sensor’s base, lid and the heatsink when the sensor is operated under these conditions. The sensor should not be used in an ambient temperature above 50°C. The maximum safety certified ambient operating temperature is 50°C.
@@ -76,7 +76,7 @@ Do not touch the plastic or glass covering over the LiDAR sensor. Fingerprints o
 
 ### Operating Temperatures
 
-Freefly Flux is designed to operating in temperatures between -20 °C to 50 °C. When operated in an ambient temperature > 40 °C, the metallic surfaces of the sensor may be hot enough to potentially cause skin burn. Avoid skin contact with the sensor’s base, lid and the heatsink when the sensor is operated under these conditions. The sensor should not be used in an ambient temperature above 45°C. The maximum safety certified ambient operating temperature is 50°C.
+Freefly Flux is designed to operating in temperatures between -20 °C to 40 °C. When operated in an ambient temperature > 40 °C, the metallic surfaces of the sensor may be hot enough to potentially cause skin burn. Avoid skin contact with the sensor’s base, lid and the heatsink when the sensor is operated under these conditions. The sensor should not be used in an ambient temperature above 40°C. The maximum safety certified ambient operating temperature is 40°C.
 
 When the sensor reaches the maximum operating temperature specified below, the sensor may become inactive and shut off.
 
