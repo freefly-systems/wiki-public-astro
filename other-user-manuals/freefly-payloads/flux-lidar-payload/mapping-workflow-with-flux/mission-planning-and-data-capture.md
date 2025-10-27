@@ -46,6 +46,10 @@ If an iPad is connected to Pilot Pro, you can connect the Flow app to Flux and s
 * USB storage remaining
 * Internal temperature
 
+{% hint style="success" %}
+For the best results, wait for the left and right GNSS modules to both pick up 24+ satellites for >1 minute
+{% endhint %}
+
 Before takeoff, push the REC button on the Flux LiDAR or in the Flow app to start capturing LiDAR data. Once the LED turns red, begin flying the mission. There is no need for calibration figures or particular paths.
 
 {% hint style="info" %}
