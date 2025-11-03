@@ -139,5 +139,9 @@ Once all parameters are set, click '**EXPORT'** in the bottom-right corner.
 Select the destination for your file, either your iPad's internal storage or an external drive. Then click '**Open**' to begin exporting.
 
 When the export is complete, click '**DONE'**. Your **.las** or **.laz** file is now ready.
+
+{% hint style="warning" %}
+Known issue: in Flow app version 3.0.10, sometimes exported point clouds are missing small square shaped sections of data. The current workaround for this issue is to process the .fluxscan in a new project and re-export the LAS or LAZ file
+{% endhint %}
 {% endstep %}
 {% endstepper %}
