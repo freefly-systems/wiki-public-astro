@@ -3,7 +3,7 @@
 ## Plan a mission in AMC <a href="#setup-your-gnss-base-station" id="setup-your-gnss-base-station"></a>
 
 {% hint style="success" %}
-Flux sensor presets are available in AMC under the camera presets. Update to AMC version 1.38 or later
+Flux sensor presets are available in AMC under the camera presets. Update to AMC version 1.36.22 or later
 {% endhint %}
 
 In AMC, go to the plan screen and tap Pattern --> Survey or Corridor Scan and draw out the area you would like to scan.
