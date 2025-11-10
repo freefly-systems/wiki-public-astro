@@ -6,14 +6,14 @@ description: Add LWIR thermal imaging to your LR1 payload on Astro!
 
 <figure><img src="../../../../.gitbook/assets/bosonExample1.png" alt=""><figcaption></figcaption></figure>
 
-## [Thermal Module](https://store.freeflysystems.com/collections/astro/products/lr1-thermal-upgrade)
+## [Thermal Module](https://store.freeflysystems.com/products/lr1-thermal-upgrade)
 
 #### Mounting
 
 <table><thead><tr><th width="95"></th><th width="311"></th><th></th></tr></thead><tbody><tr><td>1</td><td>Loosen the thumbscrews and slide the LR1 all the way back. This will make it easier to plug in the cable</td><td><img src="../../../../.gitbook/assets/Screenshot 2024-07-15 090026.png" alt="" data-size="original"></td></tr><tr><td>2</td><td>Mount the counterweight to the bottom of the LR1 using the M3 x 5 FHCS screws and a 2.0mm hex driver</td><td><img src="../../../../.gitbook/assets/Screenshot 2024-07-15 090128 (1).png" alt="" data-size="original"></td></tr><tr><td>3</td><td>Mount the Thermal Module to the top of the LR1 using the M3 x 10 SHCS screws and a 2.5mm hex driver. Ensure the module is snug against the camera. Do not pinch the cable.</td><td><img src="../../../../.gitbook/assets/Screenshot 2024-07-15 090302.png" alt="" data-size="original"></td></tr><tr><td>4</td><td>Plug the cable into the expansion port. Gently push the cable into the cable guide hook.</td><td><img src="../../../../.gitbook/assets/Screenshot 2024-07-15 090440 (1).png" alt="" data-size="original"></td></tr><tr><td>5</td><td>Balance the tilt axis of the gimbal by shifting the payload forward and back, then tighten the thumbscrews.  Torque the screws up to 0.3Nm to prevent the adjustment from slipping.</td><td><img src="../../../../.gitbook/assets/Screenshot 2024-07-15 090832.png" alt="" data-size="original"></td></tr></tbody></table>
 
 {% hint style="info" %}
-If you are adding multiple modules to the LR1 Payload at the same time, a combined counterweight is required, available [here](https://store.freeflysystems.com/collections/astro/products/lr1-payload-counterweight-boson-lrf).&#x20;
+If you are adding multiple modules to the LR1 Payload at the same time, a combined counterweight is required, which is included with the thermal module.
 {% endhint %}
 
 #### Software
@@ -60,7 +60,7 @@ JPEGs and TIFFs from Thermal Module and some LR1 + 75mm images
 
 ### Variants
 
-We have shipped two variants of the thermal module. Despite the difference in lens markings, the field of view of the lenses are the same and the image quality/sensor performance is also the same. The mass is different between the two variants, which means a matching counterweight should be used to ensure good gimbal balance and stabilization.&#x20;
+We have shipped three variants of the thermal module. The field of view of the lenses are all the same. The image quality/sensor performance are the same between the Boson 13.6mm and Boson 14mm. The Boson+ 13.6 has increased sensitivity and overall better image quality . The mass is different between the 13.6mm and 14mm lens variants, which means a matching counterweight should be used to ensure good gimbal balance and stabilization.&#x20;
 
 <figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
