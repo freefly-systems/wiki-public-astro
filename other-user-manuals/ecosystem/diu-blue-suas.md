@@ -52,7 +52,7 @@ Logging is set to "stealth mode" by default on the Blue Astro, and is disabled o
 When logging is set to stealth mode, Astro stops recording any positional data to logs and other places like image capture metadata. **It is important to note that this breaks mapping workflows that involve PPK processing.**
 
 \
-Admins can enable full logging on Astro by:
+Admins can enable full logging on Astro by changing _**both**_ of the following settings:
 
 * Connect Astro to PC with USB, login to https://10.41.1.1, go to settings, enable Cloud Services (this feature also enables advanced features. in the future we will make it a separate setting so they are not tied together)
 * Go to AMC, then repeatedly tap on the AMC icon in the top-left-hand corner of the app. After tapping about 6 times, a popup menu will appear asking if you would like to switch to Advanced Mode. Then tap on the button again to open menu. Go to Advanced > Parameters, then search for SDLOG\_NO\_POS\_DAT. Then set it to disabled.&#x20;
