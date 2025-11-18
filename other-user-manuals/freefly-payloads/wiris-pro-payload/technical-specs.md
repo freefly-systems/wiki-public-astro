@@ -46,6 +46,4 @@ To extend flight times while focusing on a fixed area of interest, consider havi
 
 #### SSD capacity: 128GB
 
-A full list of Wiris Pro specifications can be found on Workswell’s website:
-
-{% embed url="https://workswell-thermal-camera.com/workswell-wiris-pro-thermal-inspection-camera-with-ultrazoom/" %}
+A full list of Wiris Pro specifications can be found on [Workswell’s website](https://workswell.eu/thermal-drone-camera-inspection-wiris-pro/).
