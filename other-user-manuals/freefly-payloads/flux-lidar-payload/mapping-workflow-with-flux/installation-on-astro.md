@@ -96,6 +96,8 @@ Freefly's [RTK GPS Ground Station](https://store.freeflysystems.com/products/rtk
 
 If you have your own base station capable of logging L1/L2/L5/L6 GNSS in a RINEX file, set it up and leave it logging during the whole scan. You will need a .Obs file to process with at the end of the scan.&#x20;
 
+We have tested the Tersus Oscar Trek works well with Flux and has the necessary GNSS bands.&#x20;
+
 #### Option 3: Reference Network
 
 If you do not have your own base station, check that there is a nearby permanent station from which you can download a RINEX file after your flight. There are available several GNSS networks from which these RINEX files can be downloaded, such as the HxGN SmartNet from Hexagon.&#x20;
