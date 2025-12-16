@@ -24,8 +24,8 @@ Refer to the specs section for mass, dimensions, and other information.
 
 For information on the vibration isolation system shipped with Astro Thermal, refer to the section linked bellow.&#x20;
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/LMlTFnZqQR99nF9FfH5S" %}
+[Broken link](/broken/pages/LMlTFnZqQR99nF9FfH5S)
 {% endcontent-ref %}
 
 Isolation systems are aircraft specific and a different system may be optimal for your aircraft, however we offer a couple of options in our store:

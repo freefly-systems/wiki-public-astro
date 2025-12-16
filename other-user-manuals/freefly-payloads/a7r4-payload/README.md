@@ -8,8 +8,8 @@ description: Put Astro Map to work!
 [sample-mapping-data.md](../workflows-maintenance-updates/mapping-workflow-and-output/sample-mapping-data.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/7ya55E0xQfeFG6pfp2CU" %}
+[Broken link](/broken/pages/7ya55E0xQfeFG6pfp2CU)
 {% endcontent-ref %}
 
 {% content-ref url="technical-specs-and-lenses.md" %}

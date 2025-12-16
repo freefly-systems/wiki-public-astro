@@ -8,8 +8,8 @@
 [operating-handbook](operating-handbook/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/J5tgHWGsr55lONgx50po" %}
+[Broken link](/broken/pages/J5tgHWGsr55lONgx50po)
 {% endcontent-ref %}
 
 {% content-ref url="technical-specs.md" %}

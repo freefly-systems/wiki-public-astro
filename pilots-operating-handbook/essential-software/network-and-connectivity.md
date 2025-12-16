@@ -52,8 +52,7 @@ Currently, Astro is only available with an LTE radio suitable for North American
    1. Power on Astro with one battery only.
    2. Connect the laptop and the Astro by plugging in a USB-C cable to the IO panel on the underside of the aircraft.
    3. Using a web browser, navigate to [http://10.41.1.1/](http://10.41.1.1/) to connect to your Astro aircraft
-   4.  On the bottom of the page, expand the "details" bar and scroll until you find the listed IMEI information\
-
+   4.  On the bottom of the page, expand the "details" bar and scroll until you find the listed IMEI information<br>
 
        <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 

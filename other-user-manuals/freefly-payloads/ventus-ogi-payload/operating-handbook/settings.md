@@ -40,18 +40,15 @@ description: This page describes the OGI settings.
 * **Enhancement Mode:**\
   Two different contrast enhancement modes are available: CLAHE and LAP. Once an enhancement mode is selected, additional settings can be configured to configure it.\
   \
-  Contrast Limited Adaptive Histogram Equalization (CLAHE) brings out hard-to-see (low contrast) features in the video, including those with brighter and darker areas.\
-
+  Contrast Limited Adaptive Histogram Equalization (CLAHE) brings out hard-to-see (low contrast) features in the video, including those with brighter and darker areas.<br>
 
 <figure><img src="../../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
-\
+<br>
 
-
-Local Area Processing (LAP) brings out hard-to-see (low-contrast) features. LAP emphasizes differences from the local image average to provide an increased amount of detail in low-contrast areas of a video or image. The algorithm makes details visible in underexposed or overexposed portions of the image.\
-
+Local Area Processing (LAP) brings out hard-to-see (low-contrast) features. LAP emphasizes differences from the local image average to provide an increased amount of detail in low-contrast areas of a video or image. The algorithm makes details visible in underexposed or overexposed portions of the image.<br>
 
 <figure><img src="../../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 
@@ -83,8 +80,7 @@ Local Area Processing (LAP) brings out hard-to-see (low-contrast) features. LAP 
 *   **Color Palette:**\
     Various false-color palettes may be applied to the video.
 
-    *   Options:\
-
+    *   Options:<br>
 
         <figure><img src="../../../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
     * **Default:** None

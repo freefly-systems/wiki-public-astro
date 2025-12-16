@@ -39,9 +39,17 @@ Upper chassis perimeter holes are helicoiled M3x0.5mm with a nominal depth of at
 | **Folded Height**                       | 178                  | 178                           |
 | **Landing Gear Footprint (square)**     | 330                  | 330                           |
 
+## Accessories
 
+### Astro Max Quick Release Landing Gear
 
-## Generic Antenna Mount for Astro
+<figure><img src="../../.gitbook/assets/image (182).png" alt=""><figcaption><p>Quick Release Landing Gear</p></figcaption></figure>
+
+[Store Link](https://store.freeflysystems.com/products/astro-max-landing-gear?_pos=1&_sid=39b0cc21d&_ss=r)
+
+{% file src="../../.gitbook/assets/870-01041 Assembly Landing Gear Stick Max.SLDPRT" %}
+
+### Generic Antenna Mount for Astro
 
 If you want to mount an antenna for 3rd party integrations (such as an external GPS), you can find a 3D printable file here for a standard SMA cable mount:&#x20;
 

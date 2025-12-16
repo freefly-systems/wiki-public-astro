@@ -6,7 +6,7 @@
 
 Emergency situations are dynamic events, that will not often conform perfectly to the categories listed below. A thorough understanding of aircraft systems, proficiency in piloting the aircraft, and sound judgment will allow you to bring about the best possible outcome in an emergency.
 
-The likelihood of an emergency can be reduced substantially through [proper aircraft maintenance](broken-reference), the use of [checklists for normal procedures](broken-reference), and careful pre-flight planning. The likelihood of a safe flight often depends on the diligence of the pilot, both before taking off and during operation.
+The likelihood of an emergency can be reduced substantially through [proper aircraft maintenance](/broken/pages/-MfEfk7y0P474WN5vrmM), the use of [checklists for normal procedures](/broken/pages/-MfEfCAXYq5xABmbFcTc#checklists), and careful pre-flight planning. The likelihood of a safe flight often depends on the diligence of the pilot, both before taking off and during operation.
 
 In general, if an emergency occurs, three basic actions can be applied to most situations:
 

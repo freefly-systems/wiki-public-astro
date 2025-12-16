@@ -35,4 +35,4 @@ The reset procedure restores lens-based tuning.
 
 
 
-If you have issues tuning your gimbal, reach out to [support ](https://freeflysystems.com/contact)and we can help!\
+If you have issues tuning your gimbal, reach out to [support ](https://freeflysystems.com/contact)and we can help!<br>

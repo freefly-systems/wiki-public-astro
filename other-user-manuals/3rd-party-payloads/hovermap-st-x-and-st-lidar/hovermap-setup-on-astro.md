@@ -95,8 +95,7 @@ This can be found once connected in the Commander app in the 'Web UI' page
 
 ![](../../../.gitbook/assets/Screenshot_20240113_102926.jpg)![](../../../.gitbook/assets/Screenshot_20240113_103008.jpg)
 
-5. Refresh the Commander app and wait for an ethernet connection to be shown. This may take a few minutes.\
-
+5. Refresh the Commander app and wait for an ethernet connection to be shown. This may take a few minutes.<br>
 6. You're connected to Hovermap through Astro!
 
 

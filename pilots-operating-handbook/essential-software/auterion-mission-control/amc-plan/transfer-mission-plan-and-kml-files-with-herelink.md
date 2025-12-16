@@ -60,8 +60,7 @@ If you aren't seeing the files you're expecting on the Herelink or computer, res
 
 <figure><img src="../../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
-4\) Select the desired flight plan and select “Copy to…” or “Move to…”\
-
+4\) Select the desired flight plan and select “Copy to…” or “Move to…”<br>
 
 <figure><img src="../../../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
 

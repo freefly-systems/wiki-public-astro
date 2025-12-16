@@ -139,8 +139,7 @@
 * MIS\_DIST\_1WP: Set to 1500.
 * Wind Limit Failsafe Actions: Configurable via COM\_WIND\_MAX\_ACT parameter.
 
-\
-
+<br>
 
 
 

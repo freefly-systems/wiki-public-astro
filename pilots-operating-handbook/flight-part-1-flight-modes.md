@@ -79,8 +79,7 @@ The hover throttle setting controls the amount of thrust Astro produces when the
 Adjust this setting in AMC on the pilot handset or PC:
 
 1. Enable [Advanced Mode ](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup#activating-advanced-mode)
-2. Vehicle Setup > Tuning\
-
+2. Vehicle Setup > Tuning<br>
 
 #### Learn Manual Mode
 
@@ -171,7 +170,7 @@ When Land Mode is engaged by a failsafe, and GPS is not available, the autopilot
 {% endhint %}
 
 {% hint style="info" %}
-Moving the sticks will cause a change to Position Mode unless Landing Mode is engaged by a Failsafe (e.g. critical battery level). See the [Safety and Failsafes section](broken-reference) for more details.
+Moving the sticks will cause a change to Position Mode unless Landing Mode is engaged by a Failsafe (e.g. critical battery level). See the [Safety and Failsafes section](/broken/pages/-LaNWMwiqb_UzRIMSvUW) for more details.
 
 When activated by a low battery failsafe, Return and Landing Mode cannot be overridden by stick movement. They can be overridden by pressing a flight mode button (e.g. Position).
 {% endhint %}

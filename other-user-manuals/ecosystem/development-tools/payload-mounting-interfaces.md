@@ -40,7 +40,7 @@ Pinout is defined in the [Pixhawk Payload Bus](https://github.com/pixhawk/Pixhaw
 
 ![Payload Adaptor ZPD](<../../../.gitbook/assets/Smart Dovetail Dev Kit Pinout.jpg>)
 
-Smart Dovetail Plate offers a [ZPDR-26V-S JST](https://www.digikey.com/en/products/detail/jst-sales-america-inc/ZPDR-26V-S/2472569?s=N4IgTCBcDaIFoAUAiAlAtGAbANTQZRAF0BfIA) connector for payloads. The pinout nominally matches the [Astro Payload Connector](broken-reference).
+Smart Dovetail Plate offers a [ZPDR-26V-S JST](https://www.digikey.com/en/products/detail/jst-sales-america-inc/ZPDR-26V-S/2472569?s=N4IgTCBcDaIFoAUAiAlAtGAbANTQZRAF0BfIA) connector for payloads. The pinout nominally matches the [Astro Payload Connector](/broken/spaces/-LaNHxABbg20hfA0zTDQ/pages/-MfEjX4WUyEGwZsOoeL4#payload).
 
 VBAT is on the IO Panel bus, which includes the XT30, and is protected at 5 A.
 

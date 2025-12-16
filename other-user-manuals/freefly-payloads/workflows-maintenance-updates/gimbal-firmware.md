@@ -96,8 +96,7 @@ This is a required firmware update for Astro's running firmware 1.6 or later. Th
 
 1. Download the firmware package.
    * Extract the .zip folder contents.
-   * Open the extracted folder- the top level folder that you will need to copy onto the gimbal will be called "freefly". Do not copy the folder that states the firmware version.\
-
+   * Open the extracted folder- the top level folder that you will need to copy onto the gimbal will be called "freefly". Do not copy the folder that states the firmware version.<br>
 2. To upgrade Gimbal firmware, connect the gimbal to a laptop using a USB-C cable.&#x20;
    * The USB-C connector is located on the Smart Dovetail of the gimbal
    * Ensure the gimbal is not powered by the aircraft

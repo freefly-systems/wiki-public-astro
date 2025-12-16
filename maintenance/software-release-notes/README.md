@@ -160,8 +160,7 @@ For instance, Astro software v1.6 is not fully compatible with the previous payl
     * Fix: Remove button mapping fltmode5 = -1. It was causing issues if the assigned channel was active.
     * Fix (going from v1.9.1 to v1.9.2): Freefly has identified an issue in Astro Max firmware v1.9.1 where the system may fail to detect landing and thus not disarm. v1.9.2 has a parameter value update to correct this issue.
 
-    \
-
+    <br>
 
     AMC v1.32.7 -> v1.33.11
 
