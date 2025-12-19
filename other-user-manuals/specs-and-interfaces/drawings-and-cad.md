@@ -2,9 +2,27 @@
 
 ## CAD
 
-Shrinkwrap Model of Astro aircraft:  [STP](https://www.dropbox.com/scl/fo/rig794j0z2ynjflt861mi/AIOYqzKT29OFiAUd31VvH5I/CAD%20Files?dl=0\&preview=Astro+ShrinkWrap+Base.stp\&rlkey=8ovek058zrghiojv7q8lu6hoo\&subfolder_nav_tracking=1) file type (open in edrawings if you need quick view)
+Astro has slightly different models depending on when it was manufactured. How can I tell which model is which? The Astro Max has larger motors that are wider than the base they are on, as seen below in the CAD model.&#x20;
 
-Shrinkwrap Model of Astro aircraft:  [Parasolid ](https://www.dropbox.com/scl/fi/uehdjstd090w5hue2lifv/Astro-ShrinkWrap-Base-with-Batteries-Exposed-IO-Panel.x_t?rlkey=k7k5r8wqpzpsiz1vm3h6hvg6e\&dl=0)file type (Use with newer versions of CAD software that support this file type)
+<figure><img src="../../.gitbook/assets/890-00213 Assembly Astro [Shelled].STEP.png" alt="" width="563"><figcaption></figcaption></figure>
+
+<details>
+
+<summary>Astro Max</summary>
+
+[STP](https://www.dropbox.com/scl/fi/xyecmphatdlndl3qwjrs1/890-00213-Assembly-Astro-Max.STEP?rlkey=z6mimwyzzom5eqmu0vagbd85q\&st=ye2rt830\&dl=0) file type (open in edrawings or Autodesk Viewer for a quick view)
+
+</details>
+
+<details>
+
+<summary>Astro (non-Max):  </summary>
+
+[STP](https://www.dropbox.com/scl/fo/rig794j0z2ynjflt861mi/AIOYqzKT29OFiAUd31VvH5I/CAD%20Files?dl=0\&preview=Astro+ShrinkWrap+Base.stp\&rlkey=8ovek058zrghiojv7q8lu6hoo\&subfolder_nav_tracking=1) file type (open in edrawings or Autodesk Viewer for a quick view)
+
+[Parasolid ](https://www.dropbox.com/scl/fi/uehdjstd090w5hue2lifv/Astro-ShrinkWrap-Base-with-Batteries-Exposed-IO-Panel.x_t?rlkey=k7k5r8wqpzpsiz1vm3h6hvg6e\&dl=0)file type (Use with newer versions of CAD software that support this file type)
+
+</details>
 
 ## Drawings
 
