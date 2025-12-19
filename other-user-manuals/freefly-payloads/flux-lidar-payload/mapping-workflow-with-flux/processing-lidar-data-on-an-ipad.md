@@ -4,7 +4,9 @@
 
 On your iPad, go to the App Store and search for Freefly Flow to get the latest version of our app.&#x20;
 
-
+{% hint style="info" %}
+Always use the latest flow app. App versions 3.0+ are tested on iPadOS 18 and 26
+{% endhint %}
 
 {% stepper %}
 {% step %}
