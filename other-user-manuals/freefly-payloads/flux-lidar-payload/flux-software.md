@@ -5,11 +5,11 @@
 To check Flux firmware version or update software:&#x20;
 
 * Power on Flux while connected to Astro
-* Access to Flux Update Webpage at [192.168.144.233:8080](http://192.168.144.233:8080/) from:
+* Access to Flux Update Webpage at [192.168.144.233](http://192.168.144.233:8080/) from:
   * Pilot Pro tablet
   * iPad connected to Pilot Pro
   * Computer connected to pilot Pro via Ethernet
-* &#x20;Access to Flux Update Webpage at [192.168.0.1:8080](http://192.168.0.1:8080/) from:
+* &#x20;Access to Flux Update Webpage at [10.42.0.1](http://10.42.0.1/) from:
   * USB-C Ethernet adapter connected to Flux\
     Flux USB does not support USB device mode, a USB Network adapter must be used.
 
