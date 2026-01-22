@@ -46,6 +46,14 @@ Switching between cameras views can be done by tapping the camera name, or by ma
 Currently, thermal mapping with the Thermal Module is not supported
 {% endhint %}
 
+### Camera Options in AMC
+
+<figure><img src="../../../../.gitbook/assets/1 (1).jpg" alt=""><figcaption><p>Basic settings for Boson camera 1 of 2</p></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/2.jpg" alt=""><figcaption><p>Basic Settings for Boson camera 2 of 2</p></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/3 (2).jpg" alt=""><figcaption><p>Settings with isotherms enabled</p></figcaption></figure>
+
 ### Example Data:
 
 {% file src="../../../../.gitbook/assets/LR1 Thermal Module - Example Images.zip" %}
