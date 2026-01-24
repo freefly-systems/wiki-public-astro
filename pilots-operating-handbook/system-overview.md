@@ -1,12 +1,14 @@
 # System Overview
 
-​
+{% embed url="https://youtu.be/W2aNijm3UPw" %}
+
+Astro is a compact professional multi-rotor aircraft designed for enterprise and industrial applications. Astro is built on the success of the Alta family of aircraft and includes new technologies like Auterion Skynode and Freefly SuperLight Batteries.&#x20;
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-LaNHxABbg20hfA0zTDQ%2F-MfEcI68nDcmsyyaPN7o%2F-MfEcbiwge3TIKh3m841%2FthreeQtrUnfolded.jpg?alt=media&#x26;token=5d01687a-c96d-4a51-b992-1f1958ca7538" alt=""><figcaption></figcaption></figure>
 
-Astro is a compact professional multi-rotor aircraft designed for enterprise, industrial, and cinematic applications. Astro is built on the success of the Alta family of aircraft and includes new technologies like Auterion Skynode and Freefly SuperLight Batteries.&#x20;
-
 Astro is the next generation of Freefly aircraft, which emphasizes expandability and customization to make sure it can stand up to all challenges thrown its way while still being the reliable workhorse drone that Freefly pilots know and love.
+
+​
 
 ## Key Components
 
