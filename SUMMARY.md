@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Astro / Astro Max](README.md)
+
 ## Pilot's Operating Handbook
 
-* [Getting Started](README.md)
+* [Getting Started](<README (1).md>)
 * [System Overview](pilots-operating-handbook/system-overview.md)
 * [Flight Part 1 - Flight Modes](pilots-operating-handbook/flight-part-1-flight-modes.md)
 * [Flight Part 2 - Operation](pilots-operating-handbook/flight.md)
