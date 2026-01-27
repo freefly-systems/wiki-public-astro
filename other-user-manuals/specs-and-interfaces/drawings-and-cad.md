@@ -61,7 +61,7 @@ Upper chassis perimeter holes are helicoiled M3x0.5mm with a nominal depth of at
 
 ### Astro Max Quick Release Landing Gear
 
-<figure><img src="../../.gitbook/assets/image (182).png" alt=""><figcaption><p>Quick Release Landing Gear</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (183).png" alt=""><figcaption><p>Quick Release Landing Gear</p></figcaption></figure>
 
 [Store Link](https://store.freeflysystems.com/products/astro-max-landing-gear?_pos=1&_sid=39b0cc21d&_ss=r)
 

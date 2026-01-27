@@ -70,5 +70,5 @@ JPEGs and TIFFs from Thermal Module and some LR1 + 75mm images
 
 We have shipped three variants of the thermal module. The field of view of the lenses are all the same. The image quality/sensor performance are the same between the Boson 13.6mm and Boson 14mm. The Boson+ 13.6 has increased sensitivity and overall better image quality . The mass is different between the 13.6mm and 14mm lens variants, which means a matching counterweight should be used to ensure good gimbal balance and stabilization.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

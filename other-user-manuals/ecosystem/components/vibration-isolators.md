@@ -12,7 +12,7 @@ There are several different isolator designs for Astro:
 
 *   Astro Max Isolator - This isolator is the latest version of the Smart Dovetail Isolator for payloads on Astro Max
 
-    <figure><img src="../../../.gitbook/assets/image.png" alt="" width="256"><figcaption><p>Astro Max Isolator</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (175).png" alt="" width="256"><figcaption><p>Astro Max Isolator</p></figcaption></figure>
 * Astro Isolator - This isolator is an updated version of the Smart Dovetail Isolator for better vibration rejections and robustness on Astro, and some payloads on Astro Max
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 112015.png" alt="" width="335"><figcaption><p>Astro Isolator</p></figcaption></figure>

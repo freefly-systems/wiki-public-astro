@@ -24,15 +24,15 @@ Install the GNSS antennas on to the mounts and slide the lock to secure them in 
 
 {% columns %}
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image (175).png" alt="GNSS antenna and the pop and lock"><figcaption><p>GNSS Antenna with Pop and Lock</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (176).png" alt="GNSS antenna and the pop and lock"><figcaption><p>GNSS Antenna with Pop and Lock</p></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image (176).png" alt="GNSS antenna fully seated"><figcaption><p>GNSS Antenna fully seated</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (177).png" alt="GNSS antenna fully seated"><figcaption><p>GNSS Antenna fully seated</p></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image (177).png" alt="GNSS antenna fully locked"><figcaption><p>GNSS Antenna Locked</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (178).png" alt="GNSS antenna fully locked"><figcaption><p>GNSS Antenna Locked</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -50,11 +50,11 @@ We recommend flying with 30A isolator durometers. These are the default isolator
 
 {% columns %}
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

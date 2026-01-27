@@ -10,7 +10,7 @@ In AMC, go to the plan screen and tap Pattern --> Survey or Corridor Scan and dr
 
 Next, select your Flux variant under the camera settings. This will apply the default settings for Flux and simplify the mission planning process.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
 
 We recommend the following mission settings for Flux:&#x20;
 
