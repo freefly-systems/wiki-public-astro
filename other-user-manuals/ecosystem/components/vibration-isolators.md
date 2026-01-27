@@ -6,7 +6,7 @@ description: >-
 
 # Vibration Isolators
 
-### Isolator Configuration
+## Isolator Configuration
 
 There are several different isolator designs for Astro:
 
@@ -36,6 +36,10 @@ How to install:&#x20;
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 125228.png" alt=""><figcaption></figcaption></figure>
 
+### Max Isolator Offsets
+
+Due to the different distance from the Astro chassis, 3rd party payloads may need a compensation entered for distance to the airframe. The top of the smart dovetail is \~70mm from the bottom chassis of the Astro, and the center of the dovetail (defined as the center of the 4 screws) is 1.96cm forward from the center of the chassis (defined as the center of the 4 holes on the Astro's bottom chassis plate.&#x20;
+
 ## Astro Isolator
 
 <figure><img src="../../../.gitbook/assets/IMG_5597 (1).jpg" alt=""><figcaption></figcaption></figure>
@@ -53,8 +57,6 @@ This isolator works well for most payloads that use the Smart Dovetail connector
 4.  Then plug the payload connector cable into the I/O port.
 
     <figure><img src="../../../.gitbook/assets/IMG_5516.jpg" alt="" width="375"><figcaption></figcaption></figure>
-
-
 
 ## Mapping Isolator
 
