@@ -47,15 +47,14 @@ This sensor is not appropriate for terrain following.
 
 ## Powerplant
 
-|                                    |                                    |
-| ---------------------------------- | ---------------------------------: |
-| Motor Type                         |                        Freefly F45 |
-| Number of Motors                   |                                  4 |
-| Motor Max Continuous Power         |                             350 W  |
-| Motor Max Instantaneous Peak Power |                              500 W |
-| Equivalent Kv                      |                             420 kV |
-| Electronic Speed Controller        | Freefly Silent-Drive Sine Wave ESC |
-| Max RPM                            |                              3,500 |
+| Motor Type                         |                        Freefly F45 |                               7010 |
+| ---------------------------------- | ---------------------------------: | ---------------------------------: |
+| Number of Motors                   |                                  4 |                                  4 |
+| Motor Max Continuous Power         |                             350 W  |                              350 W |
+| Motor Max Instantaneous Peak Power |                              500 W |                              500 W |
+| Equivalent kV                      |                             420 kV |                             285 kV |
+| Electronic Speed Controller        | Freefly Silent-Drive Sine Wave ESC | Freefly Silent-Drive Sine Wave ESC |
+| Max RPM                            |                              3,500 |                              3,800 |
 
 ## Propellers
 
