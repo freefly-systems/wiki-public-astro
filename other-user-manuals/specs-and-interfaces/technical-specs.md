@@ -66,7 +66,7 @@ This sensor is not appropriate for terrain following.
 
 ## Battery
 
-Astro uses only [Freefly SuperLight Batteries](https://freefly.gitbook.io/freefly-public/products/superlight-batteries). Two batteries are needed per flight.
+Astro uses only [Freefly SuperLight Batteries](https://docs.freeflysystems.com/ecosystem/power/superlight-batteries). Two batteries are needed per flight.
 
 |                             |            |
 | --------------------------- | ---------: |

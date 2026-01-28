@@ -36,7 +36,7 @@ Astro shipped with the [Herelink](../other-user-manuals/ecosystem/components/pil
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-LaNHxABbg20hfA0zTDQ%2F-MfEmRdbLk4fiXy40ZTT%2F-MfEmcEjSnhBP0QYkMQf%2Fimage.png?alt=media&#x26;token=274368b1-176e-472b-a856-2636772e2193" alt=""><figcaption></figcaption></figure>
 
-SuperLight Lithium-ion batteries are designed and manufactured by Freefly. You can find more information on the battery in the [SuperLight Battery](https://freefly.gitbook.io/freefly-public/products/superlight-batteries) section of the wiki.&#x20;
+SuperLight Lithium-ion batteries are designed and manufactured by Freefly. You can find more information on the battery in the [SuperLight Battery](https://docs.freeflysystems.com/ecosystem/power/superlight-batteries) section of the wiki.&#x20;
 
 ## Astro LEDs
 

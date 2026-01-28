@@ -78,7 +78,7 @@ _In addition to phase PM1:_
 
 ### PM3: Every 3 Months: SL8 Battery Maintenance
 
-* Ensure that any battery storage is conforming to the [Maintenance Guidelines](https://freefly.gitbook.io/freefly-public/products/superlight-batteries/maintenance) in the battery user manual
+* Ensure that any battery storage is conforming to the [Maintenance Guidelines](https://docs.freeflysystems.com/ecosystem/power/superlight-batteries/maintenance) in the battery user manual
 * Visually inspect each battery:
   * Verify housings are intact and have no structural damage
   * Verify the battery connector has no major damage

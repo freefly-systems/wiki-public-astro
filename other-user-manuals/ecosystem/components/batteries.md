@@ -2,7 +2,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=q5SivNxO0jA" %}
 
-Astro uses Freefly SuperLight Batteries, the SL-8 Air version. This is a brief summary of their essential functions. For complete documentation and specifications, see the [SuperLight Battery Wiki](https://freefly.gitbook.io/freefly-public/products/superlight-batteries).
+Astro uses Freefly SuperLight Batteries, the SL-8 Air version. This is a brief summary of their essential functions. For complete documentation and specifications, see the [SuperLight Battery Wiki](https://docs.freeflysystems.com/ecosystem/power/superlight-batteries).
 
 ### **Charging**
 
