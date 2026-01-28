@@ -108,7 +108,6 @@
     * [Gimbal Firmware](other-user-manuals/freefly-payloads/workflows-maintenance-updates/gimbal-firmware.md)
     * [Gimbal Logs](other-user-manuals/freefly-payloads/workflows-maintenance-updates/gimbal-logs.md)
     * [USB Formatting](other-user-manuals/freefly-payloads/workflows-maintenance-updates/usb-formatting.md)
-    * [Isolation System](other-user-manuals/freefly-payloads/workflows-maintenance-updates/isolation-system.md)
     * [Precise/Smooth Gimbal Control](other-user-manuals/freefly-payloads/workflows-maintenance-updates/precise-smooth-gimbal-control.md)
   * [Flux LiDAR Payload](other-user-manuals/freefly-payloads/flux-lidar-payload/README.md)
     * [Payload Overview](other-user-manuals/freefly-payloads/flux-lidar-payload/payload-overview.md)
