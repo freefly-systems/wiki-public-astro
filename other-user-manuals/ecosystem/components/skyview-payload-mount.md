@@ -23,7 +23,7 @@ Compatible with:&#x20;
 Be careful when operating in areas with partial GNSS obstruction, such as underneath bridges. Astro may drift in poor GPS conditions, or switch to Altitude mode if GNSS lock is lost.&#x20;
 {% endhint %}
 
-## Installation:&#x20;
+## Installation
 
 1.  Remove the carrying strap from Astro
 
@@ -61,17 +61,23 @@ Be sure both clips on the isolator sled are engaged!&#x20;
 Astro may take longer to achieve a position lock with top mount installed, and may have slightly more drift in position mode. Use caution when flying close to objects
 {% endhint %}
 
-## Isolator Cartridges:&#x20;
+## Isolator Cartridges&#x20;
 
 Currently, we are offering a 30A durometer top mount isolator cartridge, which is compatible with the LR1 Payload, OGI payload, and Gremsy VIO.
 
-## Packaging:&#x20;
+## Packaging
 
 {% hint style="success" %}
 The top mount rack can stay installed when inserting Astro into the compact travel case if the isolator sled is removed.&#x20;
 {% endhint %}
 
-## #Protips:&#x20;
+## Weight
+
+The Skyview Payload Mount weighs a total of about **205 g** (\~7.23 oz).&#x20;
+
+This includes both the isolator and carbon-fiber mounting plate.
+
+## Pro Tips
 
 {% hint style="danger" %}
 Be careful when operating in areas with partial GNSS obstruction, such as underneath bridges. Astro may drift in poor GPS conditions, or switch to Altitude mode if GNSS lock is lost.&#x20;
@@ -82,7 +88,3 @@ Be careful when operating in areas with partial GNSS obstruction, such as undern
 {% endhint %}
 
 * For applications with very poor or no GPS, the Emesent Hovermap ST or ST-X payload can provide SLAM positioning and obstacle avoidance. Emesent is working on adding support for top mount on Astro
-
-{% content-ref url="/broken/pages/FctOb1FeOM5ZTf7WIvDb" %}
-[Broken link](/broken/pages/FctOb1FeOM5ZTf7WIvDb)
-{% endcontent-ref %}
