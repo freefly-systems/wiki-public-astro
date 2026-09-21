@@ -20,7 +20,7 @@ icon: rotate
   * Astro Skynode: v2.3.7
   * PX4: v2.3.6
   * AMC: 1.37.25-2.1.0
-  * Pilot Pro App: 2.8.5
+  * Pilot Pro App: 2.8.6
   * Freefly Updater App: 3.1.2
 * **Notes**
   * **Flight**
