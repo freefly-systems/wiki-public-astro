@@ -3,10 +3,10 @@
 ## Updating Astro Firmware
 
 {% hint style="info" %}
-You can determine if Astro needs an update by following steps 2-4 below. The current firmware number available will be on the [Software Release Notes](./#current-firmware-versions) page.
+You can determine if Astro needs an update by following steps 2-4 below. The current firmware number available will be on the [Software Release Notes](./#current-firmware-version) page.
 {% endhint %}
 
-1. [**Download**](https://freeflysystems.com/support/astro-support) the firmware file from the [**Astro Support page**](https://freeflysystems.com/support/astro-support) or [the Suite](https://suite.auterion.com/downloads/firmware).
+1. [**Download**](./#current-firmware-version) the firmware file from the [**Software Release Notes**](./#current-firmware-version) page or [the Suite](https://suite.auterion.com/downloads/firmware).
 2. Connect Astro to your computer with a USB cable.
 3. Power on aircraft **with one battery** and wait about 15 seconds for aircraft to fully boot.
 4. Using a browser such as Chrome or Safari, open the aircraft's info/update page at [http://10.41.1.1](http://10.41.1.1) (internet connection is not needed).

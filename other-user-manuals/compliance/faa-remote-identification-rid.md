@@ -47,7 +47,7 @@ Any Astro that shipped before February 2024 can be **upgraded to be Standard Rem
 
 ### 1. Update Astro firmware to v1.5 or above
 
-* Download firmware v1.5 or above from [https://freeflysystems.com/support/astro-support](https://freeflysystems.com/support/astro-support)
+* Download firmware v1.5 or above from the [Software Release Notes](../../maintenance/software-release-notes/README.md) page
 * Follow update instructions [software.md](../../maintenance/software-release-notes/software.md "mention")
 
 {% hint style="info" %}
