@@ -96,7 +96,7 @@ Astro uses only [Freefly SuperLight Batteries](https://docs.freeflysystems.com/e
 
 ## Radio Control
 
-For more information on the Radio, please visit our [Pilot Pro Radio Specs](https://freefly.gitbook.io/pilot-pro-public/specs/radio-technical-specs)
+For more information on the Radio, please visit our [Pilot Pro Radio Specs](https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/specs/radio-technical-specs)
 
 ## Misc
 

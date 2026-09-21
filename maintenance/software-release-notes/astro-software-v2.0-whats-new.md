@@ -114,7 +114,7 @@ A new param, `COM_ARMABLE`, has been added. This setting will block arming even 
 
 ### New: Enabled native screen mirroring in Pilot Pro from the tablet to an external display.
 
-[Screen mirroring setup](https://freefly.gitbook.io/pilot-pro-public/operating-handbook/ecosystem#screen-mirroring-protocols)
+[Screen mirroring setup](https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/operating-handbook/ecosystem#screen-mirroring-protocols)
 
 ***
 

@@ -15,7 +15,7 @@ The Astro and later versions of the Alta X come pre-integrated with a Freefly RT
 {% tab title="Pilot Pro" %}
 Instructions for RTK and NTRIP with the Pilot Pro and Astro or Alta X can be found on our Pilot Pro docs through the link below
 
-{% embed url="https://freefly.gitbook.io/pilot-pro-public/operating-handbook/ecosystem/rtk" %}
+{% embed url="https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/operating-handbook/ecosystem/rtk" %}
 {% endtab %}
 
 {% tab title="Herelink Controller" %}
