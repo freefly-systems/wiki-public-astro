@@ -14,6 +14,10 @@ icon: rotate
 
 <summary><strong>Astro v2.3.7</strong></summary>
 
+<a href="https://freeflyeng.s3.us-west-2.amazonaws.com/_SoftwareReleases/skynode-astro-v2.3.7-prod.auterionos" class="button primary">DOWNLOAD v2.3.7</a>
+
+
+
 * **Summary**: Feature release bringing a Doodle radio firmware update, thermal mapping features, Pilot Pro RTK improvements, and more
 * **Release Date**: September 2026
 * **Versions in this package**:
