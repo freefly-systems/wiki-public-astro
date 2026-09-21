@@ -40,6 +40,7 @@
 * [Network and Connectivity](maintenance/network-and-connectivity.md)
 * [Software Updates](maintenance/software-release-notes/README.md)
   * [Updating Firmware](maintenance/software-release-notes/software.md)
+  * [Astro Software v2.3 - What's New](maintenance/software-release-notes/astro-software-v2.3-whats-new.md)
   * [Astro Software v2.2 - What's New](maintenance/software-release-notes/astro-software-v2.2-whats-new.md)
   * [Astro Software v2.0 - What's New](maintenance/software-release-notes/astro-software-v2.0-whats-new.md)
   * [Astro Software v1.7 - What’s New](maintenance/software-release-notes/astro-software-v1.7-whats-new.md)

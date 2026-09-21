@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Astro Software v2.2 - What's New
 
 
