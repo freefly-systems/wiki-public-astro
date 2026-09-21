@@ -56,7 +56,7 @@ icon: rotate
     * **LR1 Laser Range Finder**
       * **New:** Laser range finder driver installed by default.
         * Blue units can use the LRF add-on without breaking compliance by allowing app installation.
-        * **Note:** Uninstall the previously installed `camera-distance-sensor` AOS app to avoid conflicts.
+        * **Note:** Uninstall the previously installed `camera-distance-sensor` AOS app to avoid conflicts. See [here](https://docs.freeflysystems.com/ecosystem/payloads/lr1-payload/expansion-modules/lr1-laser-range-finder-module#drone-firmware-v2.3) for instructions.
   * **Pilot Pro**
     * **New:** Added a setting to automatically reconnect to an RTK correction source at startup.
     * **Improvement:** Clearer RTK correction status UI.
