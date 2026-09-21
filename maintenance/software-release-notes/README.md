@@ -176,8 +176,6 @@ icon: rotate
 
 <summary>Astro v2.1.13</summary>
 
-<a href="https://freeflyeng.s3.us-west-2.amazonaws.com/_SoftwareReleases/skynode-astro-v2.1.13-prod.auterionos" class="button primary">DOWNLOAD v2.1.13</a>
-
 * **Summary**: Hotfix release addressing issues in SB010 and SB011
 * **Release Date**: September 2025
 * **Versions in this package**:
