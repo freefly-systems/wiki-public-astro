@@ -1,6 +1,6 @@
 # Astro Software v2.3 - What's New
 
-See the full release notes <mark style="color:$danger;">here</mark>.
+See the full release notes [here](./#current-firmware-version).
 
 ### New: Doodle Firmware
 
@@ -34,7 +34,7 @@ Thermal images can now be saved in the FLIR RJPEG format.
 
 ### New: Pilot Pro RTK Improvements
 
-RTK support via Pilot Pro has been upgraded. The UI has been updated for clarity and the RTK correction streaming can now configured to start automatically when Pilot Pro boots up.
+RTK support via Pilot Pro has been upgraded. The UI has been updated for clarity and the RTK correction streaming can now be configured to start automatically when Pilot Pro boots up.
 
 <figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
 
@@ -50,7 +50,7 @@ See detailed instructions for enabling RTK on the Pilot Pro [here](https://docs.
 
 AMC has been updated to make understanding vehicle health easier.
 
-System Health is not the default panel displayed when opening the Vehicle Overview, and includes a section for alerts pertaining to inactive modes. This lets users understand what fallback modes might be unavailable even if they can fly in the current mode.
+System Health is now the default panel displayed when opening the Vehicle Overview, and includes a section for alerts pertaining to inactive modes. This lets users understand what fallback modes might be unavailable even if they can fly in the current mode.
 
 
 
