@@ -20,7 +20,7 @@ Astro is the next generation of Freefly aircraft, which emphasizes expandability
 
 {% tabs %}
 {% tab title="Pilot Pro" %}
-The current iteration of Astro ships with [**Pilot Pro**](https://store.freeflysystems.com/products/pilot-pro)**,** our custom controller. For more information, check the [Pilot Pro wiki](https://freefly.gitbook.io/pilot-pro-public/).
+The current iteration of Astro ships with [**Pilot Pro**](https://store.freeflysystems.com/products/pilot-pro)**,** our custom controller. For more information, check the [Pilot Pro wiki](https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/).
 
 <figure><img src="../.gitbook/assets/950-00140-02_01.webp" alt=""><figcaption></figcaption></figure>
 {% endtab %}

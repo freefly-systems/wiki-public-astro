@@ -28,7 +28,7 @@ If you are using terrain following, use max climb and descent rates <1.5 m/s
 
 In the app store, download the Freefly Flow app. Then, follow these instructions to connect your iPad to Pilot Pro using the included ethernet to USB-C cable.&#x20;
 
-{% embed url="https://freefly.gitbook.io/pilot-pro-public/operating-handbook/ecosystem#adding-a-second-tablet-ipad" %}
+{% embed url="https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/operating-handbook/ecosystem#adding-a-second-tablet-ipad" %}
 
 Use the following settings on the iPad:&#x20;
 

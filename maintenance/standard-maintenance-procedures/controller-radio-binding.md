@@ -6,13 +6,13 @@
 
 
 
-* If Astro was already upgraded to be used with Pilot Pro, then follow[ these instructions](https://freefly.gitbook.io/pilot-pro-public/operating-handbook/radio-modules/herelink-radio#binding).
+* If Astro was already upgraded to be used with Pilot Pro, then follow[ these instructions](https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/operating-handbook/radio-modules/herelink-radio#binding).
 
 
 
 **Pilot Pro (Doodle Radio)**
 
-* [https://freefly.gitbook.io/pilot-pro-public/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-binding-pairing](https://freefly.gitbook.io/pilot-pro-public/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-binding-pairing)&#x20;
+* [https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-binding-pairing](https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-binding-pairing)&#x20;
 
 
 

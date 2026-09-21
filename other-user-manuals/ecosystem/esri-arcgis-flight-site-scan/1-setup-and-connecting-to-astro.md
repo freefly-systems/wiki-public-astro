@@ -17,7 +17,7 @@ Things you need:
 * Ethernet adapter (Lightning or USB-C depending on your iPad)
 
 {% hint style="info" %}
-If using a Doodle Labs radio, you will need to[ enable the RJ45 ethernet port ](https://freefly.gitbook.io/pilot-pro-public/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-rj45-ethernet-port)on the back of the module
+If using a Doodle Labs radio, you will need to[ enable the RJ45 ethernet port ](https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-rj45-ethernet-port)on the back of the module
 {% endhint %}
 
 {% hint style="info" %}
