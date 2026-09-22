@@ -14,7 +14,7 @@ Doodle 2.0 firmware includes:
 
 In our testing, we were able to double our effective range by persisting through poor RF environments and recovered the link faster at the edge of link loss.
 
-See detailed instructions for updating your Doodle radios <mark style="color:$danger;">here</mark>.
+See detailed instructions for updating your Doodle radios [<mark style="color:$danger;">here</mark>](https://app.gitbook.com/s/WXREyAKYAeQJ4gfg2SPg/controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-firmware-update).
 
 ### New: Thermal Mapping
 
@@ -52,11 +52,9 @@ AMC has been updated to make understanding vehicle health easier.
 
 System Health is now the default panel displayed when opening the Vehicle Overview, and includes a section for alerts pertaining to inactive modes. This lets users understand what fallback modes might be unavailable even if they can fly in the current mode.
 
-
-
 Vehicle status and health check severity colors have been standardized:
 
-<table><thead><tr><th width="94.666748046875"></th><th width="191.9998779296875"></th><th width="358"></th><th data-hidden data-type="image">Cover image</th></tr></thead><tbody><tr><td>Green</td><td>System healthy</td><td><img src="../../.gitbook/assets/image (210).png" alt=""></td><td><a href="../../.gitbook/assets/image (203).png">image (203).png</a></td></tr><tr><td>Orange</td><td>Arm with caution</td><td><img src="../../.gitbook/assets/image (209).png" alt=""></td><td></td></tr><tr><td>Red</td><td>Arming will be denied</td><td><img src="../../.gitbook/assets/image (208).png" alt="" data-size="original"></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="94.666748046875"></th><th width="191.9998779296875"></th><th width="358"></th><th data-hidden data-type="image">Cover image</th></tr></thead><tbody><tr><td>Green</td><td>System healthy</td><td><img src="../../.gitbook/assets/image (202).png" alt=""></td><td><a href="../../.gitbook/assets/image (202).png">image (202).png</a></td></tr><tr><td>Orange</td><td>Arm with caution</td><td><img src="../../.gitbook/assets/image (201).png" alt=""></td><td></td></tr><tr><td>Red</td><td>Arming will be denied</td><td><img src="../../.gitbook/assets/image (206).png" alt="" data-size="original"></td><td></td></tr></tbody></table>
 
 Audible alerts are now disabled when disarmed, and Pilot Pro automatically raises the tablet volume upon arming to prevent silent alerts. The volume level is restored on disarm. This can be configured in the Pilot Pro App.
 
