@@ -16,8 +16,8 @@
 [ventus-ogi-payload](ventus-ogi-payload/)
 {% endcontent-ref %}
 
-{% content-ref url="flux-lidar-payload/" %}
-[flux-lidar-payload](flux-lidar-payload/)
+{% content-ref url="https://docs.freeflysystems.com/ecosystem/payloads/flux-lidar" %}
+[Flux Lidar Payload](https://docs.freeflysystems.com/ecosystem/payloads/flux-lidar)
 {% endcontent-ref %}
 
 {% content-ref url="fpv-camera.md" %}
