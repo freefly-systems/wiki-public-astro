@@ -7,12 +7,10 @@ description: >-
 # Herelink Controller Maintenance
 
 {% hint style="info" %}
-While Herelink is a product available for purchase outside of Freefly, please keep in mind that the Astro implementation of Herelink is uniquely tailored for optimal performance and functionality. We don't recommend accessing any of the ports available on the Herelink Air Unit, as it may interfere with some of these optimizations or may even be disabled. \
+While Herelink is a product available for purchase outside of Freefly, please keep in mind that the Astro implementation of Herelink is uniquely tailored for optimal performance and functionality. We don't recommend accessing any of the ports available on the Herelink Air Unit, as it may interfere with some of these optimizations or may even be disabled.\
 \
-The [Herelink wiki](https://docs.cubepilot.org/user-guides/herelink/herelink-overview) can be helpful for some questions, but may not provide accurate information in the context of Astro. If you have any questions or concerns, don't hesitate to reach out to contact@freeflysystems.com or[ Contact Us](https://freeflysystems.com/contact) through our website.&#x20;
+The [Herelink wiki](https://docs.cubepilot.org/user-guides/herelink/herelink-overview) can be helpful for some questions, but may not provide accurate information in the context of Astro. If you have any questions or concerns, don't hesitate to reach out to contact@freeflysystems.com or[ Contact Us](https://freeflysystems.com/contact) through our website.
 {% endhint %}
-
-
 
 ## Herelink Binding
 
@@ -34,7 +32,7 @@ Use your finger to pull down from the top of the screen and select the Herelink 
 
 On the Herelink Radio page, tap “Pair”.
 
-![](<../../../../../.gitbook/assets/92 (3).png>)
+![](../../../../../.gitbook/assets/92.png)
 
 Using tweezers, press and hold the Herelink Air Unit "Pair/Reset" button until LED2 blinks (hold approximately 3 seconds).
 
@@ -48,4 +46,3 @@ Open the AMC app on Herelink Pilot Handset and verify connection to the aircraft
 Power off Astro and Herelink Pilot Handset.
 
 [Reinstall the Herelink cover and seal.](removing-reinstalling-the-herelink-cover.md)
-

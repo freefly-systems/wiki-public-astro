@@ -3,7 +3,7 @@
 ## Accessing Advanced Parameters
 
 {% hint style="danger" %}
-Please exercise extreme caution before changing parameters. Do not operate Astro with edited parameters unless you are certain you know what you're doing or have been instructed to do so by a Freefly employee.&#x20;
+Please exercise extreme caution before changing parameters. Do not operate Astro with edited parameters unless you are certain you know what you're doing or have been instructed to do so by a Freefly employee.
 {% endhint %}
 
 Parameters are only accessible after [enabling AMC's Advanced Mode](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup#activating-advanced-mode)
@@ -19,7 +19,7 @@ Enabling Advanced Mode and accessing parameters
 1. Enable AMC's advanced mode by rapidly tapping the AMC logo in the top left:![](<../../../../.gitbook/assets/image (3).png>)
 2. A popup to enable Advanced Mode will appear, confirm that you would like to switch to Advanced mode
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 3. Tap the AMC icon one more time to open the menu, and more options will now appear. Go into Advanced
 
@@ -30,8 +30,6 @@ Enabling Advanced Mode and accessing parameters
 <figure><img src="../../../../.gitbook/assets/AMD Parameters.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-
-
 
 ## Advanced Parameter Commands
 

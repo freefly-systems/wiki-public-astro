@@ -9,7 +9,7 @@ icon: drone-front
 {% embed url="https://www.youtube.com/watch?v=vJHQdul398g" %}
 
 {% hint style="info" %}
-Note that this video features the legacy Herelink controller with the original Astro. However, the flight modes and their behavior are unchanged unless otherwise noted in this guide.&#x20;
+Note that this video features the legacy Herelink controller with the original Astro. However, the flight modes and their behavior are unchanged unless otherwise noted in this guide.
 {% endhint %}
 
 Astro offers several flight modes with varying levels of assistance to the pilot.
@@ -18,7 +18,7 @@ Flight mode can be changed via the buttons on the Pilot Pro/Herelink or the AMC 
 
 {% tabs %}
 {% tab title="Pilot Pro" %}
-<figure><img src="../.gitbook/assets/Pilot Pro Mode Switch Buttons (1).png" alt=""><figcaption><p>Manual mode switch buttons on the Pilot Pro controller</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pilot Pro Mode Switch Buttons.png" alt=""><figcaption><p>Manual mode switch buttons on the Pilot Pro controller</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Herelink Controller" %}
@@ -27,7 +27,7 @@ Flight mode can be changed via the buttons on the Pilot Pro/Herelink or the AMC 
 {% endtabs %}
 
 {% hint style="success" %}
-Manual Mode may be necessary to react to emergency situations. Pilots should be proficient in Manual Mode. Position, Altitude, and Return Mode are assistive only and are not a replacement for pilot skill and preparedness.&#x20;
+Manual Mode may be necessary to react to emergency situations. Pilots should be proficient in Manual Mode. Position, Altitude, and Return Mode are assistive only and are not a replacement for pilot skill and preparedness.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -46,10 +46,8 @@ In Position Mode, the pitch/roll stick commands the speed of the drone relative 
 
 The throttle stick commands vertical speed. The further upward the throttle stick, the faster Astro will climb. Conversely, the lower the throttle stick position, the faster Astro will descend. Deflecting the throttle stick left and right controls the yaw rate, with the speed of rotation proportional to stick deflection.
 
-
-
 {% hint style="info" %}
-Position Mode requires a strong GPS signal. If a weak signal is present, Astro will not enter Position Mode.&#x20;
+Position Mode requires a strong GPS signal. If a weak signal is present, Astro will not enter Position Mode.
 
 If the signal deteriorates, such as near buildings or under dense tree cover, the aircraft will automatically revert to Altitude mode.
 {% endhint %}
@@ -62,9 +60,7 @@ Flight using Position Mode in areas of degraded GPS signal, such as near buildin
 {% tab title="Altitude" %}
 <figure><img src="../.gitbook/assets/Pilot Pro Altitude Button (2).png" alt=""><figcaption><p>Altitude Mode Button on Pilot Pro</p></figcaption></figure>
 
-Similar to Position mode, the pitch/roll stick moves Astro laterally relative to the ground and the throttle stick commands vertical speed and yaw. However, while the drone can hold its vertical position using the barometer, lateral speed is not controlled by the autopilot in Altitude mode. Astro will drift with the wind, will not stop immediately after lateral movement, and will probably not hold a single point above the ground without pilot input.&#x20;
-
-
+Similar to Position mode, the pitch/roll stick moves Astro laterally relative to the ground and the throttle stick commands vertical speed and yaw. However, while the drone can hold its vertical position using the barometer, lateral speed is not controlled by the autopilot in Altitude mode. Astro will drift with the wind, will not stop immediately after lateral movement, and will probably not hold a single point above the ground without pilot input.
 
 {% hint style="info" %}
 The aircraft holds altitude above Mean Sea Level (MSL) by default. It is not aware of terrain height changes or obstacles without additional configuration and equipment.
@@ -82,11 +78,11 @@ The throttle stick controls motor speed directly. Deflecting the throttle stick 
 
 #### Manual Mode Settings
 
-The hover throttle setting controls the amount of thrust Astro produces when the throttle stick is centered. The default setting of 34% will hover the aircraft with no payload. A setting of approximately 40% will hover with 1500 grams of payload.&#x20;
+The hover throttle setting controls the amount of thrust Astro produces when the throttle stick is centered. The default setting of 34% will hover the aircraft with no payload. A setting of approximately 40% will hover with 1500 grams of payload.
 
 Adjust this setting in AMC on the pilot handset or PC:
 
-1. Enable [Advanced Mode ](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup#activating-advanced-mode)
+1. Enable [Advanced Mode](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup#activating-advanced-mode)
 2. Vehicle Setup > Tuning<br>
 
 #### Learn Manual Mode
@@ -95,9 +91,9 @@ Adjust this setting in AMC on the pilot handset or PC:
 {% endtab %}
 
 {% tab title="Position Slow" %}
-<figure><img src="../.gitbook/assets/Pilot Pro pos slow Button (1).png" alt=""><figcaption><p>Position Slow Mode Button on Pilot Pro</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pilot Pro pos slow Button.png" alt=""><figcaption><p>Position Slow Mode Button on Pilot Pro</p></figcaption></figure>
 
-Position Slow acts just like regular Position Mode, but helps to give your flying more control over speed of movement. With the dials on the top of the Pilot Pro, you can now adjust velocity rates on the fly! Whether flying for tower inspections or a cinematic sweep, Position Slow helps give finesse to the pilot to achieve this with ease.&#x20;
+Position Slow acts just like regular Position Mode, but helps to give your flying more control over speed of movement. With the dials on the top of the Pilot Pro, you can now adjust velocity rates on the fly! Whether flying for tower inspections or a cinematic sweep, Position Slow helps give finesse to the pilot to achieve this with ease.
 
 {% hint style="info" %}
 The gimbal's dial on the left is always active regardless of mode
@@ -109,8 +105,6 @@ Position Slow was added in Astro v1.4.6 when the Pilot Pro was introduced and ha
 {% endtab %}
 {% endtabs %}
 
-
-
 ### Autonomous Modes
 
 {% tabs %}
@@ -119,9 +113,9 @@ Position Slow was added in Astro v1.4.6 when the Pilot Pro was introduced and ha
 
 Return Mode commands Astro to climb to the Return Altitude, fly back to the Home Point in a straight line, and land. Return Mode requires GPS.
 
-Return Altitude is set by the pilot at AMC > Vehicle Setup > Safety. Please note that if Astro is above the Return Altitude when Return Mode is initiated, it will maintain altitude instead of dropping to the return altitude.&#x20;
+Return Altitude is set by the pilot at AMC > Vehicle Setup > Safety. Please note that if Astro is above the Return Altitude when Return Mode is initiated, it will maintain altitude instead of dropping to the return altitude.
 
-The Home Point is set to the GPS coordinates where Astro is armed. Home Point is reset every time Astro is armed.
+The Home Point is set to the GPS coordinates where Astro is armed. Home Point is reset every time Astro is armed.
 
 By default, Return Mode is activated automatically by some Failsafes.
 
@@ -139,13 +133,11 @@ In most cases, RTL mode will travel to the predetermined RTL altitude, travel ov
 
 <figure><img src="../.gitbook/assets/RTL_visual (1).png" alt=""><figcaption></figcaption></figure>
 
-* If Astro is directly over the home point at the time of RTL, it will land without gaining altitude regardless of its current altitude.&#x20;
+* If Astro is directly over the home point at the time of RTL, it will land without gaining altitude regardless of its current altitude.
 * If Astro is within a few meters of the home point, it will move directly above the home point and begin landing.
 * If Astro is within 20m altitude and less than 20m ground distance from the home point, it will go to 20m altitude, move over the home point, and land.
 * If Astro is between 20-35m altitude and less than 20m ground distance from the home point, it will maintain altitude, move over home point, and land.
 * If Astro is more than 35m altitude or more than 20m ground distance from the home point, it will go to the set RTL altitude, move over the home point, and land.
-
-&#x20;
 {% endtab %}
 
 {% tab title="Takeoff" %}
@@ -167,12 +159,12 @@ Moving the sticks while in Hold Mode (i.e. after the aircraft has finished climb
 
 Landing Mode causes Astro to descend and land directly below the position where Land Mode is engaged. Once on the ground, Astro will disarm.
 
-Landing mode can be engaged via the button on the AMC app Fly screen. You'll need to hold the button down to confirm the switch.&#x20;
+Landing mode can be engaged via the button on the AMC app Fly screen. You'll need to hold the button down to confirm the switch.
 
 Landing Mode is often the last command in a mission. It can also be engaged by a failsafe, such as low battery level, or loss of signal.
 
 {% hint style="info" %}
-Land Mode requires GPS when engaged manually.&#x20;
+Land Mode requires GPS when engaged manually.
 
 When Land Mode is engaged by a failsafe, and GPS is not available, the autopilot behavior will be similar to Altitude Mode and the aircraft may drift horizontally as it descends.
 {% endhint %}
@@ -202,20 +194,17 @@ Astro must have a GPS lock before takeoff to set a valid home position to start 
 {% endhint %}
 
 {% hint style="warning" %}
-Depending on what Astro firmware version you're on, you may or may not be able to move sticks to interrupt Return Mode&#x20;
+Depending on what Astro firmware version you're on, you may or may not be able to move sticks to interrupt Return Mode
 
-Before Astro version 1.4.6, moving the flight sticks on the controller will interrupt Return and Mission mode.&#x20;
+Before Astro version 1.4.6, moving the flight sticks on the controller will interrupt Return and Mission mode.
 
-For Astro version 1.4.6-1.5.18, moving the flight sticks will not interrupt these modes.&#x20;
+For Astro version 1.4.6-1.5.18, moving the flight sticks will not interrupt these modes.
 
 In 1.6.14 and later this setting was re-introduced as an op-in setting that's disabled by default, and by default stick movements will not interrupt Return Mode
 
-To change this behavior, you can toggle [Advanced Mode](https://freefly.gitbook.io/astro-public/astro/pilots-operating-handbook/software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup#activating-advanced-mode) and change the COM\_RC\_OVERRIDE parameter to 1 in Vehicle Setup.&#x20;
+To change this behavior, you can toggle [Advanced Mode](https://freefly.gitbook.io/astro-public/astro/pilots-operating-handbook/software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup#activating-advanced-mode) and change the COM\_RC\_OVERRIDE parameter to 1 in Vehicle Setup.
 
-These changes were made as a response to feedback that accidental stick movements were interrupting these flight modes erroneously along with a userbase that wanted this behavior back.&#x20;
+These changes were made as a response to feedback that accidental stick movements were interrupting these flight modes erroneously along with a userbase that wanted this behavior back.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
-
-
-

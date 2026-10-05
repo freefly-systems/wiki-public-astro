@@ -5,26 +5,18 @@ icon: drone-front
 # Flight Part 2 - Operation
 
 {% hint style="warning" %}
-Make sure you understand Astro's [Emergency Procedures](emergency-procedures.md) and understand how to operate the drone in [Manual Mode](flight-modes.md#manual) before taking flight.&#x20;
+Make sure you understand Astro's [Emergency Procedures](emergency-procedures.md) and understand how to operate the drone in [Manual Mode](flight-modes.md#manual) before taking flight.
 {% endhint %}
 
 ## Astro Flight Checklist
 
-Below is our recommended Astro flight checklist, which covers the main considerations you need to be aware of before, during, and after operation.&#x20;
+Below is our recommended Astro flight checklist, which covers the main considerations you need to be aware of before, during, and after operation.
 
 {% file src="../.gitbook/assets/Astro Checklists and EPs - v5.pdf" %}
 Astro Checklists and EPs - v5.pdf
 {% endfile %}
 
-We also offer this checklist as a [Google Sheet template](https://docs.google.com/spreadsheets/d/1fzej5xve3mPZBkT5TpqMw7kgLpMkx0kWQzTIOoPZfCs/edit?usp=sharing) to allow for a more customized experience. For example, you might want to add specific items to better reflect your company's safety procedures, workflow, payload, or region.&#x20;
-
-
-
-
-
-
-
-
+We also offer this checklist as a [Google Sheet template](https://docs.google.com/spreadsheets/d/1fzej5xve3mPZBkT5TpqMw7kgLpMkx0kWQzTIOoPZfCs/edit?usp=sharing) to allow for a more customized experience. For example, you might want to add specific items to better reflect your company's safety procedures, workflow, payload, or region.
 
 ***
 
@@ -62,18 +54,18 @@ Bench Mode: Astro will only arm (i.e. spin the motors) if 2 batteries are instal
 Bench mode is not a substitute for the absolute safety of removing propellers.
 {% endhint %}
 
-To power on the Astro, connect at least one SL8 battery by sliding it along the rails on top of the aircraft until you hear two clicks. Once connected, press the button on the battery twice to turn it on. If you have two batteries connected, they will both automatically power on when you turn on one of them.&#x20;
+To power on the Astro, connect at least one SL8 battery by sliding it along the rails on top of the aircraft until you hear two clicks. Once connected, press the button on the battery twice to turn it on. If you have two batteries connected, they will both automatically power on when you turn on one of them.
 
 ### Checking Battery Levels
 
 {% tabs %}
 {% tab title="First Tab" %}
-With Pilot Pro, AMC will show the Astro's current battery levels. Tap on the battery icon for more information, such as remaining flight time.&#x20;
+With Pilot Pro, AMC will show the Astro's current battery levels. Tap on the battery icon for more information, such as remaining flight time.
 
 <figure><img src="../.gitbook/assets/amc_battery_levels.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-The battery level for the RC will almost always report 100% at all times, because the Pilot Pro keeps the tablet fully charged. &#x20;
+The battery level for the RC will almost always report 100% at all times, because the Pilot Pro keeps the tablet fully charged.
 {% endhint %}
 {% endtab %}
 
@@ -84,40 +76,30 @@ Once the transmitter and Astro are connected, the AMC app indicates Astro's batt
 {% endtab %}
 {% endtabs %}
 
-
-
 ### Issues Preventing Arming
 
-You may occasionally encounter issues that will prevent Astro from arming:&#x20;
+You may occasionally encounter issues that will prevent Astro from arming:
 
 #### Compass Cal
 
-If AMC asks you to calibrate the compass and won't allow you to take off, follow the [instructions to recalibrate sensors](../maintenance/standard-maintenance-procedures/calibration-and-tuning.md#sensor-calibration) in an area without significant magnetic interference (far from large metal structures or magnetic/electric installations).&#x20;
+If AMC asks you to calibrate the compass and won't allow you to take off, follow the [instructions to recalibrate sensors](../maintenance/standard-maintenance-procedures/calibration-and-tuning.md#sensor-calibration) in an area without significant magnetic interference (far from large metal structures or magnetic/electric installations).
 
-#### Everything else&#x20;
+#### Everything else
 
-Check if the AMC message you're encountering is on our [Error/Warning Spreadsheet](https://docs.google.com/spreadsheets/d/1DXkk0BmRx9qLbjpBt2KgKYFOQhEGUTcyyQB6rOmb4ac/edit#gid=0) and follow the associated instructions. If you're still experiencing the issue, please reach out to support@freeflysystems.com for further troubleshooting.&#x20;
-
-
-
-
-
-
-
-
+Check if the AMC message you're encountering is on our [Error/Warning Spreadsheet](https://docs.google.com/spreadsheets/d/1DXkk0BmRx9qLbjpBt2KgKYFOQhEGUTcyyQB6rOmb4ac/edit#gid=0) and follow the associated instructions. If you're still experiencing the issue, please reach out to support@freeflysystems.com for further troubleshooting.
 
 ***
 
 ## Arming and Disarming
 
-Astro's propulsion system has two fundamental states: Disarmed and Armed. These states are displayed on the Astro through the LED's on the boom arms.&#x20;
+Astro's propulsion system has two fundamental states: Disarmed and Armed. These states are displayed on the Astro through the LED's on the boom arms.
 
 | State    | Definition                                  | Indication                                      |
 | -------- | ------------------------------------------- | ----------------------------------------------- |
 | Disarmed | Safe mode, no spinning propellers           | Boom LEDS dim                                   |
 | Armed    | Aircraft will spin propellers, ready to fly | Boom LEDs bright (100% or user specified level) |
 
-Astro can be armed with or without GPS.&#x20;
+Astro can be armed with or without GPS.
 
 {% hint style="info" %}
 Pro Tip: Wait for GPS lock even if you don't plan to use Position Mode because Return Mode relies on GPS.
@@ -127,8 +109,6 @@ Pro Tip: Wait for GPS lock even if you don't plan to use Position Mode because R
 Before arming, ensure people and other obstacles are clear of the propellers. Be prepared for Astro to take off.
 {% endhint %}
 
-
-
 The transition between Armed and Disarmed can be done either [through AMC](https://freefly.gitbook.io/astro-public/pilots-operating-handbook/emergency-procedures#advanced-arming-methods) or with the sticks on the pilot handset. (The pilot's handset default configuration is [Mode 2](https://docs.px4.io/master/en/getting_started/rc_transmitter_receiver.html#types-of-remote-controls).)
 
 | State           | Input                                                                                 |
@@ -136,7 +116,7 @@ The transition between Armed and Disarmed can be done either [through AMC](https
 | Arming (Mode 2) | Hold the throttle stick down and right for 2 seconds.                                 |
 | Disarming       | When the aircraft has landed, continue holding the throttle stick down for 2 seconds. |
 
-![](<../.gitbook/assets/image (81).png>)
+![](<../.gitbook/assets/image (60).png>)
 
 {% hint style="info" %}
 It is not possible to disarm via the normal method while in flight.
@@ -158,26 +138,16 @@ Missions may Arm and Disarm the aircraft automatically. For example, if a missio
 
 Under these conditions, Astro will automatically disarm.
 
-| Method                                                                       | Astro behavior                                                                                                                                         |
-| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Ground timeout before taking off                                             | If Astro sits on the ground at idle throttle for 10 seconds, it will automatically disarm.                                                             |
-| Land mode                                                                    | If Astro is in Land Mode, and detects a landing, it will disarm after 2 seconds. For example, this applies if the last command in a mission is "Land". |
-
-
-
-
-
-
-
-
-
-
+| Method                           | Astro behavior                                                                                                                                         |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Ground timeout before taking off | If Astro sits on the ground at idle throttle for 10 seconds, it will automatically disarm.                                                             |
+| Land mode                        | If Astro is in Land Mode, and detects a landing, it will disarm after 2 seconds. For example, this applies if the last command in a mission is "Land". |
 
 ***
 
 ## Taking off
 
-Position Mode is best for taking off in most cases, as it offers the most stabilization. However, it is certainly possible to take off in Altitude, Manual, and Mission modes as well.&#x20;
+Position Mode is best for taking off in most cases, as it offers the most stabilization. However, it is certainly possible to take off in Altitude, Manual, and Mission modes as well.
 
 For 5 seconds after takeoff, the maximum pitch and roll angles are reduced to 12 degrees.
 
@@ -194,14 +164,6 @@ After arming, allow the throttle stick to return to the center. The propellers w
 After arming, hold the throttle stick straight down with no Yaw input. When ready to take off, raise the throttle stick slowly. The propellers will accelerate as soon as the throttle stick moves. As the throttle approaches the mid-point, there will be enough thrust to take off. Continue raising the throttle to achieve a brisk takeoff.
 {% endtab %}
 {% endtabs %}
-
-
-
-
-
-
-
-
 
 ***
 
@@ -251,27 +213,19 @@ As Astro nears the ground and enters ground effect, the pilot will often need to
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
-
-
-
-
 ***
 
 ## Battery Changes / Hotswaps
 
 {% hint style="danger" %}
-While Astro will recognize that the battery is low and perform a failsafe action (return to launch by default), the aircraft has no context of situations that might prevent a safe landing before the battery is exhausted. For instance, if the aircraft is several miles away from the RTL point when the failsafe is triggered, there is a chance that there won't be enough battery life to return. \
+While Astro will recognize that the battery is low and perform a failsafe action (return to launch by default), the aircraft has no context of situations that might prevent a safe landing before the battery is exhausted. For instance, if the aircraft is several miles away from the RTL point when the failsafe is triggered, there is a chance that there won't be enough battery life to return.\
 \
 It is the pilot's responsibility to determine the appropriate time for a battery change and to ensure the aircraft is safely grounded.
 {% endhint %}
 
 ### Battery Changes
 
-The Astro's batteries can be removed by pushing up on the grey tab on the back of the battery. This will unlock the battery, and allow you to slide it out.&#x20;
+The Astro's batteries can be removed by pushing up on the grey tab on the back of the battery. This will unlock the battery, and allow you to slide it out.
 
 {% hint style="info" %}
 Astro's SL8 batteries do not need to be powered off before removal
@@ -281,8 +235,8 @@ Astro's SL8 batteries do not need to be powered off before removal
 
 {% embed url="https://www.loom.com/share/777a0228e2534723910acf0e2d48456a" %}
 
-During some longer missions, you may find hotswapping batteries easier, which will keep the Astro powered on during the battery changing process. To hotswap batteries, remove one discharged pack from the drone and replace it with a charged pack. Enable the pack by pressing the power button twice, then replace the other discharged pack. Enable the second charged pack if it does not show "Hotswap" on the battery display screen.&#x20;
+During some longer missions, you may find hotswapping batteries easier, which will keep the Astro powered on during the battery changing process. To hotswap batteries, remove one discharged pack from the drone and replace it with a charged pack. Enable the pack by pressing the power button twice, then replace the other discharged pack. Enable the second charged pack if it does not show "Hotswap" on the battery display screen.
 
-The pilot may also adjust the [Low Battery Failsafe settings](https://docs.auterion.com/vehicle-operation/settings-and-maintenance/safety#low-battery) to activate Return Mode automatically at a level appropriate for the mission.&#x20;
+The pilot may also adjust the [Low Battery Failsafe settings](https://docs.auterion.com/vehicle-operation/settings-and-maintenance/safety#low-battery) to activate Return Mode automatically at a level appropriate for the mission.
 
-Upon landing, AMC will offer an option to "Resume Mission from Waypoint #". This will modify the mission by removing the waypoints already visited.
+Upon landing, AMC will offer an option to "Resume Mission from Waypoint #". This will modify the mission by removing the waypoints already visited.

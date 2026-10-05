@@ -9,7 +9,7 @@ Smart Dovetail is a payload quick release with mechanical connection and electri
 ![](<../../../.gitbook/assets/Smart Dovetail DEV KIT diagram.png>)
 
 {% hint style="danger" %}
-Smart Dovetail is not hotswap compatible. To avoid damaging Astro or your sensor, please power off the aircraft before attaching or removing a Smart Dovetail payload.&#x20;
+Smart Dovetail is not hotswap compatible. To avoid damaging Astro or your sensor, please power off the aircraft before attaching or removing a Smart Dovetail payload.
 {% endhint %}
 
 ### CAD
@@ -22,15 +22,13 @@ This model contains the entire smart dovetail assembly. You are welcome and enco
 
 ### BOM and Gerber files
 
-{% file src="../../../.gitbook/assets/840-00245-pcba-dovetail-passthrough-revC (1).zip" %}
-
-
+{% file src="../../../.gitbook/assets/840-00245-pcba-dovetail-passthrough-revC.zip" %}
 
 ### Pinout
 
 #### Plate KEL
 
-Smart Dovetail Plate uses KEL DY11-040L to connect with the Aircraft side. Integrate this connector into your payload (e.g. for mass production).&#x20;
+Smart Dovetail Plate uses KEL DY11-040L to connect with the Aircraft side. Integrate this connector into your payload (e.g. for mass production).
 
 Pinout is defined in the [Pixhawk Payload Bus](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-014%20Pixhawk%20Payload%20Bus%20Standard.pdf) standard doc. See page 9 for pinout table and pin identification diagram.
 
@@ -44,7 +42,7 @@ VBAT is on the IO Panel bus, which includes the XT30, and is protected at 5 A.
 
 Max current per pin is 2 A.
 
-The mating connector needed to build a payload cable is [ZPDR-26V-S](https://www.digikey.com/en/products/detail/jst-sales-america-inc/ZPDR-26V-S/2472569).&#x20;
+The mating connector needed to build a payload cable is [ZPDR-26V-S](https://www.digikey.com/en/products/detail/jst-sales-america-inc/ZPDR-26V-S/2472569).
 
 {% hint style="info" %}
 If you need camera trigger or capture feedback on the Payload Adaptor ZPD connect, remove the PCBA from the housing and connect a 0 ohm resistor to R5 for trigger, and to R2 for the capture pin. Pins 24 (capture) and 26 (trigger) can then be used. If you need help configuring Astro to use these pins for your payload, reach out to our [support team](https://freeflysystems.com/contact).
@@ -63,7 +61,7 @@ UART TX and RX are labeled as the TX and RX pins on the Astro itself. A device u
 ### Limitations
 
 {% hint style="warning" %}
-No hotswap protection. Do not mate or demate Smart Dovetail while the aircraft is powered.&#x20;
+No hotswap protection. Do not mate or demate Smart Dovetail while the aircraft is powered.
 
 If the payload has even modest capacitance or other inrush current the connector contacts on both aircraft and payload side will be eroded.
 {% endhint %}
@@ -82,7 +80,7 @@ The Dovetail adapter and Plate have been tested up to 3kg
 
 ## Astro Vibration Isolator
 
-The [**Astro Vibration Isolator**](https://store.freeflysystems.com/products/astro-isolator) works best with most payloads. More info is available here:&#x20;
+The [**Astro Vibration Isolator**](https://store.freeflysystems.com/products/astro-isolator) works best with most payloads. More info is available here:
 
 {% content-ref url="../components/vibration-isolators.md" %}
 [vibration-isolators.md](../components/vibration-isolators.md)

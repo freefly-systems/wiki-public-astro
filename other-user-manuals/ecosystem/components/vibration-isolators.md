@@ -17,8 +17,8 @@ There are several different isolator designs for Astro:
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 112015.png" alt="" width="335"><figcaption><p>Astro Isolator</p></figcaption></figure>
 
-* \[Obsolete] Smart Dovetail/Mapping Isolator - This isolator shipped with early Mapping Payloads and has the Smart Dovetail connector for payloads that use the Pixhawk Payload Standard.&#x20;
-* \[Obsolete] Integrator Isolator - This is best for custom payloads and offers several mounting bolt patterns. It does not have any electrical connection to the aircraft.&#x20;
+* \[Obsolete] Smart Dovetail/Mapping Isolator - This isolator shipped with early Mapping Payloads and has the Smart Dovetail connector for payloads that use the Pixhawk Payload Standard.
+* \[Obsolete] Integrator Isolator - This is best for custom payloads and offers several mounting bolt patterns. It does not have any electrical connection to the aircraft.
 
 Isolators can be configured for a variety of payloads by adjusting the stiffness (durometer) of the dampers. A good rule of thumb is if your payload is swinging too much the system needs more stiffness and if the payload is vibrating it needs less!
 
@@ -28,34 +28,38 @@ Isolators can be configured for a variety of payloads by adjusting the stiffness
 
 ## Astro Max Isolator
 
-The Astro Max Isolator is designed for Astro Max and can carry up to 3kgs of payload with different durometers for various payloads. See the above chart for the recommended durometers.&#x20;
+The Astro Max Isolator is designed for Astro Max and can carry up to 3kgs of payload with different durometers for various payloads. See the above chart for the recommended durometers.
 
-How to install:&#x20;
+How to install:
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 124810.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 125024 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/M3X10.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 125228.png" alt=""><figcaption></figcaption></figure>
 
 ### Max Isolator Offsets
 
-Due to the different distance from the Astro chassis, 3rd party payloads may need a compensation entered for distance to the airframe. The top of the smart dovetail is \~70mm from the bottom chassis of the Astro, and the center of the dovetail (defined as the center of the 4 screws) is 1.96cm forward from the center of the chassis (defined as the center of the 4 holes on the Astro's bottom chassis plate.&#x20;
+Due to the different distance from the Astro chassis, 3rd party payloads may need a compensation entered for distance to the airframe. The top of the smart dovetail is \~70mm from the bottom chassis of the Astro, and the center of the dovetail (defined as the center of the 4 screws) is 1.96cm forward from the center of the chassis (defined as the center of the 4 holes on the Astro's bottom chassis plate.
 
 ## Astro Isolator
 
 <figure><img src="../../../.gitbook/assets/IMG_5597 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-This isolator works well for most payloads that use the Smart Dovetail connector and weigh up to 1.5kg. This includes the Mapping Payload and the Wiris Pro Payload. The isolator comes with 6x 30A durometer Dampers, and mounts to the bottom of the Astro lower chassis. To install:&#x20;
+This isolator works well for most payloads that use the Smart Dovetail connector and weigh up to 1.5kg. This includes the Mapping Payload and the Wiris Pro Payload. The isolator comes with 6x 30A durometer Dampers, and mounts to the bottom of the Astro lower chassis. To install:
 
-1. Use a M3x6 BHCS to attach the safety cable to the aircraft, applying Loctite 222 or similar to the fastener.&#x20;
-   1.
+1.  Use a M3x6 BHCS to attach the safety cable to the aircraft, applying Loctite 222 or similar to the fastener. 1.
 
-       <figure><img src="../../../.gitbook/assets/IMG_5515.jpg" alt="" width="375"><figcaption></figcaption></figure>
-2. Use QTY 3 M3x8 SHCS to attach the isolator cartridges to the aircraft, applying Loctite 222 or similar to the fasteners.&#x20;
+    ```
+    <figure><img src="../../../.gitbook/assets/IMG_5515.jpg" alt="" width="375"><figcaption></figcaption></figure>
+    ```
+2. Use QTY 3 M3x8 SHCS to attach the isolator cartridges to the aircraft, applying Loctite 222 or similar to the fasteners.
 3.
 
-    <figure><img src="../../../.gitbook/assets/IMG_4068 (1).jpg" alt="" width="375"><figcaption></figcaption></figure>
+```
+<figure><img src="../../../.gitbook/assets/IMG_4068 (1).jpg" alt="" width="375"><figcaption></figcaption></figure>
+```
+
 4.  Then plug the payload connector cable into the I/O port.
 
     <figure><img src="../../../.gitbook/assets/IMG_5516.jpg" alt="" width="375"><figcaption></figcaption></figure>
@@ -70,22 +74,22 @@ We recommend upgrading to the Astro Isolator for the best performance
 
 This isolator is tuned for the Mapping Payload and comes with 4x 30A durometer Dampers.
 
-1. When using this isolator with the Mapping Payload we do not recommend altering the stiffness to ensure the systems performs optimally. We do not recommend using this isolator with the Wiris Pro Payload&#x20;
-2. To install the isolator, use 4 M3x8 BHCS to attach the top plate of the isolator structure to the aircraft, applying Loctite 222 or similar to the fasteners. &#x20;
+1. When using this isolator with the Mapping Payload we do not recommend altering the stiffness to ensure the systems performs optimally. We do not recommend using this isolator with the Wiris Pro Payload
+2. To install the isolator, use 4 M3x8 BHCS to attach the top plate of the isolator structure to the aircraft, applying Loctite 222 or similar to the fasteners.
 
 ![](<../../../.gitbook/assets/Astro Chassis Holes.jpg>) ![](<../../../.gitbook/assets/Iso Installed.jpg>)
 
-3\. Use a M3x6 BHCS to attach the safety cable to the aircraft, applying Loctite 222 or similar to the fastener.&#x20;
+3\. Use a M3x6 BHCS to attach the safety cable to the aircraft, applying Loctite 222 or similar to the fastener.
 
 4\. Then plug the payload connector cable into the I/O port.
 
-5\. Insure the damper washers are installed on the bottom of the dampers. These prevent the isolator dampers from being pulled through the metal structure during aggressive flight maneuvers. &#x20;
+5\. Insure the damper washers are installed on the bottom of the dampers. These prevent the isolator dampers from being pulled through the metal structure during aggressive flight maneuvers.
 
 ![](<../../../.gitbook/assets/Washer highlighted.jpg>) ![](<../../../.gitbook/assets/Safety Cable.jpg>)
 
 ## Integrator Isolator
 
-This isolator is best for custom payloads and has several mounting options. The mounting points and dimensions are available [here](https://freefly.gitbook.io/astro-public/astro/specs-and-interfaces/drawings-and-cad)&#x20;
+This isolator is best for custom payloads and has several mounting options. The mounting points and dimensions are available [here](https://freefly.gitbook.io/astro-public/astro/specs-and-interfaces/drawings-and-cad)
 
 ![](<../../../.gitbook/assets/Image from iOS (3).jpg>)
 
@@ -98,27 +102,21 @@ This isolator is best for custom payloads and has several mounting options. The 
     A. Decrease the number of Isolators to 4 by removing one damper from the front right and left pair. This is only recommended for payloads lighter than 400g.
 4.  To install the isolator:
 
-    A. Pull 3 sets of the desired Dampers through the outer holes on the isolator plate.&#x20;
+    A. Pull 3 sets of the desired Dampers through the outer holes on the isolator plate.
 
     <figure><img src="../../../.gitbook/assets/IMG_4069.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
-    B. Install the Damper washers. Pinch the Dampers and gently slide the rubber into the slit in the washer.&#x20;
+    B. Install the Damper washers. Pinch the Dampers and gently slide the rubber into the slit in the washer.
 
-    <div><figure><img src="../../../.gitbook/assets/IMG_4071 (1).jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/IMG_4072 (1).jpg" alt=""><figcaption></figcaption></figure></div>
+    <div><figure><img src="../../../.gitbook/assets/IMG_4071.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/IMG_4072.jpg" alt=""><figcaption></figcaption></figure></div>
 
     C. Flip over Astro and locate the three M3 holes highlight below
 
-
-
     <figure><img src="../../../.gitbook/assets/IMG_4068.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
-    D. Use QTY 3 of M3 x 8 SHCS screws to attach the isolator to the chassis of Astro, applying Loctite 222 or similar to the fasteners. &#x20;
-
-
+    D. Use QTY 3 of M3 x 8 SHCS screws to attach the isolator to the chassis of Astro, applying Loctite 222 or similar to the fasteners.
 
     <figure><img src="../../../.gitbook/assets/IMG_4073 (1).jpg" alt="" width="375"><figcaption></figcaption></figure>
-
-
 
 #### Damper Identification
 
@@ -128,9 +126,8 @@ This isolator is best for custom payloads and has several mounting options. The 
 
     B. Dark Grey - 40A
 
-    C. Black - 50A&#x20;
+    C. Black - 50A
 
 {% hint style="info" %}
 Some early production dampers will not follow this convention and will be colored black even though they have a hardness of 30A.
 {% endhint %}
-

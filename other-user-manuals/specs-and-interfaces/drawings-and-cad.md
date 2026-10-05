@@ -2,7 +2,7 @@
 
 ## CAD
 
-Astro has slightly different models depending on when it was manufactured. How can I tell which model is which? The Astro Max has larger motors that are wider than the base they are on, as seen below in the CAD model.&#x20;
+Astro has slightly different models depending on when it was manufactured. How can I tell which model is which? The Astro Max has larger motors that are wider than the base they are on, as seen below in the CAD model.
 
 <figure><img src="../../.gitbook/assets/890-00213 Assembly Astro [Shelled].STEP.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -16,7 +16,7 @@ Astro has slightly different models depending on when it was manufactured. How c
 
 <details>
 
-<summary>Astro (non-Max):  </summary>
+<summary>Astro (non-Max):</summary>
 
 [STP](https://www.dropbox.com/scl/fo/rig794j0z2ynjflt861mi/AIOYqzKT29OFiAUd31VvH5I/CAD%20Files?dl=0\&preview=Astro+ShrinkWrap+Base.stp\&rlkey=8ovek058zrghiojv7q8lu6hoo\&subfolder_nav_tracking=1) file type (open in edrawings or Autodesk Viewer for a quick view)
 
@@ -28,7 +28,7 @@ Astro has slightly different models depending on when it was manufactured. How c
 
 Mounting Points: Plate Vibration Isolator Bulb (mm)
 
-![](<../../.gitbook/assets/Presentation1 - PowerPoint 2021-08-25 09.01.04 (1).png>)
+![](<../../.gitbook/assets/Presentation1 - PowerPoint 2021-08-25 09.01.04.png>)
 
 Chassis Mounting Points: Assembly Airframe Complete (mm)
 
@@ -69,7 +69,7 @@ Upper chassis perimeter holes are helicoiled M3x0.5mm with a nominal depth of at
 
 ### Generic Antenna Mount for Astro
 
-If you want to mount an antenna for 3rd party integrations (such as an external GPS), you can find a 3D printable file here for a standard SMA cable mount:&#x20;
+If you want to mount an antenna for 3rd party integrations (such as an external GPS), you can find a 3D printable file here for a standard SMA cable mount:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-24 121152.png" alt="" width="375"><figcaption><p>This mounts to Astro's upper chassis with QTY 2 M3 x 8 SHCS screws</p></figcaption></figure>
 

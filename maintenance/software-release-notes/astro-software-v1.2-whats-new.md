@@ -4,15 +4,7 @@ hidden: true
 
 # Astro Software v1.2 - What’s New
 
-&#x20;                                                                  [<mark style="color:red;">**|  UPDATE NOW**</mark>](software.md#updating-astro-firmware)  <mark style="color:red;">**|**</mark>
-
-
-
-
-
-
-
-<figure><img src="../../.gitbook/assets/Screenshot%202023-05-01%20at%205.17.13%20PM.png" alt="" width="563"><figcaption></figcaption></figure>
+[<mark style="color:red;">**| UPDATE NOW**</mark>](software.md#updating-astro-firmware) <mark style="color:red;">**|**</mark>
 
 ## New Compassless Flight Mode
 
@@ -39,8 +31,6 @@ In a situation where there is a magnetic interference that is preventing the air
 
 ***
 
-<figure><img src="../../.gitbook/assets/Screenshot%202023-05-01%20at%204.26.03%20PM.png" alt="" width="563"><figcaption></figcaption></figure>
-
 ## Flight Performance Enhancements
 
 We've made several key improvements to enhance the flight performance
@@ -61,8 +51,6 @@ We've made several key improvements to enhance the flight performance
 ***
 
 ***
-
-<figure><img src="../../.gitbook/assets/Screenshot%202023-05-01%20at%204.45.32%20PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Mission Planning Improvements
 
@@ -93,8 +81,6 @@ Astro Software v1.2 introduces significant updates to mission planning, streamli
 
 ***
 
-<figure><img src="../../.gitbook/assets/Screenshot%202023-05-01%20at%205.16.47%20PM.png" alt="" width="563"><figcaption></figcaption></figure>
-
 ## Enhancements to Payload, Camera & Gimbal
 
 Astro Software v1.2 brings several enhancements and bug fixes to payload, camera, and gimbal functionalities:
@@ -118,17 +104,8 @@ Astro Software v1.2 brings several enhancements and bug fixes to payload, camera
 
 ***
 
-#### Other changes:&#x20;
+#### Other changes:
 
-* Updated the name of the "SER\_PPB\_BAUD" parameter to "SER\_EXT2\_BAUD".&#x20;
+* Updated the name of the "SER\_PPB\_BAUD" parameter to "SER\_EXT2\_BAUD".
 
-
-
-
-
-&#x20;                                                                  [<mark style="color:red;">**|  UPDATE NOW**</mark>](software.md#updating-astro-firmware)  <mark style="color:red;">**|**</mark>
-
-
-
-
-
+[<mark style="color:red;">**| UPDATE NOW**</mark>](software.md#updating-astro-firmware) <mark style="color:red;">**|**</mark>

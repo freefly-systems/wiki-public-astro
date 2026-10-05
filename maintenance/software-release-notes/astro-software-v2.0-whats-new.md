@@ -10,23 +10,23 @@ hidden: true
 
 * In previous versions of Astro firmware, the aircraft would boot up in 'Pending' flight mode while waiting for the required GPS satellites and position accuracy metrics. With 2.0 Astro firmware, the aircraft now boots up in Position mode, but displays 'No valid position estimate' until the satellite counts and position accuracy metrics are met
 
-<figure><img src="../../.gitbook/assets/no valid pos (1).gif" alt="" width="339"><figcaption><p>Position mode - not ready to fly</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/no valid pos.gif" alt="" width="339"><figcaption><p>Position mode - not ready to fly</p></figcaption></figure>
 
 ***
 
 ### Operational Behavior Change: Astro can re-arm after using the kill switch
 
-* In previous versions of Astro firmware, it was not possible to re-arm the aircraft after the kill switch was used without an aircraft reboot. With the 2.0 firmware release, it is now possible to reset the kill switch position and then re-arm Astro without a reboot of the aircraft.&#x20;
+* In previous versions of Astro firmware, it was not possible to re-arm the aircraft after the kill switch was used without an aircraft reboot. With the 2.0 firmware release, it is now possible to reset the kill switch position and then re-arm Astro without a reboot of the aircraft.
 
 {% hint style="warning" %}
-Make sure to update your pilot pro firmware to version 2.0.27 as well!&#x20;
+Make sure to update your pilot pro firmware to version 2.0.27 as well!
 {% endhint %}
 
 ***
 
 ### New: Gimbal Snap to 0, 45, 90 Degrees
 
-* In AMC 1.34 under Controller > Joystick > Button Configuration, the following actions are now functional and can be mapped to buttons or switches on the GCS:&#x20;
+* In AMC 1.34 under Controller > Joystick > Button Configuration, the following actions are now functional and can be mapped to buttons or switches on the GCS:
   * Gimbal Center
   * Gimbal Pitch 45
   * Gimbal Pitch 90
@@ -35,11 +35,11 @@ Make sure to update your pilot pro firmware to version 2.0.27 as well!&#x20;
 
 ***
 
-### New: Gimbal Direct Control&#x20;
+### New: Gimbal Direct Control
 
-We've pulled in some code from our Movi Pro ecosystem to improve gimbal yaw smoothness! In Astro 2.0 firmware **when flying in Position Slow mode**, the aircraft now follows the heading of the gimbal for more precise and cinematic shots.&#x20;
+We've pulled in some code from our Movi Pro ecosystem to improve gimbal yaw smoothness! In Astro 2.0 firmware **when flying in Position Slow mode**, the aircraft now follows the heading of the gimbal for more precise and cinematic shots.
 
-* This feature is available for LR1/A7R4/Wiris Pro/OGI payloads&#x20;
+* This feature is available for LR1/A7R4/Wiris Pro/OGI payloads
 * Info on configuring gimbal expo/window/smoothness is here:
 
 {% content-ref url="/broken/pages/Tx5AOY1nscytjj275fYy" %}
@@ -58,7 +58,7 @@ This can be toggled under the LR1/A7R4 camera settings:
 
 * Settings > Enable Interval Shooting
 * Set trigger interval
-* Press shutter button to start and stop&#x20;
+* Press shutter button to start and stop
 
 {% hint style="info" %}
 If you are saving images to the USB stick, we recommend a minimum trigger interval of 2.0s or greater. If you need to go faster than this, set your storage mode to SD card
@@ -68,7 +68,7 @@ If you are saving images to the USB stick, we recommend a minimum trigger interv
 
 ### New: Georeferenced PDF import in AMC
 
-In AMC 1.34, georeferenced PDF maps can now be imported and overlayed on the primary map. To import a geo PDF map go to:&#x20;
+In AMC 1.34, georeferenced PDF maps can now be imported and overlayed on the primary map. To import a geo PDF map go to:
 
 * Load a geoPDF on a USB thumbdrive and plug it into Pilot Pro
 * In AMC, go the settings page > Maps & Terrain > GeoPDF Imagery > Import GeoPDF
@@ -81,17 +81,17 @@ In AMC 1.34, georeferenced PDF maps can now be imported and overlayed on the pri
 
 ### Improvement: Clearer Thermal Module Temperature Display
 
-<figure><img src="../../.gitbook/assets/Thermal Temp Display (1).gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Thermal Temp Display.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 New graphics overlay to clearly display the temperature readout when using spot metering
 
 ***
 
-### Improvement: Gimbal  Version Compatibility Checks
+### Improvement: Gimbal Version Compatibility Checks
 
-AMC will now check if the gimbal firmware version is too old.&#x20;
+AMC will now check if the gimbal firmware version is too old.
 
-<figure><img src="../../.gitbook/assets/image (174).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (171).png" alt="" width="563"><figcaption></figcaption></figure>
 
 You can update your gimbal firmware here:
 
@@ -105,7 +105,7 @@ You can update your gimbal firmware here:
 
 A new param, `COM_ARMABLE`, has been added. This setting will block arming even if the system is otherwise ready.
 
-* To ensure the drone cannot arm, along with safety measures like removing propellers and connecting only one battery, set the parameter `COM_ARMABLE` to 0 ("Disallow arming").&#x20;
+* To ensure the drone cannot arm, along with safety measures like removing propellers and connecting only one battery, set the parameter `COM_ARMABLE` to 0 ("Disallow arming").
 * This can also be toggled in the Auterion Suite by clicking on the vehicle status
 
 <figure><img src="../../.gitbook/assets/maintenance-armable.gif" alt=""><figcaption></figcaption></figure>
@@ -122,7 +122,7 @@ A new param, `COM_ARMABLE`, has been added. This setting will block arming even 
 
 ***
 
-### New: Integrated Freefly Doodle FW v1.7 in Pilot Pro App.&#x20;
+### New: Integrated Freefly Doodle FW v1.7 in Pilot Pro App.
 
 * This allows updating v1.4 units to the latest.
 * Additionally, any radio pair that is on v1.7 now benefits from faster pairing and channel changes.
@@ -134,10 +134,10 @@ A new param, `COM_ARMABLE`, has been added. This setting will block arming even 
 * Improved vertical accuracy in geotagged photos.
 * Improved Thermal Module Temperature Display - New graphics overlay to clearly display the temperature readout when using spot metering.
 * Added gimbal version compatibility checks in AMC.
-* Improved GPS reliability&#x20;
+* Improved GPS reliability
   * Reduced GPS output rate to increase reliability.
   * Enabled BeiDou.
-* Wifi configuration&#x20;
+* Wifi configuration
   * Fixed a bug where sometimes the 'connect' button is greyed out.
   * Nearby network names are now shown.
 * Fixed an issue where Astro could unexpectedly move when transitioning from Manual --> Position mode
@@ -146,10 +146,10 @@ A new param, `COM_ARMABLE`, has been added. This setting will block arming even 
 
 ### Known Issues
 
-* When updating Pilot Pro firmware, ensure the paired Astro is powered off for Pilot Pro firmware to update successfully.  &#x20;
+* When updating Pilot Pro firmware, ensure the paired Astro is powered off for Pilot Pro firmware to update successfully.
 * The time until the RTL indicator bar displayed at the top of the Fly view in AMC is sometimes inaccurate.
 * Hovermap ST and ST-X require Cortex firmware 4.0 and Commander 2.1 to be compatible with Astro firmware 2.0.
-* Changing some parameters require reboots, but the reboot prompt isn't displayed.&#x20;
+* Changing some parameters require reboots, but the reboot prompt isn't displayed.
 
 {% hint style="info" %}
 It is best practice to always reboot after changing parameters

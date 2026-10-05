@@ -10,8 +10,6 @@ Terrain Follow is only as effective as the elevation data it relies on and shoul
 Terrain follow is only supported for Patterns and is not available on waypoint missions
 {% endhint %}
 
-
-
 ## Setting Up a Terrain Follow Mission
 
 {% tabs %}
@@ -22,7 +20,7 @@ Terrain follow is only supported for Patterns and is not available on waypoint m
 {% tab title="Photos" %}
 <figure><img src="../../../../.gitbook/assets/AMC Plan - Sidebar (1).jpg" alt=""><figcaption><p>Navigate to the Plan screen</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/AMC Pattern - Plan Screen (2).jpg" alt=""><figcaption><p>Start one of the pattern options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/AMC Pattern - Plan Screen (1).jpg" alt=""><figcaption><p>Start one of the pattern options</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/AMC Survey - Plan Screen (2).jpg" alt=""><figcaption><p>Navigate to the 'mountain' section</p></figcaption></figure>
 
@@ -32,8 +30,6 @@ Terrain follow is only supported for Patterns and is not available on waypoint m
 {% endtab %}
 {% endtabs %}
 
-
-
 ## Offline Maps and Terrain Data
 
 Terrain Follow requires the terrain data to be downloaded. The download can happen when you enable it on the mission, or you can preload the data. To download maps, please follow our [Offline Maps instructions](offline-maps.md)
@@ -41,8 +37,6 @@ Terrain Follow requires the terrain data to be downloaded. The download can happ
 {% hint style="info" %}
 Tablet on the Pilot Pro must be connected to the internet to download maps
 {% endhint %}
-
-
 
 ## Changing Terrain Data Providers
 
