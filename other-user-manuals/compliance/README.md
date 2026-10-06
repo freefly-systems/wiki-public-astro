@@ -6,15 +6,14 @@ icon: gavel
 
 ## Remote ID
 
-Freefly provided a no-cost software update for all Astro operators to enable FAA Remote ID compliance in North America with firmware v1.5 or later. Refer to the next section for more information: [faa-remote-identification-rid.md](faa-remote-identification-rid.md "mention")
+Freefly Astro is equipped with FAA Standard Remote ID. Refer to the next section for more information: [faa-remote-identification-rid.md](faa-remote-identification-rid.md "mention")
 
-All new Astro ship with FAA Standard Remote ID enabled.
+All new Astro ship with FAA Standard Remote ID enabled.  For Astros that shipped prior to February 2024, see here.
 
-## Component Sourcing
+## NDAA Compliance
 
-Astro variants using Herelink radios are not NDAA-compliant, as the Herelink controller and air unit are manufactured in China. \
-\
-The [Pilot Pro controller with Herelink RF ](https://store.freeflysystems.com/products/pilot-pro)is not NDAA-compliant, as the Herelink air unit is still used on the aircraft. \
-\
-Astro + Pilot Pro using Doodle Labs radios is NDAA-compliant and DIU Blue Listed.
+[Astro Max (NDAA/Blue)](https://store.freeflysystems.com/collections/astro/products/astro-max-ndaa-blue) is equipped with a Doodle Labs radio, and is fully NDAA compliant and DIU Blue Listed.
 
+[Astro Max (Standard)](https://store.freeflysystems.com/collections/astro/products/astro-max) is equipped with a Herelink radio, which is non-NDAA compliant.
+
+For a full list of Freefly products and their Country Of Origin (COO), see our [Price List](https://freeflysystems.com/pricelist).

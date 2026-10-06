@@ -81,6 +81,6 @@
   * [Drawings and CAD](other-user-manuals/specs-and-interfaces/drawings-and-cad.md)
 * [Travel and Shipping](other-user-manuals/travel-and-shipping.md)
 * [Compliance](other-user-manuals/compliance/README.md)
-  * [FAA Remote Identification (RID)](other-user-manuals/compliance/faa-remote-identification-rid.md)
+  * [FAA Remote Idenitificatio (RID)](other-user-manuals/compliance/faa-remote-identification-rid.md)
   * [DIU Blue sUAS](other-user-manuals/compliance/diu-blue-suas.md)
 * [Legal](other-user-manuals/legal.md)
