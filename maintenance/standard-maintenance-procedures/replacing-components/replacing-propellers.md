@@ -12,7 +12,7 @@ Always replace both propeller blades as a set. They are a matched and balanced p
 
 #### Astro vs Astro Max Motors
 
-Before you consider replacing props, it is important to identify the which Astro motors you have.&#x20;
+Before you consider replacing props, it is important to identify the which Astro motors you have.
 
 The **Astro** is equipped with Freefly _F45_ motors, where the **Astro Max** has a newer Freefly _7010_ motor.
 
@@ -24,10 +24,10 @@ In addition to providing more thrust than the prior generation motor, the Astro 
 
 Legacy props are 21" long and marked with "2170".
 
-High efficiency props are 22" long, and marked with "2270".&#x20;
+High efficiency props are 22" long, and marked with "2270".
 
 Example of a 2270 CCW prop:\
-![](<../../../.gitbook/assets/image (188).png>)&#x20;
+![](<../../../.gitbook/assets/image (188).png>)
 
 #### **Which props do I need?**
 
@@ -39,8 +39,8 @@ Example of a 2270 CCW prop:\
 #### How many props do I need?
 
 1. If you want to upgrade your legacy Astro (F45 motors) to maximize flight time, you'll need to purchase two sets of the 2270 props. We recommend a third set to have a spare set in your kit.
-2. If you just need a replacement prop (CW or CCW) and have 21" props on your Astro marked with "2170" on the blade, you'll need to purchase two sets of the 2270 props so you can replace the props on all four motors.&#x20;
-3. If your Astro already has 22" props marked with "2270" on the blade, just purchase what you feel comfortable having for spares. Most people have one set (one each CW & CCW) in their kit.&#x20;
+2. If you just need a replacement prop (CW or CCW) and have 21" props on your Astro marked with "2170" on the blade, you'll need to purchase two sets of the 2270 props so you can replace the props on all four motors.
+3. If your Astro already has 22" props marked with "2270" on the blade, just purchase what you feel comfortable having for spares. Most people have one set (one each CW & CCW) in their kit.
 
 #### Steps to replace props on legacy Astro (F45 motors)
 
@@ -57,5 +57,11 @@ The correct direction of the propellers is shown below. Please note the arrow in
 ![](<../../../.gitbook/assets/image (131).png>)
 
 ### Prop Tension
+
+2270 Props:
+
+The high efficiency props will bottom out with the metal hub and should be tightened to 2.0Nm
+
+Legacy Props:
 
 Each blade of the propeller assembly should move freely with a small amount of resistance. It should not be difficult to fold the prop manually, and the force of gravity should be enough to pivot the blade at the bolt if the aircraft is rotated.
