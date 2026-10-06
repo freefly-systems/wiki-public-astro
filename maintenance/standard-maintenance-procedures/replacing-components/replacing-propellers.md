@@ -60,7 +60,7 @@ The correct direction of the propellers is shown below. Please note the arrow in
 
 2270 Props:
 
-The high efficiency props will bottom out with the metal hub and should be tightened to 2.0Nm
+2270 prop hub has wave springs to automatically set ideal prop tension. Prop bolts do not directly set blade tension and should be torqued to 2nm
 
 Legacy Props:
 
