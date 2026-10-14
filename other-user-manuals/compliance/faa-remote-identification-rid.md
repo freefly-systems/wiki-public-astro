@@ -2,7 +2,7 @@
 description: Finding Your Astro Remote ID Serial Number for FAA Registration
 ---
 
-# FAA Remote Idenitificatio (RID)
+# FAA Remote ID (RID)
 
 To register your Astro with the FAA, you need its Remote ID Serial Number, a number that starts with **18179**. The quickest way to find it is from the Chrome browser on your Pilot Pro, with no laptop or USB cable needed.
 
@@ -51,11 +51,11 @@ The drone's page loads in a tab labeled AuterionOS (it can take a few seconds). 
 <figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Note that the **Remote ID Serial Number** is simply your **Skynode Serial Number** with the 18179 prefix. This identifies your aircraft to the FAA that it is made by Freefly Systems. The range of valid Astro RID serial numbers is between 18179130000000 - 1817913FFFFFFF, using the [hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal) numbering system.
+Note: Earlier firmware may not have the **Remote ID Serial Number**. This is simply your **Skynode Serial Number** with the 18179 prefix. This identifies your aircraft to the FAA that it is made by Freefly Systems.&#x20;
 {% endhint %}
 
 {% hint style="success" %}
-Alternative to Pilot Pro: You can also access the AuterionOS page by connecting your aircraft to a computer via USB-C. Then open a browser on the computer to `10.41.1.`
+Alternative to Pilot Pro: You can also access the AuterionOS page by connecting your aircraft to a computer via USB-C. Then open a browser on the computer to `10.41.1.1`
 {% endhint %}
 {% endstep %}
 
