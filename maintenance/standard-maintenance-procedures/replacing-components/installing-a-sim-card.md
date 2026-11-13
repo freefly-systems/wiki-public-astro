@@ -3,7 +3,7 @@
 ### Installing a SIM in Astro
 
 1. Select nano SIM card and carrier of your choice which falls in the RF Bands Astro supports.
-   1. T-Mobile is recommended
+   1. T-Mobile is recommended. Verizon is not supported at this time
    2. [LTE Band Information Link](https://freefly.gitbook.io/freefly-public/products/astro/pilots-operating-handbook/systems#lte)
 2. Ensure Astro is powered down and flip it over so it is resting on its prop-protectors
 3. Using a 1.5mm hex driver open the SIM access port and remove the rubber cover.
